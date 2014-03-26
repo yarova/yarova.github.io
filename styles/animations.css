@@ -1,0 +1,139 @@
+/**************АНИМАЦИЯ ОРАНЖЕВОЙ ИКОНКИ*************/
+.iconGoDown {
+    animation: fallAnimation 1.3s ease-in-out;
+    -o-animation: fallAnimation 1.3s ease-in-out;
+    -ms-animation: fallAnimation 1.3s ease-in-out;
+    -moz-animation: fallAnimation 1.3s ease-in-out;
+    -webkit-animation: fallAnimation 1.3s ease-in-out;
+
+    animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+
+    /*В обратном наравлении
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate;*/
+}
+
+.iconGoUp {
+    animation: goUpAnimation 1s ease-in-out;
+    -o-animation: goUpAnimation 1s ease-in-out;
+    -ms-animation: goUpAnimation 1s ease-in-out;
+    -moz-animation: goUpAnimation 1s ease-in-out;
+    -webkit-animation: goUpAnimation 1s ease-in-out;
+}
+/**************КОНЕЦ АНИМАЦИЯ ОРАНЖЕВОЙ ИКОНКИ*************/
+
+
+/**************АНИМАЦИЯ ВЫЕМКИ*************/
+.roundShadow {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-top: -100px;
+    margin-left: 45px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 15px -9px #777;
+    z-index: 5;
+}
+
+.round {
+    -webkit-transition: margin-left 0.5s ease-out;
+    transition: margin-left 0.5s ease-out;
+}
+
+.roundShadow[data-section=services] { margin-left: 45px; }
+.roundShadow[data-section=aboutme] { margin-left: 199px; }
+.roundShadow[data-section=portfolio] { margin-left: 354px; }
+.roundShadow[data-section=contacts] { margin-left: 510px; }
+.roundShadow[data-section=guestbook] { margin-left: 664px; }
+/**************АНИМАЦИЯ ВЫЕМКИ КОНЕЦ*************/
+
+
+
+/******Hinge*******/
+.animated2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated2.hinge2 {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.hinge2 {
+    -webkit-animation-name: hinge2;
+    animation-name: hinge2;
+}
+/**********Hinge END*********/
+
+/***************Анимация заголовков оранжевых иконок-2******/
+.rotateUp {
+    -webkit-animation-name: rotateUp;
+    animation-name: rotateUp;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+/***************Анимация заголовков оранжевых иконок-2******/
+
+/************Hang_Висящая кнопка Отправить**************/
+.hang {
+    -webkit-animation-name: hang;
+    animation-name: hang;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+/*****************Hang_Висящая кнопка Отправить КОНЕЦ*********/
+
+/****************** Wobble Top_Кнопка-ЖЕЛЕ***************** */
+.wobble-top {
+    display: inline-block;
+    -webkit-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.wobble-top:hover {
+    -webkit-animation-name: wobble-top;
+    animation-name: wobble-top;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+/****************** Wobble Top_Кнопка-ЖЕЛЕ***************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

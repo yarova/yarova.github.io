@@ -1,0 +1,138 @@
+
+#footer {
+    width: 100%;
+    height: 210px;
+    background-color: #7F6F58;
+}
+
+#footerContent {
+    width: 850px;
+    height: 210px;
+    margin: 0 auto;
+    background-color: #7F6F58;
+}
+
+#footerContent a {
+    color: #fff;
+}
+
+#footerContentBig {
+    height: 135px;
+}
+
+.footerList {
+    float: left;
+    width: 124px;
+    height: 145px;
+}
+
+.footerList:not(:last-child) {
+    margin-right: 118px;
+}
+
+.footerList ul {
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 2;
+    padding-left: 0;
+}
+
+.footerList li:first-child {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#footerContentSmall {
+    height: 55px;
+    padding-top: 20px;
+}
+
+#footerText {
+    float: left;
+    font-weight: normal;
+    font-size: 11px;
+    color: #fff;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+
+#footerText p {
+    margin: 0;
+}
+
+.FooterIcons {
+    float: right;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.FooterIcons li {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+}
+
+.FooterIcons li a {
+    -moz-transition: background-position .25s;
+    -webkit-transition: background-position .25s;
+    -o-transition: background-position .25s;
+    transition: background-position .25s;
+    background-image: url(../images/buttons2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    white-space: nowrap;
+    text-indent: 110%;
+    overflow: hidden;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+.fb a {
+    background-position: 0px 0px;
+}
+
+.gp a {
+    background-position: -47px 0px;
+}
+
+.tw a {
+    background-position: -93px 0px;
+}
+
+.ml a {
+    background-position: -138px 0px;
+}
+
+.vk a {
+    background-position: -183px 0px;
+}
+
+/*****/
+
+.fb a:hover {
+    background-position: 0px -47px;
+}
+
+.gp a:hover {
+    background-position: -47px -47px;
+}
+
+.tw a:hover {
+    background-position: -93px -47px;
+}
+
+.ml a:hover {
+    background-position: -138px -47px;
+}
+
+.vk a:hover {
+    background-position: -183px -47px;
+}
+
+/*****/
+
+
+

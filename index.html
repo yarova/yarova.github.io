@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Web Designer</title>
+    <link rel="icon" href="images/orange_bird.png" type="image/x-icon">
+    <link href="styles/style.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/header.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/content.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/footer.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/framework.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/animate.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/animations.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/keyframes.css" type="text/css" rel="stylesheet"/>
+
+    <link href="styles/style2.css" type="text/css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
+    <script type="text/javascript" src="js/component.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--<script type="text/javascript" src="js/modernizr.custom.js"></script>-->
+</head>
+<body>
+    <div id="header" class="lifted">
+        <div>
+            <input type="text" name="search" id="search" placeholder="Поиск">
+            <span name="send" id="button"></span>
+        </div>
+        <img id="headerTitle" src="images/WebDesigner2.png">
+
+        <div id="languagePanel">
+            <ul id="language">
+                <li class="RU"><a href="#"></a></li>
+                <li class="UA"><a href="#"></a></li>
+                <li class="EN"><a href="#"></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="content">
+        <div id="iconTitle" class="pt20">
+            <h1 class="animTitle" data-section="services"><a href="#" class="iconTitle pl86">Услуги</a></h1>
+            <h1 class="animTitle" data-section="aboutme"><a href="#" class="iconTitle pl90">Обо мне</a></h1>
+            <h1 class="animTitle hinge2 animated2 fast-animation" data-section="portfolio"><a href="#" class="iconTitle pl67">Портфолио</a></h1>
+            <h1 class="animTitle" data-section="contacts"><a href="#" class="iconTitle pl67">Контакты</a></h1>
+            <h1 class="animTitle" data-section="guestbook"><a href="#" class="iconTitle pl60">Гостевая книга</a></h1>
+        </div>
+
+        <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
+            <a href="#" class="hi-icon hi-icon-pencil" data-section="services">Услуги</a>
+            <a href="#" class="hi-icon hi-icon-user" data-section="aboutme">Обо мне</a>
+            <a href="#" class="hi-icon hi-icon-images iconGoDown fast-animation" data-section="portfolio">Портфолио</a>
+            <a href="#" class="hi-icon hi-icon-mail" data-section="contacts">Контакты</a>
+            <a href="#" class="hi-icon hi-icon-bookmark" data-section="guestbook">Гостевая книга</a>
+        </div>
+
+
+        <div id="contentMain">
+            <div class="roundShadow round" data-section="portfolio"></div>
+
+
+            <div id="page1" class="page" data-section="services">
+                <h2 class="contentTitle">Список предоставляемых услуг</h2>
+                <div class="contentWrap">
+                    <p class="contentText pt40"></p>
+
+                    <table>
+                        <tr>
+                            <th>Услуга</th>
+                            <th>Стоимость в $</th>
+                        </tr>
+                        <tr>
+                            <td>Создание веб-сайта по готовому эскизу</td>
+                            <td>1000</td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+
+            <div id="page2" class="page" data-section="aboutme">
+                <h2 class="contentTitle">Обо мне</h2>
+                <div class="contentWrap">
+                    <p class="contentText pt40">Здесь придется что-то рассказать о себе, кратко.</p>
+                    <div class="myPhoto pic">
+                        <img src="images/me.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="page3" class="page" data-section="portfolio">
+                <h2 class="contentTitle">Мои работы</h2>
+                <div class="contentWrap">
+                    <p class="contentText pt40">Примеры моих работ:</p>
+                    <div class="pt50">
+                        <div class="site site1 effect"></div>
+                        <div class="site site2 effect"></div>
+                        <div class="site site3 effect"></div>
+                        <div class="site site4 effect"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="page4" class="page" data-section="contacts">
+                <h2 class="contentTitle">Контакты</h2>
+                <div class="contentWrap">
+
+                    <p class="contentText pt40">Верстка, дизайн, создание сайтов</p>
+                    <p class="contentText pt12">Украина, Киев</p>
+                    <ul id="contactIcons">
+                        <li class="phone">
+                            <p class="contentText pt12 pl55">Телефон: 0981203884</p></li>
+                        <li class="skype"><p class="contentText pt12 pl55">E-mail: katesun18@gmail.com</p></li>
+                        <li class="mail"><p class="contentText pt12 pl55">Skype: katesun-18</p></li>
+                    </ul>
+                    <p class="contentText pt12">Также Вы можете оставить заявку на сайте и я свяжусь с Вами в течение дня.</p>
+                    <form>
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="Ваше имя">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="Телефон">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="E-mail">
+                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="Сроки исполнения заказа">
+                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="Бюджет заказа">
+                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="Тип сайта (визитка, каталог, корпоративный, другой)">
+
+                        <input class="buttonSend mt35 wobble-top" type="button" name="send" value="Отправить">
+                    </form>
+                </div>
+            </div>
+
+            <div id="page5" class="page" data-section="guestbook">
+                <h2 class="contentTitle">Гостевая книга</h2>
+                <div class="contentWrap">
+                    <p class="contentText pt40">Здесь Вы можете оставить отзыв.</p>
+                    <form>
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="Ваше имя">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="E-mail">
+                        <textarea class="form textarea" placeholder="Оставить отзыв..."></textarea>
+                        <input class="buttonSend hang" type="button" name="send" value="Отправить">
+                    </form>
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+        <div class="leftPanel">
+            <ul class="m0 p0">
+                <li>
+                    <span class="leftPanelIcon">
+                        <div class="twitter"></div>
+                    </span>
+                    <div class="likeContainer">
+                        <div class="like buttonTwitter">
+                            <span class="twt"></span>
+                            <span class="textButton textTwitter">Tweet</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="leftPanelIcon">
+                        <div class="google"></div>
+                    </span>
+                    <div class="likeContainer">
+                        <div class="like buttonGoogle">
+                            <span class="goo"></span>
+                            <span class="textButton textGoogle">+1</span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="leftPanelIcon">
+                        <div class="facebook"></div>
+                    </span>
+                    <div class="likeContainer">
+                        <div class="like buttonFacebook">
+                            <span class="fbk"></span>
+                            <span class="textButton textFacebook">Нравится</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div id="footer">
+
+
+        <div id="footerContent">
+
+            <a href="#" class="scrollup">Наверх</a>
+
+            <div id="footerContentBig">
+                <div class="footerList">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Обо мне</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </div>
+
+                <div class="footerList">
+                    <ul>
+                        <li><a href="#">Портфолио</a></li>
+                        <li><a href="#">Сайт новостей 1</a></li>
+                        <li><a href="#">Сайт новостей 2</a></li>
+                        <li><a href="#">Видео-сайт</a></li>
+                    </ul>
+                </div>
+
+                <div class="footerList">
+                    <ul>
+                        <li><a href="#">Полезности</a></li>
+                        <li><a href="#">Советы</a></li>
+                        <li><a href="#">Прочее</a></li>
+                    </ul>
+                </div>
+
+                <div class="footerList">
+                    <ul>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Связаться со мной</a></li>
+                        <li><a href="#">Сделать заказ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footerContentSmall">
+                <div id="footerText">
+                    <p>© 2014 mysite.com</p>
+                    <p>Любое использование иными лицами размещенных на сайте материалов запрещено</p>
+                </div>
+
+                <ul class="FooterIcons">
+                    <li class="fb"><a href="https://www.facebook.com/kittymmeeoow" rel="nofollow" target="_blank">Facebook</a></li>
+                    <li class="gp"><a href="https://plus.google.com/u/0/109708356357859358293" rel="nofollow" target="_blank">GPlus</a></li>
+                    <li class="tw"><a href="https://twitter.com/" rel="nofollow" target="_blank">Twitter</a></li>
+                    <li class="ml"><a href="mailto:katesun18@gmail.com" rel="nofollow" target="_blank">E-mail</a></li>
+                    <li class="vk"><a href="http://vk.com/id16236093" rel="nofollow" target="_blank">Vkontakte</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
