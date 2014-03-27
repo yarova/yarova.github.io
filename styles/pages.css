@@ -1,0 +1,239 @@
+/**********ОБЩИЕ СВОЙСТВА СТРАНИЦ*********/
+.contentTitle {
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    font: normal 30px Century Gothic;
+    color: #7F6F58;
+}
+
+.contentWrap {
+    padding-left: 104px;
+    padding-right: 50px;
+}
+
+.contentText {
+    margin: 0;
+    font: normal 18px Century Gothic;
+    color: #7F6F58;
+}
+
+#page1 /*Услуги; ГОТОВА*/ { display: none; }
+#page2 /*Обо мне; ПОЧТИ ГОТОВА*/ { display: none; }
+#page3 /*Портфолио; ГОТОВА*/ { display: block; }
+#page4 /*Контакты; ПОЧТИ ГОТОВА*/ { display: none; }
+#page5 /*Гостевая книга; ПОЧТИ ГОТОВА*/ { display: none; }
+/**********ОБЩИЕ СВОЙСТВА СТРАНИЦ КОНЕЦ*********/
+
+
+/****************PAGE 1_Услуги****************/
+.services {
+    border-spacing: 0;
+    width: 640px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font: normal 15px Century Gothic;
+    color: #7F6F58;
+    -webkit-box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+}
+
+.services td, .services th {
+    border-left: 1px solid #E7E7E7;
+    border-top: 1px solid #E7E7E7;
+    padding: 10px;
+}
+
+.services tbody tr:hover {
+    background-color: #FCFCB2;
+    color: #FF8100;
+}
+
+.services thead th {
+    border-top: none;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.services th { background-color: #FAEA57; }
+.services td:first-child { border-left: none; }
+.services td:last-child, .services tr th { text-align: center; }
+
+.services th:first-child {
+    height: 50px;
+    -moz-border-radius: 4px 0 0 0;
+    -webkit-border-radius: 4px 0 0 0;
+    border-radius: 4px 0 0 0;
+    border-left: none;
+}
+
+.services th:last-child {
+    border-radius: 0 4px 0 0;
+    -moz-border-radius: 0 4px 0 0;
+    -webkit-border-radius: 0 4px 0 0;
+}
+
+.services tr:last-child td:first-child {
+    border-radius: 0 0 0 4px;
+    -moz-border-radius: 0 0 0 4px;
+    -webkit-border-radius: 0 0 0 4px;
+}
+
+.services tr:last-child td:last-child {
+    border-radius: 0 0 4px 0;
+    -moz-border-radius: 0 0 4px 0;
+    -webkit-border-radius: 0 0 4px 0;
+}
+/****************PAGE 1_Услуги КОНЕЦ****************/
+
+
+
+/****************PAGE 2_Обо мне*******************/
+.pic {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    margin: 20px 20px 20px 0;
+    border: 5px solid #FF8100;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    float: left;
+}
+
+.pic2 {
+    width: 230px;
+    height: 164px;
+    margin: 370px 55px 20px 20px;
+    float: right;
+    border: 5px solid #FF8100;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+}
+/****************PAGE 2_Обо мне КОНЕЦ****************/
+
+
+
+/****************PAGE 3_Портфолио*******************/
+.site {
+    width: 300px;
+    height: 142px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    border: 5px solid #FF8100;
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+}
+
+.site1 { background-image: url("../images/1.png"); }
+.site2 { background-image: url("../images/2.png"); }
+.site3 { background-image: url("../images/3.png"); }
+.site4 { background-image: url("../images/4.png"); }
+/********************PAGE 3_Портфолио КОНЕЦ*********************/
+
+
+
+/***********PAGE 4_Контакты***************/
+#contactIcons {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contactIcons li {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    margin-top: 3px;
+    background-image: url("../images/iconsContact3.png");
+    -moz-transition: background-position .25s;
+    -webkit-transition: background-position .25s;
+    -o-transition: background-position .25s;
+    transition: background-position .25s;
+    background-repeat: no-repeat;
+    white-space: nowrap;
+    overflow: visible;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    cursor: pointer;
+}
+
+.phone { background-position-y: 0px; }
+.skype { background-position-y: -47px; }
+.mail { background-position-y: -93px; }
+
+.phone:hover { background-position-x: -47px; }
+.skype:hover { background-position-x: -47px; }
+.mail:hover { background-position-x: -47px; }
+
+#contactIcons p:hover { color: #FF8100; }
+
+.input2 {
+    width: 385px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+/***********PAGE 4_Контакты КОНЕЦ***************/
+
+
+
+/***********PAGE 5_Гостевая книга***************/
+.form {
+    display: block;
+    padding: 5px;
+    border: 1px solid #E7E7E7;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Century Gothic;
+}
+
+.form:focus {
+    outline-color: #FAE113;
+    outline-offset: -4px;
+    outline-width: 28px;
+    box-shadow: 0 0 7px #FAE113;
+}
+
+.input {
+    width: 200px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.textarea {
+    width: 300px;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.buttonSend {
+    border-radius: 3px;
+    padding: 10px;
+    border: 1px solid #E7E7E7;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: Century Gothic;
+    color: #7F6F58;
+}
+
+.buttonSend:hover {
+    color: #FF8100;
+    cursor: pointer;
+}
+
+.buttonSend:focus {
+    outline-color: #FAE113;
+    outline-offset: -4px;
+    outline-width: 28px;
+    box-shadow: 0 0 7px #FAE113;
+}
+/***********PAGE 5_Гостевая книга КОНЕЦ***************/

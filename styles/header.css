@@ -58,7 +58,7 @@
     min-height: 30px;
     border-radius: 3px;
     background-color: #fff;
-    font-size: 11px;
+    font-size: 12px;
     font-family: Century Gothic;
     -webkit-transition: all 300ms ease-in-out 0ms;
     -moz-transition: all 300ms ease-in-out 0ms;
@@ -92,7 +92,6 @@
 
 
 /*******ЯЗЫКОВОЕ МЕНЮ******/
-
 #languagePanel {
     width: 49px;
     height: 53px;
@@ -180,5 +179,4 @@ ul#language li a {
 #languagePanel:hover #language::after {
     border-top: 6px solid #7F6F58;
 }
-
 /****Конец языкового меню******/

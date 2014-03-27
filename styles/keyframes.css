@@ -287,4 +287,90 @@
         transform: skew(0);
     }
 }
-/****************** Wobble Top_Кнопка-ЖЕЛЕ КОНЕЦ***************** */
+/****************** Wobble Top_Кнопка-ЖЕЛЕ КОНЕЦ******************/
+
+/*************************Flip In X******************/
+@-webkit-keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(0deg);
+        transform: perspective(400px) rotateX(0deg);
+    }
+
+    15% {
+        -webkit-transform: perspective(400px) rotateX(38deg);
+        transform: perspective(400px) rotateX(38deg);
+    }
+
+    30% {
+        -webkit-transform: perspective(400px) rotateX(-26deg);
+        transform: perspective(400px) rotateX(-26deg);
+    }
+
+    43% {
+        -webkit-transform: perspective(400px) rotateX(20deg);
+        transform: perspective(400px) rotateX(20deg);
+    }
+
+    57% {
+        -webkit-transform: perspective(400px) rotateX(-14deg);
+        transform: perspective(400px) rotateX(-14deg);
+    }
+
+    70% {
+             -webkit-transform: perspective(400px) rotateX(10deg);
+             transform: perspective(400px) rotateX(10deg);
+    }
+
+    85% {
+        -webkit-transform: perspective(400px) rotateX(-6deg);
+        transform: perspective(400px) rotateX(-6deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateX(0deg);
+        transform: perspective(400px) rotateX(0deg);
+    }
+}
+
+@keyframes flipInX {
+    0% {
+        -webkit-transform: perspective(400px) rotateX(0deg);
+        transform: perspective(400px) rotateX(0deg);
+    }
+
+    15% {
+        -webkit-transform: perspective(400px) rotateX(38deg);
+        transform: perspective(400px) rotateX(38deg);
+    }
+
+    30% {
+        -webkit-transform: perspective(400px) rotateX(-26deg);
+        transform: perspective(400px) rotateX(-26deg);
+    }
+
+    43% {
+        -webkit-transform: perspective(400px) rotateX(20deg);
+        transform: perspective(400px) rotateX(20deg);
+    }
+
+    57% {
+        -webkit-transform: perspective(400px) rotateX(-14deg);
+        transform: perspective(400px) rotateX(-14deg);
+    }
+
+    70% {
+        -webkit-transform: perspective(400px) rotateX(10deg);
+        transform: perspective(400px) rotateX(10deg);
+    }
+
+    85% {
+        -webkit-transform: perspective(400px) rotateX(-6deg);
+        transform: perspective(400px) rotateX(-6deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(400px) rotateX(0deg);
+        transform: perspective(400px) rotateX(0deg);
+    }
+}
+/*************************Flip In X КОНЕЦ******************/

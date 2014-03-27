@@ -9,17 +9,15 @@
     <link href="styles/content.css" type="text/css" rel="stylesheet"/>
     <link href="styles/footer.css" type="text/css" rel="stylesheet"/>
     <link href="styles/framework.css" type="text/css" rel="stylesheet"/>
-    <link href="styles/animate.css" type="text/css" rel="stylesheet"/>
+    <!--<link href="styles/animate.css" type="text/css" rel="stylesheet"/>-->
     <link href="styles/animations.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/pages.css" type="text/css" rel="stylesheet"/>
     <link href="styles/keyframes.css" type="text/css" rel="stylesheet"/>
-
-    <link href="styles/style2.css" type="text/css" rel="stylesheet"/>
-
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
     <script type="text/javascript" src="js/component.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <!--<script type="text/javascript" src="js/modernizr.custom.js"></script>-->
+
 </head>
 <body>
     <div id="header" class="lifted">
@@ -59,23 +57,31 @@
         <div id="contentMain">
             <div class="roundShadow round" data-section="portfolio"></div>
 
-
             <div id="page1" class="page" data-section="services">
                 <h2 class="contentTitle">Список предоставляемых услуг</h2>
                 <div class="contentWrap">
                     <p class="contentText pt40"></p>
-
-                    <table>
-                        <tr>
-                            <th>Услуга</th>
-                            <th>Стоимость в $</th>
-                        </tr>
-                        <tr>
-                            <td>Создание веб-сайта по готовому эскизу</td>
-                            <td>1000</td>
-                        </tr>
-
-
+                    <table class="services">
+                        <thead>
+                            <tr>
+                                <th>Услуга</th>
+                                <th>Стоимость в $</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Создание html-шаблона по готовому эскизу</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Создание веб-сайта по готовому эскизу</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>Подготовка рисунков и фотографий (за 1 изображение)</td>
+                                <td>5</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -86,6 +92,10 @@
                     <p class="contentText pt40">Здесь придется что-то рассказать о себе, кратко.</p>
                     <div class="myPhoto pic">
                         <img src="images/me.png">
+                    </div>
+
+                    <div class="pic2 flipInX">
+                        <img src="images/cat_diplom.jpg">
                     </div>
                 </div>
             </div>

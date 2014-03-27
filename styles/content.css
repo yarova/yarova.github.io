@@ -4,6 +4,15 @@
     margin: 0 auto;
 }
 
+#contentMain {
+    width: 850px;
+    height: 1103px;
+    background: #fff;
+    box-shadow: -2px -15px 22px -6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 250px rgba(0,0,0,0.2) inset;
+    -webkit-box-shadow: -2px -15px 22px -6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 250px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow: -2px -15px 22px -6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 250px rgba(0,0,0,0.2) inset;
+}
+
 /******Иконки оранжевого меню********/
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
@@ -21,7 +30,6 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0; height: 100%; }
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after {
     content: " ";
     display: table;
@@ -88,52 +96,17 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%; }
 	-webkit-font-smoothing: antialiased;
 }
 
-.hi-icon-pencil:before {
-    content: "\e00b";
-}
+.hi-icon-pencil:before { content: "\e00b"; }
+.hi-icon-user:before { content: "\e012"; }
+.hi-icon-images:before { content: "\e008"; }
+.hi-icon-mail:before { content: "\e00d"; }
+.hi-icon-bookmark:before { content: "\e011"; }
 
-.hi-icon-user:before {
-    content: "\e012";
-}
-
-.hi-icon-images:before {
-	content: "\e008";
-}
-
-.hi-icon-mail:before {
-	content: "\e00d";
-}
-
-.hi-icon-bookmark:before {
-    content: "\e011";
-}
-
-
-
-.hi-icon-wrap .hi-icon-pencil {
-    left: 20px;
-    top: 0px;
-}
-
-.hi-icon-wrap .hi-icon-user {
-    left: 175px;
-    top: 0px;
-}
-
-.hi-icon-wrap .hi-icon-images {
-    left: 330px;
-    top: 0px;
-}
-
-.hi-icon-wrap .hi-icon-mail {
-    left: 485px;
-    top: 0px;
-}
-
-.hi-icon-wrap .hi-icon-bookmark {
-    left: 640px;
-    top: 0px;
-}
+.hi-icon-wrap .hi-icon-pencil { left: 20px; top: 0px; }
+.hi-icon-wrap .hi-icon-user { left: 175px; top: 0px; }
+.hi-icon-wrap .hi-icon-images { left: 330px; top: 0px; }
+.hi-icon-wrap .hi-icon-mail { left: 485px; top: 0px; }
+.hi-icon-wrap .hi-icon-bookmark { left: 640px; top: 0px; }
 
 
 /* Effect 3 */
@@ -157,13 +130,9 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%; }
 }
 
 /* Effect 3a */
-.hi-icon-effect-3a .hi-icon {
-	color: #FF8100;
-}
+.hi-icon-effect-3a .hi-icon { color: #FF8100; }
 
-.no-touch .hi-icon-effect-3a .hi-icon:hover {
-	color: #fff;
-}
+.no-touch .hi-icon-effect-3a .hi-icon:hover { color: #fff; }
 
 .no-touch .hi-icon-effect-3a .hi-icon:hover:after {
 	-webkit-transform: scale(1.3);
@@ -293,10 +262,9 @@ h1.animTitle {
     height: 30px;
     left: -90px;
     top: 0;
-
 }
 
-/**** BEGINNING: Left Panel animation *****/
+/*************Left Panel animation**********/
 .likeContainer {
    -webkit-transition: left 0.2s cubic-bezier(.10, .10, .25, .90) 0s;
    -moz-transition: left 0.2s cubic-bezier(.10, .10, .25, .90) 0s;
@@ -311,7 +279,7 @@ h1.animTitle {
 .likeContainer:hover {
     left: 0px;
 }
-/**** END: Left Panel animation *****/
+/************Left Panel animation КОНЕЦ*******/
 
 /**********TWITTER кнопка********/
 .buttonTwitter {
@@ -396,76 +364,6 @@ h1.animTitle {
 }
 /**********FACEBOOK кнопка конец********/
 /*******Конец левой панели******/
-
-/*********ОСНОВНОЙ КОНТЕНТ**************/
-#contentMain {
-    width: 850px;
-    height: 1103px;
-    background: #fff;
-    box-shadow: -2px -15px 22px -6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 250px rgba(0,0,0,0.2) inset;
-    -webkit-box-shadow: -2px -15px 22px -6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 250px rgba(0,0,0,0.2) inset;
-    -moz-box-shadow: -2px -15px 22px -6px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 250px rgba(0,0,0,0.2) inset;
-}
-
-
-/****************PAGE 3_ПОРТФОЛИО*******************/
-.contentTitle {
-    text-align: center;
-    padding-top: 100px;
-    margin: 0;
-    font: normal 30px Century Gothic;
-    color: #7F6F58;
-}
-
-.contentText {
-    margin: 0;
-    font: normal 18px Century Gothic;
-    color: #7F6F58;
-}
-
-.site {
-    width: 300px;
-    height: 142px;
-    display: inline-block;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    cursor: pointer;
-}
-
-/*********Эффект 1********/
-.effect {
-    border: 5px solid #FF8100;
-    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-}
-
-.effect:hover {
-    -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
-}
-.site1 { background-image: url("../images/1.png"); }
-.site2 { background-image: url("../images/2.png"); }
-.site3 { background-image: url("../images/3.png"); }
-.site4 { background-image: url("../images/4.png"); }
-
-/********************PAGE 3_ПОРТФОЛИО END*********************/
-
-#page1 /*Услуги; ВООБЩЕ НЕ ГОТОВА*/ { display: none; }
-
-#page2 /*Обо мне; НЕ ГОТОВА*/ { display: none; }
-
-#page3 /*Портфолио; ГОТОВА*/ { display: block; }
-
-#page4 /*Контакты; ПОЧТИ ГОТОВА*/ { display: none; }
-
-#page5 /*Гостевая книга; ПОЧТИ ГОТОВА*/ { display: none; }
-
-
 
 
 
