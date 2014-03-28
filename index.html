@@ -14,6 +14,8 @@
     <link href="styles/pages.css" type="text/css" rel="stylesheet"/>
     <link href="styles/keyframes.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.i18n.properties-1.0.9.js"></script>-->
+    <script type="text/javascript" src="js/i18n.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
     <script type="text/javascript" src="js/component.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
@@ -29,20 +31,20 @@
 
         <div id="languagePanel">
             <ul id="language">
-                <li class="RU"><a href="#"></a></li>
-                <li class="UA"><a href="#"></a></li>
-                <li class="EN"><a href="#"></a></li>
+                <li data-lang="ru"><a href="#"></a></li>
+                <li data-lang="ua"><a href="#"></a></li>
+                <li data-lang="en"><a href="#"></a></li>
             </ul>
         </div>
 
     </div>
     <div id="content">
         <div id="iconTitle" class="pt20">
-            <h1 class="animTitle" data-section="services"><a href="#" class="iconTitle pl86">Услуги</a></h1>
-            <h1 class="animTitle" data-section="aboutme"><a href="#" class="iconTitle pl90">Обо мне</a></h1>
-            <h1 class="animTitle hinge2 animated2 fast-animation" data-section="portfolio"><a href="#" class="iconTitle pl67">Портфолио</a></h1>
-            <h1 class="animTitle" data-section="contacts"><a href="#" class="iconTitle pl67">Контакты</a></h1>
-            <h1 class="animTitle" data-section="guestbook"><a href="#" class="iconTitle pl60">Гостевая книга</a></h1>
+            <h1 class="animTitle" data-section="services"><a href="#" class="iconTitle pl86" data-i18n="services"></a></h1>
+            <h1 class="animTitle" data-section="aboutme"><a href="#" class="iconTitle pl90" data-i18n="aboutMe"></a></h1>
+            <h1 class="animTitle hinge2 animated2 fast-animation" data-section="portfolio"><a href="#" class="iconTitle pl67" data-i18n="portfolio"></a></h1>
+            <h1 class="animTitle" data-section="contacts"><a href="#" class="iconTitle pl67" data-i18n="contacts"></a></h1>
+            <h1 class="animTitle" data-section="guestbook"><a href="#" class="iconTitle pl60" data-i18n="guestBook"></a></h1>
         </div>
 
         <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
@@ -58,27 +60,27 @@
             <div class="roundShadow round" data-section="portfolio"></div>
 
             <div id="page1" class="page" data-section="services">
-                <h2 class="contentTitle">Список предоставляемых услуг</h2>
+                <h2 class="contentTitle" data-i18n="services_title"></h2>
                 <div class="contentWrap">
                     <p class="contentText pt40"></p>
                     <table class="services">
                         <thead>
                             <tr>
-                                <th>Услуга</th>
-                                <th>Стоимость в $</th>
+                                <th data-i18n="services_column_service"></th>
+                                <th data-i18n="services_column_price"></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Создание html-шаблона по готовому эскизу</td>
+                                <td data-i18n="services_row_createHtmlTemplate"></td>
                                 <td>50</td>
                             </tr>
                             <tr>
-                                <td>Создание веб-сайта по готовому эскизу</td>
+                                <td data-i18n="services_row_createWebSiteByPicture"></td>
                                 <td>50</td>
                             </tr>
                             <tr>
-                                <td>Подготовка рисунков и фотографий (за 1 изображение)</td>
+                                <td data-i18n="services_row_workWithPicture"></td>
                                 <td>5</td>
                             </tr>
                         </tbody>
@@ -89,7 +91,7 @@
             <div id="page2" class="page" data-section="aboutme">
                 <h2 class="contentTitle">Обо мне</h2>
                 <div class="contentWrap">
-                    <p class="contentText pt40">Здесь придется что-то рассказать о себе, кратко.</p>
+                    <p class="contentText pt40" data-i18n="aboutMe_MainText"></p>
                     <div class="myPhoto pic">
                         <img src="images/me.png">
                     </div>

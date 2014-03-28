@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
 
     //Оранжевые иконки
-    $('.hi-icon').on('click', function(){
+    $('.hi-icon').on('click', function(e){
         var $alreadySelected = $('.iconGoDown'),
             $toSelect = $(this),
             $allItems = $('.hi-icon'),
@@ -26,6 +26,7 @@ $(document).ready(function(){
             $title = $('h1[data-section=' + section + ']'),
             $round = $('.roundShadow');
 
+        e.preventDefault();
         if ($toSelect.hasClass('iconGoDown')) {
              return;
         }
@@ -49,21 +50,14 @@ $(document).ready(function(){
     })
 
     //Заголовки оранжевых иконок
-    $('.animTitle').on('click', function(){
+    $('.animTitle').on('click', function(e){
             var $toSelect = $(this),
                 $allItems = $('.animTitle'),
                 section = $(this).attr('data-section'),
                 $icon = $('.hi-icon[data-section=' + section + ']');
 
+        e.preventDefault();
         $icon.trigger('click');
-
-        /*$allItems.removeClass('hinge2 animated2');
-        $toSelect.addClass('hinge2 animated2');*/
-
-        /*if ($toSelect.hasClass('hinge2 animated2')) {
-            $toSelect.addClass('rotateUp');
-        }*/
-
     })
 
 

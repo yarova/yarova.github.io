@@ -159,8 +159,8 @@
 .flipInX:hover {
     -webkit-animation-name: flipInX;
     animation-name: flipInX;
-    -webkit-animation-duration: 4s;
-    animation-duration: 4s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;

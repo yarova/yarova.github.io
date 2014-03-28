@@ -153,15 +153,15 @@ ul#language li a {
     display: inline-block;
 }
 
-.RU a {
+[data-lang=ru] a {
     background-position: 0px 0px;
 }
 
-.UA a {
+[data-lang=ua] a {
     background-position: 0px -34px;
 }
 
-.EN a {
+[data-lang=en] a {
     background-position: 0px -68px;
     display: none;
 }
