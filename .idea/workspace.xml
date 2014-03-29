@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/i18n.js" afterPath="$PROJECT_DIR$/js/i18n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,21 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.21072797">
+            <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="-4.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i18n.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="i18n.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/i18n.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="69" selection-start="2690" selection-end="2690" vertical-scroll-proportion="-10.56">
+            <state line="24" column="105" selection-start="1077" selection-end="1088" vertical-scroll-proportion="0.33395523">
               <folding>
-                <element signature="e#4750#5657#0" expanded="false" />
+                <element signature="e#4751#5658#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -335,7 +333,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="62" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4750#5657#0" expanded="false" />
+            <element signature="e#4751#5658#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -407,19 +405,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/i18n.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="69" selection-start="2690" selection-end="2690" vertical-scroll-proportion="-10.56">
-          <folding>
-            <element signature="e#4750#5657#0" expanded="false" />
-          </folding>
+        <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="-4.230769">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.21072797">
-          <folding />
+        <state line="24" column="105" selection-start="1077" selection-end="1088" vertical-scroll-proportion="0.33395523">
+          <folding>
+            <element signature="e#4751#5658#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

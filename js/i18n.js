@@ -86,7 +86,7 @@ i18n = (function(){
                 portfolio_work_samples: "Приклади моїх робіт:",
 
                 search_placeholder: "Пошук",
-                warning_temporary_unavailable: "На жаль цей функціонал тимчасово недоступний"
+                warning_temporary_unavailable: "На жаль, цей функціонал тимчасово недоступний"
             }
         },
         defaultLang = (localStorage.getItem('lang') || navigator.language || navigator.userLanguage).substring(0, 2),
