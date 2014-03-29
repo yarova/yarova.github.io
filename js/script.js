@@ -60,14 +60,22 @@ $(document).ready(function(){
         $icon.trigger('click');
     })
 
-
-
     //Кнопка поиска
     $('#button').on('click', function(){
         var searchText = $('#search').val(),
-            url = 'https://www.google.com/search?as_q=' + searchText + '&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=http%3A%2F%2Fstackoverflow.com%2F&as_occt=any&safe=images&as_filetype=&as_rights=';
+            url = 'https://www.google.ca/search?as_q=' + searchText + '&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=yarova.net&as_occt=any&safe=images&tbs=&as_filetype=&as_rights=';
         window.location.href = url;
     });
 
+    $('form input').on('change', function(){
+         alert(i18n.get('warning_temporary_unavailable'));
+    });
 
+    //Навигация
+     $('[data-gotosection]').on('click', function(){
+         $('a[data-section=' + $(this).attr('data-gotosection') + ']').trigger('click');
+     });
+    $('.buttonTwitter, .twitter').on('click', function(){ window.location.href = 'https://twitter.com/'; });
+    $('.buttonGoogle, .google').on('click', function(){ window.location.href = 'https://plus.google.com/u/0/109708356357859358293'; });
+    $('.buttonFacebook, .facebook').on('click', function(){ window.location.href = 'https://www.facebook.com/kittymmeeoow'; });
 });

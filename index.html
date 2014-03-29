@@ -9,12 +9,10 @@
     <link href="styles/content.css" type="text/css" rel="stylesheet"/>
     <link href="styles/footer.css" type="text/css" rel="stylesheet"/>
     <link href="styles/framework.css" type="text/css" rel="stylesheet"/>
-    <!--<link href="styles/animate.css" type="text/css" rel="stylesheet"/>-->
     <link href="styles/animations.css" type="text/css" rel="stylesheet"/>
     <link href="styles/pages.css" type="text/css" rel="stylesheet"/>
     <link href="styles/keyframes.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-    <!--<script type="text/javascript" src="js/jquery.i18n.properties-1.0.9.js"></script>-->
     <script type="text/javascript" src="js/i18n.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
     <script type="text/javascript" src="js/component.js"></script>
@@ -24,7 +22,7 @@
 <body>
     <div id="header" class="lifted">
         <div>
-            <input type="text" name="search" id="search" placeholder="Поиск">
+            <input type="text" name="search" id="search" placeholder="" data-i18n="search_placeholder" data-i18n-attr="placeholder">
             <span name="send" id="button"></span>
         </div>
         <img id="headerTitle" src="images/WebDesigner2.png">
@@ -48,11 +46,11 @@
         </div>
 
         <div class="hi-icon-wrap hi-icon-effect-3 hi-icon-effect-3b">
-            <a href="#" class="hi-icon hi-icon-pencil" data-section="services">Услуги</a>
-            <a href="#" class="hi-icon hi-icon-user" data-section="aboutme">Обо мне</a>
-            <a href="#" class="hi-icon hi-icon-images iconGoDown fast-animation" data-section="portfolio">Портфолио</a>
-            <a href="#" class="hi-icon hi-icon-mail" data-section="contacts">Контакты</a>
-            <a href="#" class="hi-icon hi-icon-bookmark" data-section="guestbook">Гостевая книга</a>
+            <a href="#" class="hi-icon hi-icon-pencil" data-section="services" data-i18n="services"></a>
+            <a href="#" class="hi-icon hi-icon-user" data-section="aboutme" data-i18n="aboutMe"></a>
+            <a href="#" class="hi-icon hi-icon-images iconGoDown fast-animation" data-section="portfolio" data-i18n="portfolio"></a>
+            <a href="#" class="hi-icon hi-icon-mail" data-section="contacts" data-i18n="contacts"></a>
+            <a href="#" class="hi-icon hi-icon-bookmark" data-section="guestbook" data-i18n="guestBook"></a>
         </div>
 
 
@@ -73,15 +71,15 @@
                         <tbody>
                             <tr>
                                 <td data-i18n="services_row_createHtmlTemplate"></td>
-                                <td>50</td>
+                                <td data-i18n="services_row_negotiated"></td>
                             </tr>
                             <tr>
                                 <td data-i18n="services_row_createWebSiteByPicture"></td>
-                                <td>50</td>
+                                <td data-i18n="services_row_negotiated"></td>
                             </tr>
                             <tr>
                                 <td data-i18n="services_row_workWithPicture"></td>
-                                <td>5</td>
+                                <td data-i18n="services_row_negotiated"></td>
                             </tr>
                         </tbody>
                     </table>
@@ -89,7 +87,7 @@
             </div>
 
             <div id="page2" class="page" data-section="aboutme">
-                <h2 class="contentTitle">Обо мне</h2>
+                <h2 class="contentTitle" data-i18n="aboutMe_Title"></h2>
                 <div class="contentWrap">
                     <p class="contentText pt40" data-i18n="aboutMe_MainText"></p>
                     <div class="myPhoto pic">
@@ -103,9 +101,9 @@
             </div>
 
             <div id="page3" class="page" data-section="portfolio">
-                <h2 class="contentTitle">Мои работы</h2>
+                <h2 class="contentTitle" data-i18n="portfolio_Title"></h2>
                 <div class="contentWrap">
-                    <p class="contentText pt40">Примеры моих работ:</p>
+                    <p class="contentText pt40" data-i18n="portfolio_work_samples"></p>
                     <div class="pt50">
                         <div class="site site1 effect"></div>
                         <div class="site site2 effect"></div>
@@ -116,27 +114,27 @@
             </div>
 
             <div id="page4" class="page" data-section="contacts">
-                <h2 class="contentTitle">Контакты</h2>
+                <h2 class="contentTitle" data-i18n="contacts_Title"></h2>
                 <div class="contentWrap">
 
-                    <p class="contentText pt40">Верстка, дизайн, создание сайтов</p>
-                    <p class="contentText pt12">Украина, Киев</p>
+                    <p class="contentText pt40" data-i18n="contacts_services"></p>
+                    <p class="contentText pt12" data-i18n="contacts_location"></p>
                     <ul id="contactIcons">
                         <li class="phone">
-                            <p class="contentText pt12 pl55">Телефон: 0981203884</p></li>
-                        <li class="skype"><p class="contentText pt12 pl55">E-mail: katesun18@gmail.com</p></li>
-                        <li class="mail"><p class="contentText pt12 pl55">Skype: katesun-18</p></li>
+                            <p class="contentText pt12 pl55" data-i18n="contacts_phone"></p></li>
+                        <li class="skype"><p class="contentText pt12 pl55" data-i18n="contacts_email"></p></li>
+                        <li class="mail"><p class="contentText pt12 pl55" data-i18n="contacts_skype"></p></li>
                     </ul>
-                    <p class="contentText pt12">Также Вы можете оставить заявку на сайте и я свяжусь с Вами в течение дня.</p>
+                    <p class="contentText pt12" data-i18n="contacts_contact_me"></p>
                     <form>
-                        <input class="form input" type="text" size="30" maxlength="30" placeholder="Ваше имя">
-                        <input class="form input" type="text" size="30" maxlength="30" placeholder="Телефон">
-                        <input class="form input" type="text" size="30" maxlength="30" placeholder="E-mail">
-                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="Сроки исполнения заказа">
-                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="Бюджет заказа">
-                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="Тип сайта (визитка, каталог, корпоративный, другой)">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="" data-i18n="contacts_placeholder_name" data-i18n-attr="placeholder">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="" data-i18n="contacts_placeholder_phone" data-i18n-attr="placeholder">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="" data-i18n="contacts_placeholder_email" data-i18n-attr="placeholder">
+                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="" data-i18n="contacts_placeholder_terms" data-i18n-attr="placeholder">
+                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="" data-i18n="contacts_placeholder_price" data-i18n-attr="placeholder">
+                        <input class="form input2" type="text" size="30" maxlength="30" placeholder="" data-i18n="contacts_placeholder_site_type" data-i18n-attr="placeholder">
 
-                        <input class="buttonSend mt35 wobble-top" type="button" name="send" value="Отправить">
+                        <input class="buttonSend mt35 wobble-top" type="button" name="send" data-i18n="contacts_placeholder_send" data-i18n-attr="value" value="">
                     </form>
                 </div>
             </div>
@@ -219,35 +217,35 @@
             <div id="footerContentBig">
                 <div class="footerList">
                     <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Услуги</a></li>
-                        <li><a href="#">Обо мне</a></li>
-                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#" data-gotosection="portfolio">Главная</a></li>
+                        <li><a href="#" data-gotosection="services">Услуги</a></li>
+                        <li><a href="#" data-gotosection="aboutme">Обо мне</a></li>
+                        <li><a href="#" data-gotosection="guestbook">Отзывы</a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Сайт новостей 1</a></li>
-                        <li><a href="#">Сайт новостей 2</a></li>
-                        <li><a href="#">Видео-сайт</a></li>
+                        <li><a href="#" data-gotosection="portfolio">Портфолио</a></li>
+                        <li><a href="#" data-gotosection="portfolio">Сайт новостей 1</a></li>
+                        <li><a href="#" data-gotosection="portfolio">Сайт новостей 2</a></li>
+                        <li><a href="#" data-gotosection="portfolio">Видео-сайт</a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
-                        <li><a href="#">Полезности</a></li>
-                        <li><a href="#">Советы</a></li>
-                        <li><a href="#">Прочее</a></li>
+                        <li><a href="http://htmlbook.ru/">Полезности</a></li>
+                        <li><a href="http://ruseller.com/">Советы</a></li>
+                        <li><a href="http://htmlbook.ru/">Прочее</a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">Связаться со мной</a></li>
-                        <li><a href="#">Сделать заказ</a></li>
+                        <li><a href="#" data-gotosection="contacts">Контакты</a></li>
+                        <li><a href="#" data-gotosection="contacts">Связаться со мной</a></li>
+                        <li><a href="#" data-gotosection="contacts">Сделать заказ</a></li>
                     </ul>
                 </div>
             </div>
