@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html>
+<!--[if IEMobile 7 ]>                                      <html class="iem7 oldie"> <![endif]-->
+<!--[if lt IE 7 ]>                                         <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7 ]>                                            <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8 ]>                                            <html class="ie8 oldie"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html><!--<![endif]-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Web Designer</title>
@@ -94,9 +98,9 @@
                         <img src="images/me.png">
                     </div>
 
-                    <div class="pic2 flipInX">
+                    <!--<div class="pic2 flipInX">
                         <img src="images/cat_diplom.jpg">
-                    </div>
+                    </div>-->
                 </div>
             </div>
 
@@ -140,14 +144,14 @@
             </div>
 
             <div id="page5" class="page" data-section="guestbook">
-                <h2 class="contentTitle">Гостевая книга</h2>
+                <h2 class="contentTitle" data-i18n="guestbook_titile"></h2>
                 <div class="contentWrap">
-                    <p class="contentText pt40">Здесь Вы можете оставить отзыв.</p>
+                    <p class="contentText pt40" data-i18n="guestbook_you_can_leave_ur_message"></p>
                     <form>
-                        <input class="form input" type="text" size="30" maxlength="30" placeholder="Ваше имя">
-                        <input class="form input" type="text" size="30" maxlength="30" placeholder="E-mail">
-                        <textarea class="form textarea" placeholder="Оставить отзыв..."></textarea>
-                        <input class="buttonSend hang" type="button" name="send" value="Отправить">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="" data-i18n="guestbook_placeholder_name" data-i18n-attr="placeholder">
+                        <input class="form input" type="text" size="30" maxlength="30" placeholder="" data-i18n="guestbook_placeholder_email" data-i18n-attr="placeholder">
+                        <textarea class="form textarea" placeholder="" data-i18n="guestbook_placeholder_comment" data-i18n-attr="placeholder"></textarea>
+                        <input class="buttonSend hang" type="button" name="send" value="" data-i18n="guestbook_send" data-i18n-attr="value">
                     </form>
 
                 </div>
@@ -169,7 +173,7 @@
                     <div class="likeContainer">
                         <div class="like buttonTwitter">
                             <span class="twt"></span>
-                            <span class="textButton textTwitter">Tweet</span>
+                            <span class="textButton textTwitter" data-i18n="leftpanel_tweet"></span>
                         </div>
                     </div>
                 </li>
@@ -181,7 +185,7 @@
                     <div class="likeContainer">
                         <div class="like buttonGoogle">
                             <span class="goo"></span>
-                            <span class="textButton textGoogle">+1</span>
+                            <span class="textButton textGoogle" data-i18n="leftpanel_google"></span>
                         </div>
                     </div>
                 </li>
@@ -193,7 +197,7 @@
                     <div class="likeContainer">
                         <div class="like buttonFacebook">
                             <span class="fbk"></span>
-                            <span class="textButton textFacebook">Нравится</span>
+                            <span class="textButton textFacebook" data-i18n="leftpanel_facebook"></span>
                         </div>
                     </div>
                 </li>
@@ -212,47 +216,47 @@
 
         <div id="footerContent">
 
-            <a href="#" class="scrollup">Наверх</a>
+            <a href="#" class="scrollup" data-i18n="scrollup"></a>
 
             <div id="footerContentBig">
                 <div class="footerList">
                     <ul>
-                        <li><a href="#" data-gotosection="portfolio">Главная</a></li>
-                        <li><a href="#" data-gotosection="services">Услуги</a></li>
-                        <li><a href="#" data-gotosection="aboutme">Обо мне</a></li>
-                        <li><a href="#" data-gotosection="guestbook">Отзывы</a></li>
+                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_main"></a></li>
+                        <li><a href="#" data-gotosection="services" data-i18n="footer_menu_services"></a></li>
+                        <li><a href="#" data-gotosection="aboutme" data-i18n="footer_menu_aboutme"></a></li>
+                        <li><a href="#" data-gotosection="guestbook" data-i18n="footer_menu_comments"></a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
-                        <li><a href="#" data-gotosection="portfolio">Портфолио</a></li>
-                        <li><a href="#" data-gotosection="portfolio">Сайт новостей 1</a></li>
-                        <li><a href="#" data-gotosection="portfolio">Сайт новостей 2</a></li>
-                        <li><a href="#" data-gotosection="portfolio">Видео-сайт</a></li>
+                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_portfolio"></a></li>
+                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_newssite"></a></li>
+                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_newssite2"></a></li>
+                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_videosite"></a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
-                        <li><a href="http://htmlbook.ru/">Полезности</a></li>
-                        <li><a href="http://ruseller.com/">Советы</a></li>
-                        <li><a href="http://htmlbook.ru/">Прочее</a></li>
+                        <li><a href="http://htmlbook.ru/" data-i18n="footer_menu_usefull"></a></li>
+                        <li><a href="http://ruseller.com/" data-i18n="footer_menu_advice"></a></li>
+                        <li><a href="http://htmlbook.ru/" data-i18n="footer_menu_etc"></a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
-                        <li><a href="#" data-gotosection="contacts">Контакты</a></li>
-                        <li><a href="#" data-gotosection="contacts">Связаться со мной</a></li>
-                        <li><a href="#" data-gotosection="contacts">Сделать заказ</a></li>
+                        <li><a href="#" data-gotosection="contacts" data-i18n="footer_menu_contacts"></a></li>
+                        <li><a href="#" data-gotosection="contacts" data-i18n="footer_menu_contactme"></a></li>
+                        <li><a href="#" data-gotosection="contacts" data-i18n="footer_menu_order"></a></li>
                     </ul>
                 </div>
             </div>
             <div id="footerContentSmall">
                 <div id="footerText">
-                    <p>© 2014 mysite.com</p>
-                    <p>Любое использование иными лицами размещенных на сайте материалов запрещено</p>
+                    <p data-i18n="website_signature"></p>
+                    <p data-i18n="website_signature_text"></p>
                 </div>
 
                 <ul class="FooterIcons">
@@ -268,6 +272,9 @@
         </div>
     </div>
 
+    <div id="old-browser-message">
+       <span>Please update your browser.</span>
+    </div>
 
 </body>
 </html>
