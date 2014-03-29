@@ -30,3 +30,25 @@ input {
 }/******Стрелка вверх конец*******/
 
 
+/******Статые браузеры начало*******/
+#old-browser-message {
+    display: none;
+}
+html.oldie #old-browser-message {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    color: white;
+    font-size: 50px;
+    display: block;
+}
+
+html.oldie #content {
+    display: none;
+}
+/******Статые браузеры коенц*******/
+
+

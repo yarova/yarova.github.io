@@ -126,12 +126,14 @@
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
 }
 
 .effect:hover {
     -webkit-transform: rotate(-7deg);
     -moz-transform: rotate(-7deg);
     -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
 }
 /****Эффект для Портфолио КОНЕЦ****/
 
