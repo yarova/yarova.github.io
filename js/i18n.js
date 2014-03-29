@@ -61,6 +61,9 @@ i18n = (function(){
                 contacts_placeholder_send: "Отправить",
 
 
+
+
+
                 search_placeholder: "Поиск",
                 warning_temporary_unavailable: "К сожалению, этот функционал временно недоступен"
             },

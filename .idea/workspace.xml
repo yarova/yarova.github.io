@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/i18n.js" afterPath="$PROJECT_DIR$/js/i18n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396081425298" ignored="false" />
+    <file path="/Dummy.txt" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396092881004" ignored="false" />
     <file path="/content.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395920732023" ignored="false" />
     <file path="/style.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395921124835" ignored="false" />
     <file path="/animations.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395940203602" ignored="false" />
@@ -44,22 +42,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.21072797">
+            <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i18n.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="i18n.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/i18n.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="69" selection-start="2690" selection-end="2690" vertical-scroll-proportion="-10.56">
-              <folding>
-                <element signature="e#4750#5657#0" expanded="false" />
-              </folding>
+            <state line="63" column="16" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.45892018">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,10 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -131,7 +127,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,7 +141,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
+              <option name="myItemId" value="Porfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -156,21 +151,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
+              <option name="myItemId" value="Porfolio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -180,6 +161,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,8 +169,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ПРИМЕРЫ САЙТОВ/1" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -235,13 +217,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21891288" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544544" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -319,32 +301,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles/pages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="15" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="108" column="15" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/animations.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="58" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="156" column="58" selection-start="4513" selection-end="4513" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="62" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#4750#5657#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/keyframes.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="338" column="74" selection-start="9613" selection-end="9613" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="338" column="74" selection-start="9613" selection-end="9613" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/framework.css">
@@ -374,30 +348,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/pages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="15" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="108" column="15" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="13" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="163" column="13" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/animations.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="10" selection-start="4542" selection-end="4542" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="159" column="10" selection-start="4542" selection-end="4542" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/keyframes.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="356" column="81" selection-start="10088" selection-end="10088" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="356" column="81" selection-start="10088" selection-end="10088" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
@@ -407,18 +373,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/i18n.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="69" selection-start="2690" selection-end="2690" vertical-scroll-proportion="-10.56">
-          <folding>
-            <element signature="e#4750#5657#0" expanded="false" />
-          </folding>
+        <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="-0.65384614">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="31" selection-start="4994" selection-end="4994" vertical-scroll-proportion="0.21072797">
+        <state line="63" column="16" selection-start="2984" selection-end="2984" vertical-scroll-proportion="0.45892018">
           <folding />
         </state>
       </provider>
