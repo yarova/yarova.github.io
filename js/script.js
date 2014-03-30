@@ -33,7 +33,7 @@ $(document).ready(function(){
 
         //Переключать страницы
         $('.page').hide();
-        $('.page[data-section=' + section + ']').show();
+        $('.page[data-section=' + section + ']').fadeIn();
 
         //Стартовать анимацию оранжевой иконки
         $allItems.removeClass('iconGoDown iconGoUp');

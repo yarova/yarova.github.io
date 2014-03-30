@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/animations.css" afterPath="$PROJECT_DIR$/styles/animations.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/2.png" afterPath="$PROJECT_DIR$/images/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/framework.css" afterPath="$PROJECT_DIR$/styles/framework.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/i18n.js" afterPath="$PROJECT_DIR$/js/i18n.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.css" afterPath="$PROJECT_DIR$/styles/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,18 +15,19 @@
     <file path="/style.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396099173526" ignored="false" />
     <file path="/animations.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395940203602" ignored="false" />
     <file path="/pages.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395935690039" ignored="false" />
-    <file path="/index.html" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396098956979" ignored="false" />
+    <file path="/index.html" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396163613590" ignored="false" />
     <file path="/keyframes.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395939858499" ignored="false" />
     <file path="/footer.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395941045427" ignored="false" />
-    <file path="/i18n.js" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396097393315" ignored="false" />
-    <file path="/a.dummy" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396097792578" ignored="false" />
+    <file path="/i18n.js" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396163549434" ignored="false" />
+    <file path="/a.dummy" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396163691591" ignored="false" />
     <file path="/header.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1395998818117" ignored="false" />
-    <file path="/script.js" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396090449101" ignored="false" />
+    <file path="/script.js" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396119823653" ignored="false" />
     <file path="$PROJECT_DIR$/../ПРИМЕРЫ САЙТОВ/1/css/animation.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396022996964" ignored="false" />
     <file path="/animation.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396022761985" ignored="false" />
     <file path="$PROJECT_DIR$/../ПРИМЕРЫ САЙТОВ/1/index.html" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396023018459" ignored="false" />
     <file path="$PROJECT_DIR$/../ПРИМЕРЫ САЙТОВ/1/css/new_style.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396022842219" ignored="false" />
     <file path="/new_style.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396022836977" ignored="false" />
+    <file path="/framework.css" changelist="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" time="1396165663996" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +50,43 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="88" selection-start="1457" selection-end="1457" vertical-scroll-proportion="141.5">
+            <state line="111" column="104" selection-start="6160" selection-end="6160" vertical-scroll-proportion="-18.692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="50" selection-start="666" selection-end="666" vertical-scroll-proportion="-12.851851">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="framework.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/framework.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="51" selection-start="397" selection-end="397" vertical-scroll-proportion="0.29929578">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/pages.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="75" selection-start="525" selection-end="525" vertical-scroll-proportion="0.5410798">
+            <state line="18" column="85" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,9 +104,9 @@
       <file leaf-file-name="i18n.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/i18n.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="201" column="56" selection-start="10015" selection-end="10015" vertical-scroll-proportion="0.0">
+            <state line="30" column="117" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#10852#11759#0" expanded="false" />
+                <element signature="e#14657#15564#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/styles/framework.css" />
         <option value="$PROJECT_DIR$/styles/style2.css" />
         <option value="$PROJECT_DIR$/styles/content.css" />
         <option value="$PROJECT_DIR$/styles/animate.css" />
@@ -119,11 +147,12 @@
         <option value="$PROJECT_DIR$/styles/keyframes.css" />
         <option value="$PROJECT_DIR$/styles/footer.css" />
         <option value="$PROJECT_DIR$/styles/header.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/styles/animations.css" />
+        <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/js/i18n.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/styles/style.css" />
+        <option value="$PROJECT_DIR$/styles/framework.css" />
       </list>
     </option>
   </component>
@@ -263,14 +292,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284091" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21363637" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17554033" sideWeight="0.6715909" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17554033" sideWeight="0.78636366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -363,7 +392,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="62" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#10852#11759#0" expanded="false" />
+            <element signature="e#14657#15564#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -373,11 +402,6 @@
         <state line="338" column="74" selection-start="9613" selection-end="9613" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/framework.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="15" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/content.css">
@@ -390,13 +414,6 @@
         <state line="16" column="1" selection-start="226" selection-end="226" vertical-scroll-proportion="0.4848485" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/pages.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="15" selection-start="2578" selection-end="2578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="13" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
@@ -407,13 +424,6 @@
     <entry file="file://$PROJECT_DIR$/styles/keyframes.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="356" column="81" selection-start="10088" selection-end="10088" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="57" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -432,25 +442,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="85" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/pages.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="201" column="56" selection-start="10015" selection-end="10015" vertical-scroll-proportion="0.0">
+        <state line="30" column="117" selection-start="2440" selection-end="2440" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#10852#11759#0" expanded="false" />
+            <element signature="e#14657#15564#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="50" selection-start="666" selection-end="666" vertical-scroll-proportion="-12.851851">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="88" selection-start="1457" selection-end="1457" vertical-scroll-proportion="141.5">
+        <state line="111" column="104" selection-start="6160" selection-end="6160" vertical-scroll-proportion="-18.692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/styles/framework.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="75" selection-start="525" selection-end="525" vertical-scroll-proportion="0.5410798">
+        <state line="15" column="51" selection-start="397" selection-end="397" vertical-scroll-proportion="0.29929578">
           <folding />
         </state>
       </provider>

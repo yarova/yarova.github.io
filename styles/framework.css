@@ -33,3 +33,6 @@
     -o-animation-duration: 0s !important;
     animation-duration: 0s !important;
 }
+
+.indent2 { text-indent: 2em; }
+.lh32:not(.foo) {line-height: 32px;}
