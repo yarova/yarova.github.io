@@ -123,7 +123,7 @@ i18n = (function(){
 
                 leftpanel_tweet: "Tweet",
                 leftpanel_google: "+1",
-                leftpanel_facebook: "Нравится",
+                leftpanel_facebook: "Like",
 
                 footer_menu_main: "Главная",
                 footer_menu_services: "Услуги",
@@ -196,7 +196,7 @@ i18n = (function(){
 
                 leftpanel_tweet: "Tweet",
                 leftpanel_google: "+1",
-                leftpanel_facebook: "Подобається",
+                leftpanel_facebook: "Like",
 
                 footer_menu_main: "Головна",
                 footer_menu_services: "Послуги",

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f67dd1-e0c1-4586-80ff-2f25f00bc7b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CV_Kateryna_Yarova.pdf" afterPath="$PROJECT_DIR$/CV_Kateryna_Yarova.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/footer.css" afterPath="$PROJECT_DIR$/styles/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/framework.css" afterPath="$PROJECT_DIR$/styles/framework.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/content.css" afterPath="$PROJECT_DIR$/styles/content.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/i18n.js" afterPath="$PROJECT_DIR$/js/i18n.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/pages.css" afterPath="$PROJECT_DIR$/styles/pages.css" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,16 +47,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="109" selection-start="6416" selection-end="6439" vertical-scroll-proportion="-15.153846">
+            <state line="34" column="21" selection-start="1961" selection-end="1961" vertical-scroll-proportion="-9.269231">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i18n.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="i18n.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/i18n.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="53" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.43430656">
+            <state line="198" column="37" selection-start="13144" selection-end="13144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,6 +107,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="content.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/styles/content.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="356" column="16" selection-start="7939" selection-end="7939" vertical-scroll-proportion="0.42424244">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="animate.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/animate.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,7 +154,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/styles/style2.css" />
-        <option value="$PROJECT_DIR$/styles/content.css" />
         <option value="$PROJECT_DIR$/styles/animate.css" />
         <option value="$PROJECT_DIR$/styles/keyframes.css" />
         <option value="$PROJECT_DIR$/styles/header.css" />
@@ -161,6 +165,7 @@
         <option value="$PROJECT_DIR$/styles/pages.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/i18n.js" />
+        <option value="$PROJECT_DIR$/styles/content.css" />
       </list>
     </option>
   </component>
@@ -396,11 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/content.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="135" selection-end="135" vertical-scroll-proportion="0.27272728" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="163" column="13" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
@@ -429,30 +429,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="57" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/framework.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="58" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="82" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="23" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -466,14 +445,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="109" selection-start="6416" selection-end="6439" vertical-scroll-proportion="-15.153846">
+        <state line="34" column="21" selection-start="1961" selection-end="1961" vertical-scroll-proportion="-9.269231">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/i18n.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="53" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.43430656">
+        <state line="198" column="37" selection-start="13144" selection-end="13144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/framework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="58" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="57" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="356" column="16" selection-start="7939" selection-end="7939" vertical-scroll-proportion="0.42424244">
           <folding />
         </state>
       </provider>

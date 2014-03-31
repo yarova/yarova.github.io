@@ -343,7 +343,7 @@ h1.animTitle {
 /**********FACEBOOK кнопка********/
 .buttonFacebook {
     background-color: #354C8C;
-    width: 79px;
+    width: 72px;
     height: 20px;
 }
 
@@ -353,9 +353,9 @@ h1.animTitle {
 
 .textFacebook {
     top: 2px;
-    right: 5px;
+    right: 16px;
     color: #fff;
-    font-size: 11px;
+    font-size: 12px;
     text-shadow: 0 -1px 1px rgba(28,28,28,.5);
 }
 
