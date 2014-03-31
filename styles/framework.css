@@ -26,4 +26,4 @@
 }
 
 .indent2 { text-indent: 2em; }
-.lh32:not(.foo) {line-height: 32px;}
+.lh32:not(.foo) { line-height: 32px; text-align: justify; }

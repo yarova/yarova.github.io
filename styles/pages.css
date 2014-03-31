@@ -96,7 +96,7 @@
     height: 250px;
     width: 250px;
     overflow: hidden;
-    margin: 20px 20px 20px 0;
+    margin: 40px 40px 25px 0;
     border: 5px solid #FF8100;
     box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
     -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
@@ -114,6 +114,17 @@
     -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
     -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
 }
+
+a.contentLink { color: #FF8100; }
+
+a.resume {
+    display: inline-block;
+    background: transparent url(../images/icon-pdf.png) no-repeat center left;
+    padding-left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
 /****************PAGE 2_Обо мне КОНЕЦ****************/
 
 

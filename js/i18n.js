@@ -16,11 +16,12 @@ i18n = (function(){
                 services_row_negotiated: "Negotiated",
 
                 aboutMe_Title: "About me",
-                aboutMe_maintext_paragrapht1: "My name is Catherine and I am a beginner HTML-coder. I love to create dynamic and interesting pages that delight people. I like plain and simple sites, but I am sad when I see a page on the Internet that doesn't attract you to visit this page again.",
+                aboutMe_maintext_paragrapht1: "My name is Kateryna Yarova and I am a beginner HTML-coder. I aspire to create dynamic and interesting pages that delight people. I like plain and simple sites, but I am sad when I see a page on the Internet that doesn't attract you to visit this page again.",
                 aboutMe_maintext_paragrapht2: "I create a web-site from scratch - from the formation of the site structure, creating sketches and thinking through the ways in which users will work with the site and then create colorful pictures and turning it into an interactive and live page. I also actively create pictures and banners (Adobe Photoshop, Adobe Illustrator, CorelDraw), but my passion is CSS animation.",
                 aboutMe_maintext_paragrapht3: "The days are gone when the old browsers were a burden and forced to abandon spectacular animations just because one browser creators are doing their job poorly. I believe that pleasing to the eye animation can greatly enhance the experience and make the site work more joyful.",
                 aboutMe_maintext_paragrapht4: "I am sure that many more sites are waiting for me to become more attractive. Thank you for your attention, if you have any suggestions -",
-                aboutMe_maintext_paragrapht4_link: "I will respond to them with a great pleasure.",
+                aboutMe_maintext_paragrapht4_link: "I will respond to them with great pleasure.",
+                aboutMe_maintext_resume: "My resume",
 
                 portfolio_Title: "My work",
                 portfolio_work_samples: "Examples of my work:",
@@ -69,7 +70,7 @@ i18n = (function(){
                 search_placeholder: "Search",
                 warning_temporary_unavailable: "Unfortunately this functionality is temporary unavailable",
                 scrollup: "Top",
-                website_signature: "© 2014 mysite.com",
+                website_signature: "© 2014 yarova.net",
                 website_signature_text: "Any use by other persons of materials posted on this site is prohibited"
             },
             ru: {
@@ -88,11 +89,12 @@ i18n = (function(){
                 services_row_negotiated: "Договорная",
 
                 aboutMe_Title: "Обо мне",
-                aboutMe_maintext_paragrapht1: "Меня зовут Екатерина Яровая и я начинающий HTML-верстальщик. Мне очень нравится создавать динамичные и красивые страницы, которые радуют людей. Мне нравятся простые и понятные сайты, но меня огорчает, когда я вижу страницы в Интернете, которые больше не хочется посещать.",
+                aboutMe_maintext_paragrapht1: "Меня зовут Екатерина Яровая и я начинающий HTML-верстальщик. Я стремлюсь создавать динамичные и красивые страницы, которые радуют людей. Мне нравятся простые и понятные сайты, но меня огорчает, когда я вижу страницы в Интернете, которые больше не хочется посещать.",
                 aboutMe_maintext_paragrapht2: "Я создаю страницы с нуля - от формирования структуры сайта, создания эскизов и продумывания путей, по которым пользователи будут работать с сайтом, до создания красочной картинки и превращения ее в интерактивные и живые страницы. Также я активно создаю картинки и баннеры (Adobe Photoshop, Adobe Illustrator, CorelDraw), но моя страсть - это CSS анимация.",
                 aboutMe_maintext_paragrapht3: "Прошло то время, когда старые браузеры были обузой и заставляли отказываться от эффектных анимаций только из-за того, что создатели одного браузера плохо делают свою работу. Я верю, что приятная для глаз анимация может значительно улучшить впечатление и сделать работу с сайтом сплошным удовольствием.",
                 aboutMe_maintext_paragrapht4: "Уверена, что еще много сайтов ждут меня, чтобы стать привлекательнее. Спасибо за внимание, если у Вас есть предложения - ",
-                aboutMe_maintext_paragrapht4_link: "я с радостью откликнусь на них",
+                aboutMe_maintext_paragrapht4_link: "я с радостью откликнусь на них.",
+                aboutMe_maintext_resume: "Мое резюме",
 
                 portfolio_Title: "Мои работы",
                 portfolio_work_samples: "Примеры моих работ:",
@@ -141,7 +143,7 @@ i18n = (function(){
                 search_placeholder: "Поиск",
                 warning_temporary_unavailable: "К сожалению, этот функционал временно недоступен",
                 scrollup: "Наверх",
-                website_signature: "© 2014 mysite.com",
+                website_signature: "© 2014 yarova.net",
                 website_signature_text: "Любое использование иными лицами размещенных на сайте материалов запрещено"
             },
             ua: {
@@ -160,11 +162,12 @@ i18n = (function(){
                 services_row_negotiated: "Договірна",
 
                 aboutMe_Title: "Про мене",
-                aboutMe_maintext_paragrapht1: "Мене звуть Катерина Ярова і я початківець HTML-верстальник. Мені дуже подобається створювати динамічні і красиві сторінки, які радують людей. Мені подобаються прості та зрозумілі сайти, але мене засмучує, коли я бачу сторінки в Інтернеті, які більше не хочеться відвідувати.",
-                aboutMe_maintext_paragrapht2: "Я створюю сторінки з нуля - від формування структури сайту, створення ескізів і продумування шляхів, по яких користувачі будуть працювати з сайтом, до створення барвистою картинки і перетворення її в інтерактивні та живі сторінки. Також я активно створюю картинки і банери (Adobe Photoshop, Adobe Illustrator, CorelDraw), але моя пристрасть - це CSS анімація.",
+                aboutMe_maintext_paragrapht1: "Мене звати Катерина Ярова і я HTML-верстальник-початківець. Я прагну створювати динамічні і красиві сторінки, які радують людей. Мені подобаються прості та зрозумілі сайти, але мене засмучує, коли я бачу сторінки в Інтернеті, які більше не хочеться відвідувати.",
+                aboutMe_maintext_paragrapht2: "Я створюю сторінки з нуля - від формування структури сайту, створення ескізів і продумування шляхів, по яких користувачі будуть працювати з сайтом, до створення барвистої картинки і перетворення її на інтерактивні та живі сторінки. Також я активно створюю картинки і банери (Adobe Photoshop, Adobe Illustrator, CorelDraw), але моя пристрасть - це CSS анімація.",
                 aboutMe_maintext_paragrapht3: "Минув той час, коли старі браузери були тягарем і змушували відмовлятися від ефектних анімацій тільки через те, що розробники одного браузера погано працюють. Я вірю, що приємна для очей анімація може значно поліпшити враження та зробити роботу з сайтом суцільним задоволенням.",
-                aboutMe_maintext_paragrapht4: "Впевнена, що ще багато сайтів чекають мене, щоб стати привабливішими. Дякую за увагу, якщо у Вас є пропозиції - ",
-                aboutMe_maintext_paragrapht4_link: "я з радістю відгукнуся на них",
+                aboutMe_maintext_paragrapht4: "Впевнена, ще багато сайтів чекають на мене, щоб стати більш привабливими. Дякую за увагу, якщо у Вас є пропозиції - ",
+                aboutMe_maintext_paragrapht4_link: "я з радістю відгукнуся на них.",
+                aboutMe_maintext_resume: "Моє резюме",
 
                 portfolio_Title: "Мої роботи",
                 portfolio_work_samples: "Приклади моїх робіт:",
@@ -213,7 +216,7 @@ i18n = (function(){
                 search_placeholder: "Пошук",
                 warning_temporary_unavailable: "На жаль, цей функціонал тимчасово недоступний",
                 scrollup: "Наверх",
-                website_signature: "© 2014 mysite.com",
+                website_signature: "© 2014 yarova.net",
                 website_signature_text: "Будь-яке використання іншими особами розміщених на сайті матеріалів заборонено"
             }
         },

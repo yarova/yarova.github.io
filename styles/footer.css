@@ -22,12 +22,12 @@
 
 .footerList {
     float: left;
-    width: 124px;
+    width: 138px;
     height: 145px;
 }
 
 .footerList:not(:last-child) {
-    margin-right: 118px;
+    margin-right: 99px;
 }
 
 .footerList ul {
@@ -90,25 +90,11 @@
     -webkit-border-radius: 50px;
 }
 
-.fb a {
-    background-position: 0px 0px;
-}
-
-.gp a {
-    background-position: -47px 0px;
-}
-
-.tw a {
-    background-position: -93px 0px;
-}
-
-.ml a {
-    background-position: -138px 0px;
-}
-
-.vk a {
-    background-position: -183px 0px;
-}
+.fb a { background-position: 0px 0px; }
+.gp a { background-position: -47px 0px; }
+.tw a { background-position: -93px 0px; }
+.ml a { background-position: -138px 0px; }
+.vk a { background-position: -183px 0px; }
 
 /*****/
 
