@@ -183,7 +183,7 @@ i18n = (function(){
                 contacts_placeholder_phone: "Телефон",
                 contacts_placeholder_email: "E-mail",
                 contacts_placeholder_terms: "Терміни виконання замовлення",
-                contacts_placeholder_price: "бюджет замовлення",
+                contacts_placeholder_price: "Бюджет замовлення",
                 contacts_placeholder_site_type: "Тип сайту (візитка, каталог, корпоративний, Інший)",
                 contacts_placeholder_send: "Надіслати",
 
