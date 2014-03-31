@@ -85,13 +85,18 @@
 /************Hang_Висящая кнопка Отправить**************/
 .hang {
     -webkit-animation-name: hang;
+    -moz-animation-name: hang;
     animation-name: hang;
     -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
     -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
     animation-direction: alternate;
 }
 /*****************Hang_Висящая кнопка Отправить КОНЕЦ*********/

@@ -204,12 +204,14 @@
 @keyframes hang {
     50% {
         -webkit-transform: translateY(3px);
+        -moz-transform: translateY(3px);
         -ms-transform: translateY(3px);
         transform: translateY(3px);
     }
 
     100% {
         -webkit-transform: translateY(7px);
+        -moz-transform: translateY(7px);
         -ms-transform: translateY(7px);
         transform: translateY(7px);
     }

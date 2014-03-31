@@ -109,7 +109,7 @@
 }
 
 #languagePanel:hover {
-    height: 122px;
+    height: 120px;
 }
 
 #languagePanel li:not(:first-child) {

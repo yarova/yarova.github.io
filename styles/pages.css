@@ -124,7 +124,6 @@ a.resume {
     margin-top: 20px;
     font-size: 18px;
 }
-
 /****************PAGE 2_Обо мне КОНЕЦ****************/
 
 
@@ -158,30 +157,30 @@ a.resume {
 }
 
 #contactIcons li {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    margin-top: 3px;
-    background-image: url("../images/iconsContact3.png");
     -moz-transition: background-position .25s;
     -webkit-transition: background-position .25s;
     -o-transition: background-position .25s;
     transition: background-position .25s;
+    background-image: url("../images/iconsContact3.png");
     background-repeat: no-repeat;
     white-space: nowrap;
     overflow: visible;
+    position: relative;
+    width: 45px;
+    height: 45px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
+    margin-top: 3px;
     cursor: pointer;
 }
 
-.phone { background-position-y: 0px; }
-.skype { background-position-y: -47px; }
-.mail { background-position-y: -93px; }
+.phone { background-position: 0px 0px; }
+.skype { background-position: 0px -47px; }
+.mail { background-position: 0px -93px; }
 
-.phone:hover { background-position-x: -47px; }
-.skype:hover { background-position-x: -47px; }
-.mail:hover { background-position-x: -47px; }
+.phone:hover { background-position: -47px 0px; }
+.skype:hover { background-position: -47px -47px; }
+.mail:hover { background-position: -47px -93px; }
 
 #contactIcons p:hover { color: #FF8100; }
 
