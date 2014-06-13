@@ -135,7 +135,6 @@ a.resume {
     display: inline-block;
     margin-right: 40px;
     margin-bottom: 40px;
-    cursor: pointer;
     border: 5px solid #FF8100;
     box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
     -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
@@ -146,6 +145,17 @@ a.resume {
 .site2 { background-image: url("../images/2.png"); }
 .site3 { background-image: url("../images/3.png"); }
 .site4 { background-image: url("../images/4.png"); }
+
+.site5 {
+    background-image: url("../images/5.png");
+    border: 5px solid #FF0000;
+}
+
+.site a {
+    display: inline-block;
+    width: 290px;
+    height: 132px;
+}
 /********************PAGE 3_Портфолио КОНЕЦ*********************/
 
 
