@@ -15,8 +15,8 @@
         function game(){
             var cubes = ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9'];
             var html = '';
-            var cubesId = 'id="' + cubes[i] + '">';
             for (var i = 0; i < cubes.length; i++){
+                var cubesId = 'id="' + cubes[i] + '">';
                 html = html + '<div class="leftCube cube" ' + cubesId + '</div><div class="rightCube cube" ' + cubesId + '</div><div class="centerCube cube" ' + cubesId + '</div>';
 
                             //+ '<div class="leftCube cube" id="' + cubes[i] + '"></div>'
@@ -25,7 +25,7 @@
             }
             $('#center').html(html);
         }
-    }); */
+    });*/
 
 
     $(function(){
@@ -75,6 +75,7 @@
             $('body').removeClass('winnerCat');
             $('body').removeClass('winnerDog');
             $('.wrapPetal').removeClass('rollingFlower');
+            $('.message').css({ display: 'none' });
         }
 
         function showAnimalScreen (){
@@ -92,6 +93,8 @@
             $('body').addClass('winnerDog');
             showAnimalScreen ();
         }
+
+
 
         function elementsHasClass ($cube1, $cube2, $cube3, cssClass){
             if($cube1.hasClass(cssClass) && $cube2.hasClass(cssClass) && $cube3.hasClass(cssClass)){
@@ -117,11 +120,13 @@
 
         function checkWinner(){
             if (hasWinLineWithClass('cross'))  {
-                alert('Победил крестик :)');
+                /*alert('Победил крестик :)'); */
+                $('#crossHasWon').css({ display: 'block' });
                 showCatScreen();
             }
             else if(hasWinLineWithClass('zero')) {
-                alert('Победил нолик :)');
+                //alert('Победил нолик :)');
+                $('#knotHasWon').css({ display: 'block' });
                 showDogScreen();
             }
         };
@@ -144,7 +149,8 @@
         <div class="centerCube cube" id="c9"></div>
     </div>
 
-    <!--<div id="message"></div>-->
+    <div class="message" id="crossHasWon"><p>Cross has won</p></div>
+    <div class="message" id="knotHasWon"><p>Knot has won</p></div>
 
     <div class="wrapPetal">
         <div class="petal whiteFlower"></div>

@@ -158,14 +158,24 @@ body {
     transform: translateX(760px) rotateZ(360deg);
 }
 
-#message {
-    position: fixed;
-    left: 525px;
-    top: 181px;
-    width: 300px;
-    height: 100px;
-    background-color: gray;
+.message {
+    /* position: fixed; */
+    width: 315px;
+    height: 125px;
+    background-color: #FFFFFF;
     z-index: 100;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.52);
+}
+
+#crossHasWon, #knotHasWon { display: none; }
+
+.message p {
+    text-align: center;
+    padding: 51px 0;
+    font: normal 16px "Century Gothic";
+    color: #7F6F58;
 }
 
 
