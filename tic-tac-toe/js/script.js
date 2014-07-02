@@ -62,6 +62,7 @@ $(function(){
         setTimeout(stroke, 1000);
     });
 
+
     $('#button').on('click', function(){
         if ($('.cube').hasClass('cross') || $('.cube').hasClass('zero')){
             removeClasses();
