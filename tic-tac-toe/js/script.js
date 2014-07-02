@@ -17,6 +17,30 @@
 
 $(function(){
 
+    function getRandNumber(){
+        var rand = Math.round((Math.random() * 8)) + 1;
+        return rand;
+    };
+    window.getRandNumber = getRandNumber;
+
+    function stroke(){
+        var rand = getRandNumber();
+        var $randCell = $('.cube:nth-of-type(' + rand + ')');
+        if($randCell.hasClass('cross') || $randCell.hasClass('zero')){
+            stroke();
+        }
+        else{
+            if (isCross){
+                $randCell.addClass('cross');
+                isCross = false;
+            } else {
+                $randCell.addClass('zero');
+                isCross = true;
+            }
+        }
+        checkWinner();
+    };
+
     var isCross = true;
 
     $('.cube').on('click', function(){
@@ -35,13 +59,13 @@ $(function(){
             isCross = true;
         }
         checkWinner();
+        setTimeout(stroke, 1000);
     });
 
     $('#button').on('click', function(){
         if ($('.cube').hasClass('cross') || $('.cube').hasClass('zero')){
             removeClasses();
             $('.whiteFlower').toggleClass('redFlower');
-            //changeColorFlower();
             $('#center').css({ visibility: 'visible' });
         }
     });
@@ -63,12 +87,12 @@ $(function(){
 
     function showCatScreen (){
         $('body').addClass('winnerCat');
-        showAnimalScreen ();
+        showAnimalScreen();
     }
 
     function showDogScreen (){
         $('body').addClass('winnerDog');
-        showAnimalScreen ();
+        showAnimalScreen();
     }
 
     function elementsHasClass ($cube1, $cube2, $cube3, cssClass){
