@@ -9,8 +9,8 @@ body {
     transition: all 2s ease-out;
 }
 
-.winnerCat { background: url("../images/winnerCat.jpg") no-repeat; }
-.winnerDog { background: url("../images/winnerDog.jpg") no-repeat; }
+.winnerCat { background: url("../images/winnerCat.jpg") center no-repeat; }
+.winnerDog { background: url("../images/winnerDog.jpg") center no-repeat; }
 
 .pageWrapper {
     /*position: relative; */

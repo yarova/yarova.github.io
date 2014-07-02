@@ -5,14 +5,14 @@ $(document).ready(function(){
     //Спрятать/показать кнопку Вверх
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
-            $('.scrollup').fadeIn("slow");
+            $('.scrollUp').fadeIn("slow");
         } else {
-            $('.scrollup').fadeOut("slow");
+            $('.scrollUp').fadeOut("slow");
         }
     });
 
     //Прокрутить страницу вверх кнопкой Вверх
-    $('.scrollup').click(function(){
+    $('.scrollUp').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 600, /*"swing"*/"easeOutCubic");
         return false;
     });

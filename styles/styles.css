@@ -4,28 +4,21 @@ body {
     font-family: Century Gothic;
 }
 
-body a {
-    text-decoration: none;
-}
-
-body a:hover {
-   text-decoration: underline;
-}
-
-input {
-    color: #7F6F58;
-}
+body a { text-decoration: none; }
+body *::selection { background: #FAEA57; }
+body *::-moz-selection { background: #FAEA57; }
+input { color: #7F6F58; }
 
 /******Стрелка вверх*******/
-.scrollup {
-    width:40px;
-    height:40px;
-    opacity:0.3;
-    position:fixed;
-    bottom:50px;
-    right:100px;
-    display:none;
-    text-indent:-9999px;
+.scrollUp {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
     background: url("../images/icon_top.png") no-repeat;
 }/******Стрелка вверх конец*******/
 
@@ -46,9 +39,7 @@ html.oldie #old-browser-message {
     display: block;
 }
 
-html.oldie #content {
-    display: none;
-}
-/******Статые браузеры коенц*******/
+html.oldie #content { display: none; }
+/******Старые браузеры конец*******/
 
 

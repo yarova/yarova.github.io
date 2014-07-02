@@ -6,7 +6,7 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html><!--<![endif]-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Web Designer</title>
+    <title>yarova.net</title>
     <link rel="icon" href="images/orange_bird.png" type="image/x-icon">
     <link href="styles/styles.css" type="text/css" rel="stylesheet"/>
     <link href="styles/header.css" type="text/css" rel="stylesheet"/>
@@ -16,6 +16,7 @@
     <link href="styles/animations.css" type="text/css" rel="stylesheet"/>
     <link href="styles/pages.css" type="text/css" rel="stylesheet"/>
     <link href="styles/keyframes.css" type="text/css" rel="stylesheet"/>
+    <link href="icomoon/style.css" type="text/css" rel="stylesheet"/>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/i18n.js"></script>
     <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.js"></script>
@@ -30,7 +31,7 @@
             <input type="text" name="search" id="search" placeholder="" data-i18n="search_placeholder" data-i18n-attr="placeholder">
             <span name="send" id="button"></span>
         </div>
-        <img id="headerTitle" src="images/WebDesigner2.png">
+        <img id="headerTitle" src="images/WebDesigner.png">
 
         <div id="languagePanel">
             <ul id="language">
@@ -112,11 +113,8 @@
                         <span data-i18n="aboutMe_maintext_paragrapht4"></span>
                         <a href="#" class="contentLink" data-gotosection="contacts" data-i18n="aboutMe_maintext_paragrapht4_link"></a>
                     </p>
-                    <!--<div class="pic2 flipInX">
-                        <img src="images/cat_diplom.jpg">
-                    </div>-->
 
-                    <a href="http://yarova.net/CV_Kateryna_Yarova.pdf" class="contentLink resume" data-i18n="aboutMe_maintext_resume">Мое резюме</a>
+                    <a href="http://yarova.net/CV_Kateryna_Yarova.pdf" class="contentLink resume icon-adobe" data-i18n="aboutMe_maintext_resume">Мое резюме</a>
                 </div>
             </div>
             <!--ABOUT ME PAGE END-->
@@ -127,12 +125,16 @@
                 <div class="contentWrap">
                     <p class="contentText pt40" data-i18n="portfolio_work_samples"></p>
                     <div class="pt50">
+
+                        <div class="site game1 effect"><a href="tic-tac-toe/index.html" target="_blank"></a></div>
+                        <div class="site game2 effect"><a href="thimbles/index.html" target="_blank"></a></div>
+
                         <div class="site site1 effect"><a></a></div>
                         <div class="site site2 effect"><a></a></div>
                         <div class="site site3 effect"><a></a></div>
                         <div class="site site4 effect"><a href="index.html"></a></div>
-                        <div class="site site5 effect"><a href="gameXO.html"></a></div>
-                        <div class="site site6 effect"><a href="Thimbles/index.html"></a></div>
+
+
                     </div>
                 </div>
             </div>
@@ -231,9 +233,7 @@
     <!--FOOTER START-->
     <div id="footer">
         <div id="footerContent">
-
-            <a href="#" class="scrollup" data-i18n="scrollup"></a>
-
+            <a href="#" class="scrollUp" data-i18n="scrollUp"></a>
             <div id="footerContentBig">
                 <div class="footerList">
                     <ul>
@@ -247,17 +247,16 @@
                 <div class="footerList">
                     <ul>
                         <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_portfolio"></a></li>
-                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_newssite"></a></li>
-                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_newssite2"></a></li>
-                        <li><a href="#" data-gotosection="portfolio" data-i18n="footer_menu_videosite"></a></li>
+                        <li><a href="tic-tac-toe/index.html" data-gotosection="portfolio" target="_blank" data-i18n="footer_menu_tictactoe"></a></li>
+                        <li><a href="thimbles/index.html" data-gotosection="portfolio" target="_blank" data-i18n="footer_menu_thimbles"></a></li>
                     </ul>
                 </div>
 
                 <div class="footerList">
                     <ul>
                         <li><a href="http://htmlbook.ru/" data-i18n="footer_menu_usefull"></a></li>
-                        <li><a href="http://ruseller.com/" data-i18n="footer_menu_advice"></a></li>
-                        <li><a href="http://htmlbook.ru/" data-i18n="footer_menu_etc"></a></li>
+                        <li><a href="http://javascript.ru/" data-i18n="footer_menu_advice"></a></li>
+                        <li><a href="http://iarovyi.github.io/" data-i18n="footer_menu_partners" target="_blank"></a></li>
                     </ul>
                 </div>
 
@@ -275,11 +274,11 @@
                     <p data-i18n="website_signature_text"></p>
                 </div>
 
-                <ul class="FooterIcons">
-                    <li class="fb"><a href="https://www.facebook.com/kittymmeeoow" rel="nofollow" target="_blank">Facebook</a></li>
-                    <li class="gp"><a href="https://plus.google.com/u/0/109708356357859358293" rel="nofollow" target="_blank">GPlus</a></li>
-                    <li class="tw"><a href="https://twitter.com/" rel="nofollow" target="_blank">Twitter</a></li>
+                <ul class="footerIcons">
+                    <li class="in"><a href="https://ua.linkedin.com/pub/kateryna-yarova/93/8a7/656/" rel="nofollow" target="_blank">Linkedin</a></li>
                     <li class="ml"><a href="mailto:kateryna.yarova@gmail.com" rel="nofollow" target="_blank">E-mail</a></li>
+                    <li class="gp"><a href="https://plus.google.com/u/0/109708356357859358293" rel="nofollow" target="_blank">GPlus</a></li>
+                    <li class="fb"><a href="https://www.facebook.com/kittymmeeoow" rel="nofollow" target="_blank">Facebook</a></li>
                     <li class="vk"><a href="http://vk.com/id16236093" rel="nofollow" target="_blank">Vkontakte</a></li>
                 </ul>
 

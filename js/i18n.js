@@ -24,7 +24,7 @@ i18n = (function(){
                 aboutMe_maintext_resume: "My resume",
 
                 portfolio_Title: "My work",
-                portfolio_work_samples: "Examples of my work:",
+                portfolio_work_samples: "Examples of my work",
 
                 contacts_Title: "Contacts",
                 contacts_services: "Layout, design, creating website",
@@ -57,19 +57,18 @@ i18n = (function(){
                 footer_menu_aboutme: "About me",
                 footer_menu_comments: "Comments",
                 footer_menu_portfolio: "Portfolio",
-                footer_menu_newssite: "News site 1",
-                footer_menu_newssite2: "News site 2",
-                footer_menu_videosite: "Video site",
+                footer_menu_tictactoe: "Tic-tac-toe",
+                footer_menu_thimbles: "Thimbles",
                 footer_menu_usefull: "Useful link",
                 footer_menu_advice: "Advices",
-                footer_menu_etc: "Another ...",
+                footer_menu_partners: "Partners",
                 footer_menu_contacts: "Contacts",
                 footer_menu_contactme: "Contact me",
                 footer_menu_order: "Make order",
 
                 search_placeholder: "Search",
                 warning_temporary_unavailable: "Unfortunately this functionality is temporary unavailable",
-                scrollup: "Top",
+                scrollUp: "Top",
                 website_signature: "© 2014 yarova.net",
                 website_signature_text: "Any use by other persons of materials posted on this site is prohibited"
             },
@@ -97,7 +96,7 @@ i18n = (function(){
                 aboutMe_maintext_resume: "Мое резюме",
 
                 portfolio_Title: "Мои работы",
-                portfolio_work_samples: "Примеры моих работ:",
+                portfolio_work_samples: "Примеры моих работ",
 
                 contacts_Title: "Контакты",
                 contacts_services: "Верстка, дизайн, создание сайтов",
@@ -130,19 +129,18 @@ i18n = (function(){
                 footer_menu_aboutme: "Обо мне",
                 footer_menu_comments: "Отзывы",
                 footer_menu_portfolio: "Портфолио",
-                footer_menu_newssite: "Сайт новостей 1",
-                footer_menu_newssite2: "Сайт новостей 2",
-                footer_menu_videosite: "Видео-сайт",
+                footer_menu_tictactoe: "Крестики-нолики",
+                footer_menu_thimbles: "Наперстки",
                 footer_menu_usefull: "Полезности",
                 footer_menu_advice: "Советы",
-                footer_menu_etc: "Прочее",
+                footer_menu_partners: "Партнеры",
                 footer_menu_contacts: "Контакты",
                 footer_menu_contactme: "Связаться со мной",
                 footer_menu_order: "Сделать заказ",
 
                 search_placeholder: "Поиск",
                 warning_temporary_unavailable: "К сожалению, этот функционал временно недоступен",
-                scrollup: "Наверх",
+                scrollUp: "Наверх",
                 website_signature: "© 2014 yarova.net",
                 website_signature_text: "Любое использование иными лицами размещенных на сайте материалов запрещено"
             },
@@ -170,7 +168,7 @@ i18n = (function(){
                 aboutMe_maintext_resume: "Моє резюме",
 
                 portfolio_Title: "Мої роботи",
-                portfolio_work_samples: "Приклади моїх робіт:",
+                portfolio_work_samples: "Приклади моїх робіт",
 
                 contacts_Title: "Контакти",
                 contacts_services: "Верстка, дизайн, створення сайтів",
@@ -203,19 +201,18 @@ i18n = (function(){
                 footer_menu_aboutme: "Про мене",
                 footer_menu_comments: "Відгуки",
                 footer_menu_portfolio: "Портфоліо",
-                footer_menu_newssite: "Сайт новин 1",
-                footer_menu_newssite2: "Сайт новин 2",
-                footer_menu_videosite: "Відео-сайт",
+                footer_menu_tictactoe: "Хрестики-нулики",
+                footer_menu_thimbles: "Наперстки",
                 footer_menu_usefull: "Корисності",
                 footer_menu_advice: "Поради",
-                footer_menu_etc: "Iнше",
+                footer_menu_partners: "Партнери",
                 footer_menu_contacts: "Контакти",
                 footer_menu_contactme: "Зв'язатися зі мною",
                 footer_menu_order: "Зробити замовлення",
 
                 search_placeholder: "Пошук",
                 warning_temporary_unavailable: "На жаль, цей функціонал тимчасово недоступний",
-                scrollup: "Наверх",
+                scrollUp: "Наверх",
                 website_signature: "© 2014 yarova.net",
                 website_signature_text: "Будь-яке використання іншими особами розміщених на сайті матеріалів заборонено"
             }

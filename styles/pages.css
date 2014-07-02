@@ -18,11 +18,11 @@
     color: #7F6F58;
 }
 
-#page1 /*Услуги; ГОТОВА*/ { display: none; }
-#page2 /*Обо мне; ПОЧТИ ГОТОВА*/ { display: none; }
-#page3 /*Портфолио; ГОТОВА*/ { display: block; }
-#page4 /*Контакты; ПОЧТИ ГОТОВА*/ { display: none; }
-#page5 /*Гостевая книга; ПОЧТИ ГОТОВА*/ { display: none; }
+#page1 /*Услуги*/ { display: none; }
+#page2 /*Обо мне*/ { display: none; }
+#page3 /*Портфолио*/ { display: block; }
+#page4 /*Контакты*/ { display: none; }
+#page5 /*Гостевая книга*/ { display: none; }
 /**********ОБЩИЕ СВОЙСТВА СТРАНИЦ КОНЕЦ*********/
 
 
@@ -32,13 +32,9 @@
     width: 640px;
     border: 1px solid #E7E7E7;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
     font: normal 15px Century Gothic;
     color: #7F6F58;
-    -webkit-box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
-    -moz-box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
-    box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.11);
 }
 
 .services td, .services th {
@@ -64,29 +60,13 @@
 
 .services th:first-child {
     height: 50px;
-    -moz-border-radius: 4px 0 0 0;
-    -webkit-border-radius: 4px 0 0 0;
     border-radius: 4px 0 0 0;
     border-left: none;
 }
 
-.services th:last-child {
-    border-radius: 0 4px 0 0;
-    -moz-border-radius: 0 4px 0 0;
-    -webkit-border-radius: 0 4px 0 0;
-}
-
-.services tr:last-child td:first-child {
-    border-radius: 0 0 0 4px;
-    -moz-border-radius: 0 0 0 4px;
-    -webkit-border-radius: 0 0 0 4px;
-}
-
-.services tr:last-child td:last-child {
-    border-radius: 0 0 4px 0;
-    -moz-border-radius: 0 0 4px 0;
-    -webkit-border-radius: 0 0 4px 0;
-}
+.services th:last-child { border-radius: 0 4px 0 0; }
+.services tr:last-child td:first-child { border-radius: 0 0 0 4px; }
+.services tr:last-child td:last-child { border-radius: 0 0 4px 0; }
 /****************PAGE 1_Услуги КОНЕЦ****************/
 
 
@@ -97,33 +77,20 @@
     width: 250px;
     overflow: hidden;
     margin: 40px 40px 25px 0;
-    border: 5px solid #FF8100;
-    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    border: 3px solid #FF8100;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
     float: left;
-}
-
-.pic2 {
-    width: 230px;
-    height: 164px;
-    margin: 370px 55px 20px 20px;
-    float: right;
-    border: 5px solid #FF8100;
-    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
 }
 
 a.contentLink { color: #FF8100; }
 
 a.resume {
     display: inline-block;
-    background: transparent url(../images/icon-pdf.png) no-repeat center left;
-    padding-left: 25px;
     margin-top: 40px;
     font-size: 18px;
+    font-family: Century Gothic;
 }
+
 /****************PAGE 2_Обо мне КОНЕЦ****************/
 
 
@@ -135,23 +102,21 @@ a.resume {
     display: inline-block;
     margin-right: 40px;
     margin-bottom: 40px;
-    border: 5px solid #FF8100;
-    box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -webkit-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
-    -moz-box-shadow: 6px 6px 10px rgba(0,0,0,0.2);
+    border: 3px solid #FF8100;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
 }
 
+.game1 { background-image: url("../images/tic-tac-toe.png"); }
+.game2 { background-image: url("../images/thimbles.png"); }
 .site1 { background-image: url("../images/1.png"); }
 .site2 { background-image: url("../images/2.png"); }
 .site3 { background-image: url("../images/3.png"); }
 .site4 { background-image: url("../images/4.png"); }
-.site5 { background-image: url("../images/5.png"); }
-.site6 { background-image: url("../images/6.png"); }
 
 .site a {
     display: inline-block;
-    width: 290px;
-    height: 132px;
+    width: 294px;
+    height: 136px;
 }
 /********************PAGE 3_Портфолио КОНЕЦ*********************/
 
@@ -168,7 +133,7 @@ a.resume {
     -webkit-transition: background-position .25s;
     -o-transition: background-position .25s;
     transition: background-position .25s;
-    background-image: url("../images/iconsContact3.png");
+    background-image: url("../images/buttonsContact.png");
     background-repeat: no-repeat;
     white-space: nowrap;
     overflow: visible;
@@ -176,7 +141,6 @@ a.resume {
     width: 45px;
     height: 45px;
     border-radius: 50px;
-    -webkit-border-radius: 50px;
     margin-top: 3px;
     cursor: pointer;
 }
@@ -228,8 +192,7 @@ a.resume {
 .textarea {
     width: 300px;
     height: 200px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 .buttonSend {

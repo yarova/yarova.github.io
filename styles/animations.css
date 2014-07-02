@@ -161,23 +161,6 @@
 }
 /*******Эффект для ФОТО Page_2 Обо мне_КОНЕЦ*****/
 
-/*************************Flip In X******************/
-
-.flipInX:hover {
-    -webkit-animation-name: flipInX;
-    animation-name: flipInX;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-backface-visibility: visible !important;
-    -ms-backface-visibility: visible !important;
-    backface-visibility: visible !important;
-}
-/*************************Flip In X КОНЕЦ******************/
-
 
 
 
