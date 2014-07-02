@@ -41,8 +41,8 @@ i18n = (function(){
                 contacts_placeholder_site_type: "Site type (business card, catalog, corporate, other)",
                 contacts_placeholder_send: "Send",
 
-                guestbook_titile: "Guest book",
-                guestbook_you_can_leave_ur_message: "Here you can write a review.",
+                guestbook_title: "Guest book",
+                guestbook_you_can_leave_ur_message: "Here you can write a review",
                 guestbook_placeholder_name: "Your name",
                 guestbook_placeholder_email: "E-mail",
                 guestbook_placeholder_comment: "Leave a comment ...",
@@ -113,8 +113,8 @@ i18n = (function(){
                 contacts_placeholder_site_type: "Тип сайта (визитка, каталог, корпоративный, другой)",
                 contacts_placeholder_send: "Отправить",
 
-                guestbook_titile: "Гостевая книга",
-                guestbook_you_can_leave_ur_message: "Здесь Вы можете оставить отзыв.",
+                guestbook_title: "Гостевая книга",
+                guestbook_you_can_leave_ur_message: "Здесь Вы можете оставить отзыв",
                 guestbook_placeholder_name: "Ваше имя",
                 guestbook_placeholder_email: "E-mail",
                 guestbook_placeholder_comment: "Оставить отзыв...",
@@ -185,8 +185,8 @@ i18n = (function(){
                 contacts_placeholder_site_type: "Тип сайту (візитка, каталог, корпоративний, Інший)",
                 contacts_placeholder_send: "Надіслати",
 
-                guestbook_titile: "Гостьова книга",
-                guestbook_you_can_leave_ur_message: "Тут Ви можете залишити відгук.",
+                guestbook_title: "Гостьова книга",
+                guestbook_you_can_leave_ur_message: "Тут Ви можете залишити відгук",
                 guestbook_placeholder_name: "Ваше ім'я",
                 guestbook_placeholder_email: "E-mail",
                 guestbook_placeholder_comment: "Залишити відгук ...",
