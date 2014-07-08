@@ -12,7 +12,7 @@
     padding-right: 50px;
 }
 
-.contentText {
+p.contentText {
     margin: 0;
     font: normal 18px Century Gothic;
     color: #7F6F58;
