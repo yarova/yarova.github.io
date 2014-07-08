@@ -106,8 +106,11 @@ a.resume {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.47);
 }
 
-.game1 { background-image: url("../images/tic-tac-toe.png"); }
-.game2 { background-image: url("../images/thimbles.png"); }
+
+.game1 { background-image: url("../images/thimbles.png"); }
+.game2 { background-image: url("../images/gypnoflower.png"); }
+.game3 { background-image: url("../images/tic-tac-toe.png"); }
+
 .site1 { background-image: url("../images/1.png"); }
 .site2 { background-image: url("../images/2.png"); }
 .site3 { background-image: url("../images/3.png"); }

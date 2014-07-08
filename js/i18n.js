@@ -24,7 +24,8 @@ i18n = (function(){
                 aboutMe_maintext_resume: "My resume",
 
                 portfolio_Title: "My work",
-                portfolio_work_samples: "Examples of my work",
+                portfolio_work_samples: "Other examples of my work",
+                portfolio_funny_experiments: "My funny experiments",
 
                 contacts_Title: "Contacts",
                 contacts_services: "Layout, design, creating website",
@@ -59,6 +60,7 @@ i18n = (function(){
                 footer_menu_portfolio: "Portfolio",
                 footer_menu_tictactoe: "Tic-tac-toe",
                 footer_menu_thimbles: "Thimbles",
+                footer_menu_hypnoflower: "Hypnoflower",
                 footer_menu_usefull: "Useful link",
                 footer_menu_advice: "Advices",
                 footer_menu_partners: "Partners",
@@ -96,7 +98,8 @@ i18n = (function(){
                 aboutMe_maintext_resume: "Мое резюме",
 
                 portfolio_Title: "Мои работы",
-                portfolio_work_samples: "Примеры моих работ",
+                portfolio_work_samples: "Другие примеры моих работ",
+                portfolio_funny_experiments: "Мои веселые эксперименты",
 
                 contacts_Title: "Контакты",
                 contacts_services: "Верстка, дизайн, создание сайтов",
@@ -131,6 +134,7 @@ i18n = (function(){
                 footer_menu_portfolio: "Портфолио",
                 footer_menu_tictactoe: "Крестики-нолики",
                 footer_menu_thimbles: "Наперстки",
+                footer_menu_hypnoflower: "Гипноцветок",
                 footer_menu_usefull: "Полезности",
                 footer_menu_advice: "Советы",
                 footer_menu_partners: "Партнеры",
@@ -168,7 +172,8 @@ i18n = (function(){
                 aboutMe_maintext_resume: "Моє резюме",
 
                 portfolio_Title: "Мої роботи",
-                portfolio_work_samples: "Приклади моїх робіт",
+                portfolio_work_samples: "Інші приклади моїх робіт",
+                portfolio_funny_experiments: "Мої веселі експерименти",
 
                 contacts_Title: "Контакти",
                 contacts_services: "Верстка, дизайн, створення сайтів",
@@ -203,6 +208,7 @@ i18n = (function(){
                 footer_menu_portfolio: "Портфоліо",
                 footer_menu_tictactoe: "Хрестики-нулики",
                 footer_menu_thimbles: "Наперстки",
+                footer_menu_hypnoflower: "Гіпноквітка",
                 footer_menu_usefull: "Корисності",
                 footer_menu_advice: "Поради",
                 footer_menu_partners: "Партнери",
