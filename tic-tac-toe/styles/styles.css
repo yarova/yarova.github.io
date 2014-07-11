@@ -24,6 +24,12 @@ body {
     padding-top: 80px;
 }
 
+.transparent {
+    width: 304px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
 .cube {
     width: 101px;
     height: 100px;
