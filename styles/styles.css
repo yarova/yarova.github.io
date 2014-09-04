@@ -9,6 +9,11 @@ body *::selection { background: #FAEA57; }
 body *::-moz-selection { background: #FAEA57; }
 input { color: #7F6F58; }
 
+@font-face {
+    font-family: "Century Gothic";
+    src: url(../fonts/Century_Gothic.ttf);
+}
+
 /******Стрелка вверх*******/
 .scrollUp {
     width: 40px;
