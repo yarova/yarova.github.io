@@ -29,8 +29,8 @@ i18n = (function(){
 
                 contacts_Title: "Contacts",
                 contacts_services: "Layout, design, creating website",
-                contacts_location: "Kyiv, Ukraine",
-                contacts_phone: "Phone: +380981203884",
+                contacts_location: "Kraków, Poland",
+                contacts_phone: "Phone: +48570937554",
                 contacts_email: "E-mail: kateryna.yarova@gmail.com",
                 contacts_skype: "Skype: kateryna.yarova",
                 contacts_contact_me: "You can also submit your application online and I will contact you during the day.",
@@ -103,8 +103,8 @@ i18n = (function(){
 
                 contacts_Title: "Контакты",
                 contacts_services: "Верстка, дизайн, создание сайтов",
-                contacts_location: "Украина, Киев",
-                contacts_phone: "Телефон: +380981203884",
+                contacts_location: "Краков, Польша",
+                contacts_phone: "Телефон: +48570937554",
                 contacts_email: "E-mail: kateryna.yarova@gmail.com",
                 contacts_skype: "Skype: kateryna.yarova",
                 contacts_contact_me: "Также Вы можете оставить заявку на сайте и я свяжусь с Вами в течение дня.",
@@ -177,8 +177,8 @@ i18n = (function(){
 
                 contacts_Title: "Контакти",
                 contacts_services: "Верстка, дизайн, створення сайтів",
-                contacts_location: "Україна, Київ",
-                contacts_phone: "Телефон: +380981203884",
+                contacts_location: "Краків, Польща",
+                contacts_phone: "Телефон: +48570937554",
                 contacts_email: "E-mail: kateryna.yarova@gmail.com",
                 contacts_skype: "Skype: kateryna.yarova",
                 contacts_contact_me: "Також Ви можете залишити заявку на сайті і я зв'яжуся з Вами протягом дня.",
