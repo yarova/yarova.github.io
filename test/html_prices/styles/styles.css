@@ -11,7 +11,7 @@ body { font-family: "CenturyGothic"; }
 
 .landing-page h1 {
     color: #333;
-    font-size: 35px;
+    font-size: 37px;
     line-height: 50px;
     text-align: center;
 }
@@ -29,6 +29,14 @@ body { font-family: "CenturyGothic"; }
     min-height: 1170px;
     overflow: hidden;
     box-sizing: border-box;
+}
+
+.price {
+    font-size: 22px;
+    padding: 15px 0;
+    background: url('../images/grid.png') rgba(134, 134, 131, 0.5);
+    color: #FFF;
+    margin: 100px 0;
 }
 
 .section { color: #333; }
@@ -64,7 +72,7 @@ body { font-family: "CenturyGothic"; }
 .section-eight-wrap { background: #ECE4CC url("../images/light_bg.png") repeat center 0; }
 
 .section h2 {
-    padding: 100px 0;
+    padding-top: 100px;
     margin: 0;
 }
 
@@ -100,18 +108,18 @@ body { font-family: "CenturyGothic"; }
 
 @media(min-width: 1200px) {
     .row.title {
-        margin-top: 220px; /*300px*/
+        margin-top: 220px;
     }
 }
 @media(min-width: 992px) and (max-width: 1200px){
     .row.title {
-        margin-top: 170px; /*250px*/
+        margin-top: 170px;
     }
 }
 
 @media(min-width: 768px) and (max-width: 992px){
     .row.title {
-        margin-top: 115px; /*195px*/
+        margin-top: 115px;
     }
 }
 
@@ -125,7 +133,7 @@ body { font-family: "CenturyGothic"; }
         margin-top: 180px;
     }
     .landing-page h1 {
-        font-size: 25px;
+        font-size: 32px;
     }
 }
 
