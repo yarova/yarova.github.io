@@ -34,9 +34,9 @@ body { font-family: "CenturyGothic"; }
 .price {
     font-size: 22px;
     padding: 15px 0;
-    background: url('../images/grid.png') rgba(134, 134, 131, 0.5);
-    color: #FFF;
-    margin: 100px 0;
+    background: url('../images/grid.png') rgba(134, 134, 131, 0.25);
+    margin: 40px 0 100px 0;
+    color: #000;
 }
 
 .section { color: #333; }
