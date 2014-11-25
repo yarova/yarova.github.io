@@ -16,10 +16,17 @@ body { font-family: "CenturyGothic"; }
     text-align: center;
 }
 
+.logo a {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.logo img { width: 250px; }
+
 .center {
     margin: 0 auto;
     max-width: 1200px;
-    min-height: 1000px;
+    min-height: 1170px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -42,7 +49,7 @@ body { font-family: "CenturyGothic"; }
 .section-four-wrap { background-color: #EEE; }
 
 /*section 5*/
-.section-five-wrap { background-color: #00B3F4; }
+.section-five-wrap { background-color: #FFDA3F; }
 
 /*section 6*/
 .section-six-wrap {
@@ -51,7 +58,10 @@ body { font-family: "CenturyGothic"; }
 }
 
 /*section 7*/
-.section-seven-wrap { background-color: #FFDA3F; }
+.section-seven-wrap { background-color: #00B3F4; }
+
+/*section 8*/
+.section-eight-wrap { background: #ECE4CC url("../images/light_bg.png") repeat center 0; }
 
 .section h2 {
     padding: 100px 0;
@@ -90,18 +100,18 @@ body { font-family: "CenturyGothic"; }
 
 @media(min-width: 1200px) {
     .row.title {
-        margin-top: 300px;
+        margin-top: 220px; /*300px*/
     }
 }
 @media(min-width: 992px) and (max-width: 1200px){
     .row.title {
-        margin-top: 250px;
+        margin-top: 170px; /*250px*/
     }
 }
 
 @media(min-width: 768px) and (max-width: 992px){
     .row.title {
-        margin-top: 195px;
+        margin-top: 115px; /*195px*/
     }
 }
 
