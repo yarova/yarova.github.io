@@ -27,6 +27,23 @@ p.title {
     text-align: center;
 }
 
+.carousel-control {
+    width: 8%;
+}
+@media (max-width: 1170px) {
+    #landingPageCarousel .item {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    #landingPageCarousel .carousel-indicators {
+        text-align: center;
+    }
+    #landingPageCarousel .carousel-indicators li {
+        float: none;
+    }
+}
+
 .carousel-indicators.remove-indicators {
     width: auto;
     position: static;
@@ -193,17 +210,6 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 .tech .active.icon-arrow_right:before { visibility: visible; }
 
-@media screen and (min-width: 768px) {
-    .carousel-control .glyphicon-chevron-left,
-    .carousel-control .icon-prev {
-        margin-left: -80px;
-    }
-
-    .carousel-control .glyphicon-chevron-right,
-    .carousel-control .icon-next {
-        margin-right: -80px;
-    }
-}
 
 
 
