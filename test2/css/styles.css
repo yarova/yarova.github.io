@@ -262,7 +262,10 @@ header ul a:hover, header ul a:focus { color: #fff; }
     border-bottom: none;
 }
 
-.department, .department > div { display: inline-block; }
+.department, .department > div {
+    display: inline-block;
+    text-align: left;
+}
 
 .department > div:nth-of-type(1) {
     width: 100%;
@@ -376,7 +379,8 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 
 @media (max-width: 954px){
-    .scheme { visibility: hidden; }
+    .scheme { display: none; }
+    .section-two { text-align: center; }
 }
 /******************** Section 2 END********************/
 
