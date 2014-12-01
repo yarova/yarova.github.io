@@ -1,6 +1,6 @@
 h1, .h1, h2, .h2, h3, .h3, p { padding: 0; margin: 0; }
 ul { list-style-type: none; margin: 0; padding: 0; }
-input:focus { outline: none; }
+input:focus, button:focus { outline: none !important; }
 
 a:hover, a:visited, a:active { text-decoration: none; }
 
@@ -75,6 +75,19 @@ p.title {
     margin-bottom: 100px;
 }
 
+.landing-page .icon-arrow_left, .landing-page .icon-arrow_right,
+.section-four .icon-arrow_left, .section-four .icon-arrow_right,
+.section-five .icon-arrow_left, .section-five .icon-arrow_right,
+.section-six .icon-arrow_left, .section-six .icon-arrow_right {
+    text-shadow: none;
+}
+
+.section-four .icon-arrow_left, .section-four .icon-arrow_right,
+.section-five .icon-arrow_left, .section-five .icon-arrow_right,
+.section-six .icon-arrow_left, .section-six .icon-arrow_right{
+    color: #1FB4CA;
+}
+
 /* Header */
 .navbar-toggle .icon-bar { background-color: #fff; }
 
@@ -105,7 +118,6 @@ header a {
 header a:hover, footer a:hover { color: #fff; }
 
 header ul a:hover, header ul a:focus { color: #fff; }
-/*.nav > li > a { padding: 10px; }*/
 .nav > li > a:hover, .nav > li > a:focus { background: none; }
 .navbar-brand, .navbar-nav > li > a { text-shadow: none; }
 
@@ -442,22 +454,305 @@ header ul a:hover, header ul a:focus { color: #fff; }
 
 /******************** Section 4 ********************/
 .section-four-wrap {
-    height: 400px;
+    /*height: 400px;*/
     background-color: #fff;
 }
+
+.small-title {
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404040;
+    padding: 65px 0 35px 0;
+}
+
+.round {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1FB4CA;
+    color: #fff;
+    margin: 0 auto;
+}
+.icon-commercial:before,
+.icon-exhibition:before,
+.icon-sales:before, .icon-canvas:before { position: absolute; }
+
+.icon-commercial:before {
+    font-size: 15px;
+    left: 12px;
+    top: 12px;
+}
+
+.icon-exhibition:before {
+    font-size: 26px;
+    left: 7px;
+    top: 6px;
+    font-weight: bold;
+}
+
+.icon-sales:before {
+    font-size: 19px;
+    left: 8px;
+    top: 10px;
+}
+
+.icon-canvas:before {
+    font-size: 23px;
+    left: 11px;
+    top: 8px;
+}
+
+.section-four-wrap .title {
+    color: #1FB4CA;
+    padding: 15px 0 10px 0;
+}
+
+.spheres { display: inline-block; }
+
+.spheres li {
+    float: left;
+    display: inline-block;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.spheres li:nth-of-type(1),
+.spheres li:nth-of-type(2),
+.spheres li:nth-of-type(3) { margin-right: 42px; }
+
+.spheres li:before {
+    content: '\2013';
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1FB4CA;
+}
+
+.section-four .carousel-indicators {
+    position: static;
+    width: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.section-four button {
+    float: none;
+    height: 28px;
+    font-size: 11px;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #D0D0D0;
+    color: #898989;
+    text-transform: uppercase;
+    padding: 6px 14px;
+}
+
+.section-four button.active {
+    height: 28px;
+    color: #141414;
+    font-weight: bold;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+}
+
+#spheresCarousel .btn-group > .btn,
+#spheresCarousel .btn-group-vertical > .btn {
+    float: none;
+    margin: 0 0 -1px -5px;
+}
+
+@media (max-width: 1170px) {
+    .section-four .item {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .section-four .spheres li {
+        display: block;
+        float: none;
+        margin: 0;
+    }
+}
+
+.section-four button:nth-of-type(1) { width: 114px; }
+.section-four button:nth-of-type(2) { width: 95px; }
+.section-four button:nth-of-type(3) { width: 267px; }
+.section-four button:nth-of-type(4) { width: 347px; }
 /******************** Section 4 END********************/
 
 /******************** Section 5 ********************/
 .section-five-wrap {
-    height: 610px;
+    /*height: 609px;*/
     background-color: #E6E6E6;
 }
+
+.section-five p.title {
+    padding: 55px 0 50px 0;
+    color: #141414;
+}
+
+.project-wrap {
+    position: relative;
+    height: 267px;
+    border: 6px solid #1EB5CA;
+}
+
+.projects-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 35px;
+    text-align: left;
+}
+
+.projects-text > p {
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: #141414;
+}
+
+.projects-text li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.projects-text li:nth-of-type(1),
+.projects-text li:nth-of-type(2){ margin-right: 35px; }
+
+.projects-text li p:nth-of-type(1) {
+    font-size: 29px;
+    font-weight: bold;
+    color: #1EB5CA;
+}
+
+.projects-text li p:nth-of-type(2):before {
+    content: '\2013';
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projects-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#projectsCarousel .carousel-indicators {
+    width: 100%;
+    position: static;
+    margin: 55px 0 0 0;
+    padding-bottom: 45px;
+}
+
+#projectsCarousel .carousel-indicators li {
+    position: relative;
+    background: url('../images/sprite.png') no-repeat;
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.8;
+    border: none;
+    margin: 0 20px 65px 0;
+    border-radius: 0;
+}
+#projectsCarousel .carousel-indicators li.active {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+#projectsCarousel li.active:before {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #1FB4CA;
+}
+
+#projectsCarousel .carousel-indicators li:nth-of-type(1) {
+    background-position: 0px 0px;
+    width: 72px;
+    height: 54px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(2) {
+    background-position: -74px 3px;
+    width: 60px;
+    height: 72px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(3) {
+    background-position: -134px -1px;
+    width: 102px;
+    height: 35px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(4) {
+    background-position: -238px -1px;
+    width: 130px;
+    height: 35px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(5) {
+    background-position: -290px -45px;
+    width: 130px;
+    height: 26px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(6) {
+    background-position: -374px 0px;
+    width: 65px;
+    height: 34px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(7) {
+    background-position: -445px 0px;
+    width: 50px;
+    height: 33px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(8) {
+    background-position: -134px -47px;
+    width: 68px;
+    height: 31px;
+}
+#projectsCarousel .carousel-indicators li:nth-of-type(9) {
+    background-position: -210px -50px;
+    width: 70px;
+    height: 25px;
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
 /******************** Section 5 END********************/
 
 /******************** Section 6 ********************/
 .section-six-wrap {
     /*height: 390px;*/
     background-color: #fff;
+}
+
+.section-six .carousel-indicators { bottom: 25px; }
+
+.section-six .carousel-indicators li {
+    background-color: #CDCDCD;
+    border: none;
+}
+
+.section-six .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    margin: 1px;
 }
 
 .section-six p.title {
@@ -474,7 +769,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
     display: inline-block;
     width: 300px;
     float: left;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .recalls li:nth-of-type(1),
@@ -518,10 +813,6 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 
 
-
-
-
-
 /******************** Section 6 END********************/
 
 /******************** Section 7 ********************/
@@ -529,6 +820,30 @@ header ul a:hover, header ul a:focus { color: #fff; }
     height: 860px;
     background-color: #111E26;
 }
+
+.section-seven p.title {
+    color: #fff;
+    padding: 55px 0 40px 0;
+}
+
+.my-arrow {
+    display: inline-block;
+    float: left;
+    width: 860px;
+    height: 32px;
+    background-color: #16515F;
+}
+
+.triangle {
+    border-left: 16px solid #16515F;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    float: left;
+}
+
+
+
+
 /******************** Section 7 END********************/
 
 /******************** Section 8 ********************/
