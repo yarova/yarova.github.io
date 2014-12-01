@@ -593,15 +593,13 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 
 .project-wrap {
-    position: relative;
-    height: 267px;
+    display: inline-block;
+    overflow: hidden;
     border: 6px solid #1EB5CA;
 }
 
 .projects-text {
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
     padding: 35px;
     text-align: left;
 }
@@ -634,9 +632,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 
 .projects-image {
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
 }
 
 #projectsCarousel .carousel-indicators {
@@ -723,6 +719,11 @@ header ul a:hover, header ul a:focus { color: #fff; }
     width: 70px;
     height: 25px;
     margin-right: 0;
+}
+
+@media (max-width: 1170px) {
+    .projects-text { text-align: center; }
+    .projects-text, .projects-image { float: none; }
 }
 
 
@@ -854,6 +855,8 @@ header ul a:hover, header ul a:focus { color: #fff; }
     background-size: cover;*/
 }
 .ymaps-controls-lefttop, .ymaps-controls-righttop, .ymaps-copyrights-pane { display: none !important; }
+
+@media (max-width: 768px) { .section-eight-wrap { max-height: 200px; }}
 /******************** Section 8 END********************/
 
 /******************** Section 9 ********************/
