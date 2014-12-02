@@ -505,6 +505,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 
 .section-four-wrap .title {
+    height: 87px;
     color: #1FB4CA;
     padding: 15px 0 10px 0;
 }
@@ -856,7 +857,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 .ymaps-controls-lefttop, .ymaps-controls-righttop, .ymaps-copyrights-pane { display: none !important; }
 
-@media (max-width: 768px) { .section-eight-wrap { max-height: 200px; }}
+@media (max-width: 768px) { .section-eight-wrap { max-height: 300px; }}
 /******************** Section 8 END********************/
 
 /******************** Section 9 ********************/
@@ -952,8 +953,27 @@ footer .call:hover {
     border: 1px solid #1FA8BD;
 }
 
-
 footer .phone { margin-right: 20px; }
+
+@media (max-width: 956px) {
+    footer ul {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        padding: 30px 0 15px 0;
+    }
+    .contacts {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0 65px 0;
+    }
+    footer .phone {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .main-footer { padding: 35px 0 15px 0; }
+    .cooperation { padding: 15px 0; }
+}
 
 
 /******************** Footer END********************/
