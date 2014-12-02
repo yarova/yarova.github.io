@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?exaiuf');
-	src:url('fonts/icomoon.eot?#iefixexaiuf') format('embedded-opentype'),
-		url('fonts/icomoon.woff?exaiuf') format('woff'),
-		url('fonts/icomoon.ttf?exaiuf') format('truetype'),
-		url('fonts/icomoon.svg?exaiuf#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-85cqw9');
+	src:url('fonts/icomoon.eot?#iefix-85cqw9') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-85cqw9') format('woff'),
+		url('fonts/icomoon.ttf?-85cqw9') format('truetype'),
+		url('fonts/icomoon.svg?-85cqw9#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,51 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-contract:before {
+	content: "\e60e";
+}
+.icon-approval:before {
+	content: "\e60a";
+}
+.icon-case:before {
+	content: "\e60b";
+}
+.icon-check:before {
+	content: "\e60c";
+}
+.icon-comments:before {
+	content: "\e60d";
+}
+.icon-payment:before {
+	content: "\e60f";
+}
+.icon-perfect:before {
+	content: "\e610";
+}
+.icon-prepay:before {
+	content: "\e611";
+}
+.icon-presentation:before {
+	content: "\e612";
+}
+.icon-presentation2:before {
+	content: "\e613";
+}
+.icon-presentation3:before {
+	content: "\e614";
+}
+.icon-rework:before {
+	content: "\e615";
+}
+.icon-start:before {
+	content: "\e616";
+}
+.icon-support:before {
+	content: "\e617";
+}
+.icon-tasks:before {
+	content: "\e618";
+}
 .icon-commercial:before {
 	content: "\e607";
 }
