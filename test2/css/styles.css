@@ -398,8 +398,6 @@ header ul a:hover, header ul a:focus { color: #fff; }
     .personal-manager { padding-bottom: 30px; }
     .client { width: 300px; }
     .client, .technical, .content, .client > div:nth-of-type(2) { height: auto; }
-
-
 }
 
 /******************** Section 2 END********************/
@@ -564,7 +562,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
     position: static;
     width: auto;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding: 20px 0 50px 0;
 }
 
 .section-four button {
@@ -753,6 +751,14 @@ header ul a:hover, header ul a:focus { color: #fff; }
 @media (max-width: 1170px) {
     .projects-text { text-align: center; }
     .projects-text, .projects-image { float: none; }
+}
+
+.projects-image img { width: 100%; }
+
+@media (max-width: 768px) {
+    .projects-text li { display: block; }
+    .projects-text li:nth-of-type(1), .projects-text li:nth-of-type(2) { margin-right: 0; }
+    #projectsCarousel .carousel-control { display: none; }
 }
 /******************** Section 5 END********************/
 
