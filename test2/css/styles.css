@@ -396,7 +396,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
         padding-top: 30px;
     }
     .personal-manager { padding-bottom: 30px; }
-    .client { width: 280px; }
+    .client { width: 300px; }
     .client, .technical, .content, .client > div:nth-of-type(2) { height: auto; }
 
 
