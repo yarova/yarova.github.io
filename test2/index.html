@@ -25,14 +25,14 @@
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li><a href="#">Услуги</a></li>
-                <li><a href="#">Применение</a></li>
+                <li><a href="#application">Применение</a></li>
                 <li><a href="#projects">Проекты</a></li>
                 <li><a href="#stages">Этапы работы</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a class="phone" href="tel://+7 (495) 933 45 67">+7 (495) 933 45 67</a></li>
-                <li><a><input type="button" class="call" value="Заказать звонок"></a></li>
+                <li><a href="#request-call"><input type="button" class="call" value="Заказать звонок"></a></li>
             </ul>
         </nav>
     </header>
@@ -176,20 +176,56 @@
 </div>
 
 <div class="section section-three-wrap">
+
+<!--
     <div class="section-three center">
         <p class="title">Устройства, которые мы используем</br>в наших проектах</p>
-        <ul class="devices">
-            <li><a href="#">Системы управления</br>жестами, нейроинтерфейсы</a></li>
-            <li class="selected"><a href="#">Очки дополнительной</br>реальности</a></li>
-            <li><a href="#">Мультитач экраны</br>и поверхности</a></li>
-            <li><a href="#">Проекционные системы</a></li>
-            <li><a href="#">Голографические системы</a></li>
-            <li><a href="#">Джойстики, эргономические</br>элементы управления,</br>подвижные конструкции</a></li>
-        </ul>
     </div>
+
+    <!--DEVICES START-->
+<!--<div id="devicesCarousel" class="carousel slide text-center" data-ride="carousel" data-interval="false">-->
+        <!-- Wrapper for slides -->
+
+<!--
+     <div class="carousel-inner" role="listbox">
+         <div class="item">
+             <div></div>
+         </div>
+         <div class="item active">
+             <div></div>
+         </div>
+         <div class="item">
+             <div></div>
+         </div>
+         <div class="item">
+             <div></div>
+         </div>
+         <div class="item">
+             <div></div>
+         </div>
+         <div class="item">
+             <div></div>
+         </div>
+     </div>
+-->
+     <!-- Indicators -->
+<!--
+        <ol class="carousel-indicators devices">
+            <li data-target="#devicesCarousel" data-slide-to="0"><a>Системы управления</br>жестами, нейроинтерфейсы</a></li>
+            <li data-target="#devicesCarousel" data-slide-to="1" class="active"><a>Очки дополнительной</br>реальности</a></li>
+            <li data-target="#devicesCarousel" data-slide-to="2"><a>Мультитач экраны</br>и поверхности</a></li>
+            <li data-target="#devicesCarousel" data-slide-to="3"><a>Проекционные системы</a></li>
+            <li data-target="#devicesCarousel" data-slide-to="4"><a>Голографические системы</a></li>
+            <li data-target="#devicesCarousel" data-slide-to="5"><a>Джойстики, эргономические</br>элементы управления,</br>подвижные конструкции</a></li>
+        </ol>
+    </div>
+    -->
+    <!--DEVICES END-->
+
+
 </div>
 
-<div class="section section-four-wrap">
+<div class="section section-four-wrap" id="application">
     <div class="section-four center">
         <p class="small-title">Сферы применения наших решений</p>
 
@@ -665,7 +701,7 @@
     </div>
 </div>
 
-<div class="section section-seven-wrap">
+<div class="section section-seven-wrap" id="stages">
     <div class="section-seven center">
         <p class="title">ЭТАПЫ РАБОТЫ</p>
         <div class="arrow-wrap">
@@ -702,29 +738,17 @@
         <div class="contact-us">
             <p>Хотите узнать, как мы можем помочь вашей компании?</p>
             <p>Свяжитесь с нами:
-
                 <a class="email" href="mailto:info@pwrg.ru">info@pwrg.ru</a></br>
                 <a class="phone" href="tel://+7 (495) 933 45 67">+7 (495) 933 45 67</a>
             </p>
-
             <input type="text" placeholder="Ваш номер телефона">
-            <input type="button" value="Заказать звонок">
+            <input type="button" value="Заказать звонок" id="request-call">
         </div>
-
-
-
         <div class="sending">
             <p>Практическое пособие по интерактивным технологиям (white paper)</p>
             <input type="text" class="form-control" placeholder="Ваш e-mail">
             <input type="button" class="call" value="Отослать white paper">
         </div>
-
-
-
-
-
-
-
 </div>
 </div>
 
@@ -746,10 +770,10 @@
 <footer>
     <div class="center">
         <ul class="main-footer">
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Сферы применения</a></li>
-            <li><a href="#">Наши проекты</a></li>
-            <li><a href="#">Этапы работы</a></li>
+            <li><a href="#application">Услуги</a></li>
+            <li><a href="#application">Сферы применения</a></li>
+            <li><a href="#projects">Наши проекты</a></li>
+            <li><a href="#stages">Этапы работы</a></li>
             <li><a href="#">FAQ</a></li>
         </ul>
         <ul class="cooperation">
@@ -761,7 +785,7 @@
         </ul>
         <div class="contacts">
             <a class="phone" href="tel://+7 (495) 933 45 67">+7 (495) 933 45 67</a>
-            <input type="button" class="call" value="Заказать звонок">
+            <a href="#request-call" class="request-call"><input type="button" class="call" value="Заказать звонок"></a>
         </div>
     </div>
 </footer>

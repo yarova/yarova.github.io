@@ -108,7 +108,11 @@ header a {
     font-size: 13px;
 }
 
-header a:hover, footer a:hover { color: #fff; }
+header a:hover, footer a:hover,
+header a:active, footer a:active,
+header a:visited, footer a:visited,
+header a:focus, footer a:focus
+{ color: #fff; }
 
 header ul a:hover, header ul a:focus { color: #fff; }
 .nav > li > a:hover, .nav > li > a:focus { background: none; }
@@ -234,9 +238,9 @@ header ul a:hover, header ul a:focus { color: #fff; }
 /******************** Section 2 ********************/
 .section-two-wrap {
     background-color: #fff;
-    color: #141414;;
+    color: #141414;
 }
-.section-two { padding-bottom: 136px; }
+.section-two { padding-bottom: 140px; }
 
 .section-two p.title { padding: 55px 0 17px 0; }
 
@@ -378,19 +382,39 @@ header ul a:hover, header ul a:focus { color: #fff; }
 @media (max-width: 954px){
     .scheme { display: none; }
     .section-two { text-align: center; }
+    .department { margin-top: 22px; }
 }
+
+@media (max-width: 768px){
+    .department {
+        display: block;
+        margin: 22px auto 0 auto;
+    }
+    .section-two { padding-bottom: 110px; }
+    .managers, .personal-manager {
+        position: static;
+        padding-top: 30px;
+    }
+    .personal-manager { padding-bottom: 30px; }
+    .client { width: 400px; }
+    .client, .technical, .content, .client > div:nth-of-type(2) { height: auto; }
+
+
+}
+
 /******************** Section 2 END********************/
 
 /******************** Section 3 ********************/
 .section-three-wrap {
-    background: url("../images/section-three.png");
-    background-size: cover;
+    height: 540px;
+    background: url("../images/section-three_2.png")
 }
 
 .section-three p.title {
     padding: 50px 0 55px 0;
     padding-top: 50px;
-    color: #fff;
+    color: green;
+    /*color: #fff;*/
 }
 
 .devices {
@@ -399,13 +423,24 @@ header ul a:hover, header ul a:focus { color: #fff; }
     padding-bottom: 80px;
 }
 
-.devices li {
+.devices li, .devices.carousel-indicators .active {
     display: inline-block;
     width: 300px;
     height: 130px;
-    border: 6px solid #1FB4CA;
     margin: 0 20px 20px 0;
     text-align: center;
+    border-radius: 0;
+    text-indent: 0;
+}
+
+.devices li {
+    border: 6px solid #1FB4CA;
+    border-radius: 0;
+}
+
+.devices.carousel-indicators .active {
+    border: 6px solid #fff;
+    background: none;
 }
 
 .devices li a {
@@ -418,10 +453,27 @@ header ul a:hover, header ul a:focus { color: #fff; }
     font-weight: bold;
 }
 
-.devices .selected { border-color: #fff; }
+#devicesCarousel .item > div {
+    height: 540px;
+    background-size: cover !important;
+}
+
+#devicesCarousel .item:nth-of-type(1) > div { background: url("../images/section-three_1.png") }
+#devicesCarousel .item:nth-of-type(2) > div { background: url("../images/section-three_2.png") }
+#devicesCarousel .item:nth-of-type(3) > div { background: url("../images/section-three_3.png") }
+#devicesCarousel .item:nth-of-type(4) > div { background: url("../images/section-three_4.png") }
+#devicesCarousel .item:nth-of-type(5) > div { background: url("../images/section-three_5.png") }
+#devicesCarousel .item:nth-of-type(6) > div { background: url("../images/section-three_6.png") }
+
+/*#devicesCarousel img {
+    width: 100%;
+    height: 100%;
+}*/
 
 @media (min-width: 956px){
-    .devices li:nth-child(3n) { margin-right: 0px; }
+    .devices.carousel-indicators li:nth-child(3n),
+    .devices.carousel-indicators .active:nth-child(3n)
+    { margin-right: 0px; }
 }
 
 @media (max-width: 956px){
@@ -482,7 +534,7 @@ header ul a:hover, header ul a:focus { color: #fff; }
 }
 
 .section-four-wrap .title {
-    height: 87px;
+    height: 110px;
     color: #1FB4CA;
     padding: 15px 0 10px 0;
 }
@@ -1199,6 +1251,12 @@ footer .call {
 footer .call:hover {
     color: #1FA8BD;
     border: 1px solid #1FA8BD;
+}
+
+.request-call {
+    display: inline-block;
+    width: 120px;
+    height: 28px;
 }
 
 footer .phone { margin-right: 20px; }
