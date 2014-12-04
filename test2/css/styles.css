@@ -403,22 +403,48 @@ header ul a:hover, header ul a:focus { color: #fff; }
 /******************** Section 2 END********************/
 
 /******************** Section 3 ********************/
-.section-three-wrap {
-    height: 540px;
-    background: url("../images/section-three_2.png")
+.section-three-wrap p.title {
+    position: relative;
+    z-index: 1000;
+    margin: 0 auto;
+    padding: 50px 0 55px 0;
+    color: #fff;
 }
 
-.section-three p.title {
-    padding: 50px 0 55px 0;
-    padding-top: 50px;
-    color: green;
-    /*color: #fff;*/
+#devicesCarousel { position: relative; }
+
+#devicesCarousel .carousel-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#devicesCarousel .item { height: 100%; }
+
+#devicesCarousel .item > div {
+    width: auto;
+    height: 100%;
+    background-size: cover !important;
 }
 
 .devices {
     display: table;
     text-align: center;
     padding-bottom: 80px;
+}
+
+.devices.carousel-indicators {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.devices.carousel-indicators .active {
+    border: 6px solid #fff;
+    background: none;
 }
 
 .devices li, .devices.carousel-indicators .active {
@@ -436,11 +462,6 @@ header ul a:hover, header ul a:focus { color: #fff; }
     border-radius: 0;
 }
 
-.devices.carousel-indicators .active {
-    border: 6px solid #fff;
-    background: none;
-}
-
 .devices li a {
     display: table-cell;
     vertical-align: middle;
@@ -451,11 +472,6 @@ header ul a:hover, header ul a:focus { color: #fff; }
     font-weight: bold;
 }
 
-#devicesCarousel .item > div {
-    height: 540px;
-    background-size: cover !important;
-}
-
 #devicesCarousel .item:nth-of-type(1) > div { background: url("../images/section-three_1.png") }
 #devicesCarousel .item:nth-of-type(2) > div { background: url("../images/section-three_2.png") }
 #devicesCarousel .item:nth-of-type(3) > div { background: url("../images/section-three_3.png") }
@@ -463,20 +479,22 @@ header ul a:hover, header ul a:focus { color: #fff; }
 #devicesCarousel .item:nth-of-type(5) > div { background: url("../images/section-three_5.png") }
 #devicesCarousel .item:nth-of-type(6) > div { background: url("../images/section-three_6.png") }
 
-/*#devicesCarousel img {
-    width: 100%;
-    height: 100%;
-}*/
-
 @media (min-width: 956px){
-    .devices.carousel-indicators li:nth-child(3n),
-    .devices.carousel-indicators .active:nth-child(3n)
+    .devices.carousel-indicators li:nth-child(3n)
     { margin-right: 0px; }
 }
 
 @media (max-width: 956px){
-    .devices { margin: 0 auto; }
     .devices li:nth-child(3n) { margin-right: 20px; }
+    #devicesCarousel .devices li:nth-child(2n) { margin-right: 0; }
+}
+
+@media (max-width: 700px) {
+    #devicesCarousel .devices li {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    #devicesCarousel .devices li:nth-child(2n) { margin: 0 auto 20px auto; }
 }
 /******************** Section 3 END********************/
 
