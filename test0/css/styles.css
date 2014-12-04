@@ -3,6 +3,7 @@ ul { list-style-type: none; margin: 0; padding: 0; }
 input:focus, button:focus { outline: none !important; }
 
 a:hover, a:visited, a:active, a:focus { text-decoration: none !important; }
+.button-animate { margin-left: 5px; }
 
 .center {
     margin: 0 auto;

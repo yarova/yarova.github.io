@@ -11,4 +11,8 @@ $(function(){
         $($(this).attr('href')).scrollTo(600, 'swing');
     });
 
+    $('.navbar-toggle').on('click', function(){
+        $('.my-button').toggleClass('button-animate');
+    });
+    
 });
