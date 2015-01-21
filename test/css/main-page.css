@@ -122,6 +122,7 @@
 .content-left, .content-right {
     padding-right: 130px;
     max-width: 560px;
+    word-wrap: break-word;
 }
 
 .left-half {
