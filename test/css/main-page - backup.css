@@ -1,0 +1,544 @@
+
+#main-page-wrapper {
+    font-family: "Roboto-Light";
+    height: 100%;
+}
+
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.background > div {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #35A8E0;
+}
+
+.background-gray > div { background-color: #D9D9D9; }
+
+.main-page {
+    max-width: 1120px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: block;
+}
+
+.main-page p { margin: 0; }
+
+
+
+
+
+/*************** HEADER ***************/
+
+#main-page-wrapper header {
+    width: 100%;
+    background-color: #1D1D1B;
+    padding: 16px 0;
+    z-index: 999;
+    position: relative;
+}
+
+#main-page-wrapper header nav {
+    padding: 0;
+}
+
+
+
+@media (max-width: 767px){
+    ul.chips-amount li:nth-of-type(1) p { font-size: 28px; }
+    #main-page-wrapper header a.logo { margin: 8px 0 8px 15px; }
+
+    #main-page-wrapper .navbar-nav {
+        float: none;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #main-page-wrapper ul.chips-amount {
+        float: none;
+        margin: 0;
+
+    }
+
+    /*ul.chips-amount li:nth-of-type(1) p {
+        font-size: 28px;
+    }*/
+
+    ul.chips-amount li:nth-of-type(2) p {
+        text-align: center;
+    }
+
+    #main-page-wrapper .navbar-collapse {
+        border-top: 1px solid rgba(53, 168, 224, 0.17);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 767px){
+    #main-page-wrapper header > .center-block { min-width: 768px; }
+}
+
+@media (min-width: 992px){
+    #main-page-wrapper header > .center-block { min-width: 992px; }
+}
+
+@media (min-width: 992px){
+    #main-page-wrapper header > .center-block { min-width: 992px; }
+}
+
+@media (min-width: 1200px){
+    #main-page-wrapper header > .center-block { min-width: 1120px; }
+}
+
+
+
+#main-page-wrapper header .logo {
+    /*height: 30px;*/
+    float: left;
+    background: none;
+    margin: 10px 30px 0 0;
+}
+
+#main-page-wrapper header .logo img {
+    width: 33px;
+    height: 30px;
+}
+
+#main-page-wrapper .nav a {
+    font-size: 19px;
+    color: #fff;
+}
+
+#main-page-wrapper li a { padding: 17px; }
+
+#main-page-wrapper .nav a:hover { color: #35A8E0; }
+#main-page-wrapper .nav a:hover,
+#main-page-wrapper .nav a:focus { background: none; }
+
+#main-page-wrapper .nav a.active-item { color: #35A8E0; }
+
+#main-page-wrapper .chips-amount {
+    float: right;
+    margin: 7px 0 -9px 0;
+}
+
+.chips-amount p { margin: 0; }
+
+.chips-amount li { float: none; }
+.chips-amount li:nth-of-type(1) p {
+    font-size: 53px;
+    font-family: "Roboto-Black";
+    color: #fff;
+    line-height: 40px;
+}
+
+.chips-amount li:nth-of-type(2) p {
+    font-size: 13px;
+    color: #1D70A7;
+    text-align: right;
+    margin-top: 5px;
+}
+
+
+
+#main-page-wrapper .icon-bar {
+    background-color: #35A8E0;
+}
+
+
+/*************** HEADER END ***************/
+
+
+
+
+
+/*************** CONTENT ***************/
+.content-left, .content-right {
+    width: 50%;/*560px;*/
+    height: 100%;
+}
+
+/*********** CONTENT LEFT ***********/
+.content-left { float: left; }
+
+#play .content-left { background-color: #35A8E0; }
+#get-chips .content-left, #cash-out .content-left { background-color: #D9D9D9; }
+
+#play .content-left > .center-block {
+    width: 300px;
+    padding-top: 20px;
+}
+
+/***************** PAGE 1 - PLAY *****************/
+.chances-gain {
+    text-align: center;
+    color: #162D4D;
+    margin-bottom: 14px;
+}
+
+.chances-gain p:nth-of-type(1) {
+    font-size: 40px;
+    font-family: "Roboto-Black";
+}
+
+.chances-gain p:nth-of-type(2) {
+    font-size: 13px;
+    margin-top: -14px;
+}
+
+/**** slider *****/
+.content-left .slider-handle {
+    width: 33px;
+    height: 33px;
+    background-color: #fff;
+    background-image: none;
+    opacity: 1;
+}
+
+.content-left .slider-selection,
+.content-left .slider-track {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    filter: none;
+    border-radius: 0;
+    background-image: none;
+}
+
+.content-left #ex1Slider .slider-selection { background-color: #1D1D1B; }
+.content-left #ex1Slider .slider-track { background-color: #236F94; }
+
+.content-left #ex2Slider .slider-selection { background-color: #236F94; }
+.content-left #ex2Slider .slider-track { background-color: #1D1D1B; }
+
+.content-left .slider.slider-horizontal .slider-handle {
+    margin-top: -15px;
+    margin-left: 0px !important;
+}
+
+.content-left .slider.slider-horizontal .slider-track { height: 4px; }
+.content-left .slider.slider-horizontal { width: 100%; }
+
+.content-left #ex1Slider { margin-bottom: 30px; }
+.content-left #ex2Slider { margin-bottom: 2px; }
+
+#play .slider .tooltip { display: none; }
+#play .slider .slider-handle { margin-left: -33px; }
+
+
+#play .slider-container { position: relative; }
+
+.slider-tl, .slider-tr, .slider-bl, .slider-br { position: absolute; }
+
+.slider-tl { left: 0; top: -15px; }
+.slider-tr { right: 0; top: -15px; }
+.slider-bl { left: 0; top: 10px; }
+.slider-br { right: 0; top: 10px; }
+
+#play .slider-container p {
+    color: #236f94;
+    font-size: 13px;
+}
+
+/**** slider end*****/
+
+/**** button bet-size *****/
+.content-left .bet-size button {
+    color: #1D70B7;
+    font-size: 53px;
+    font-family: "Roboto-Black";
+    padding: 0px 12px;
+    background-color: #fff;
+    border: none;
+    margin-left: 0;
+    border-radius: 12px;
+    height: 75px;
+}
+.content-left .bet-size button:hover, .content-left .bet-size button:active {
+    background-color: #fff !important;
+}
+
+.content-left .bet-size button:nth-of-type(2) {
+    width: 200px;
+    border-left: 4px solid #1D70B7;
+    border-right: 4px solid #1D70B7;
+}
+
+.content-left .button-title {
+    text-align: center;
+    font-size: 13px;
+    margin: 5px 0 0 0;
+}
+
+#play .button-title { color: #236f94; }
+/**** button bet-size end *****/
+
+/**** button roll *****/
+.roll {
+    height: 75px;
+    font-size: 56px;
+    font-family: "Roboto-Black";
+    color: #009EE2;
+    background-color: #162D4D;
+    border: none;
+    outline: none;
+    padding: 0px 82px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+/**** button roll end *****/
+/*********** CONTENT LEFT END ***********/
+
+/*********** CONTENT RIGHT ***********/
+.content-right {
+    float: right;
+    background-color: #fff;
+}
+
+.content-right > div { padding: 30px 60px 50px 35px; }
+.content-right img { width: 190px; }
+
+.content-right p {
+    color: #162d4d;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+    font-size: 13px;
+}
+
+.content-right p:first-of-type { margin: 30px 0 0 0; }
+/***************** PAGE 1 - PLAY END*****************/
+
+
+/***************** PAGE 2 - GET CHIPS *****************/
+/***************** PAGE 3 - CASH OUT *****************/
+#get-chips .content-left .center-block,
+#cash-out .content-left .center-block { width: 300px; }
+
+#get-chips .content-left .center-block { padding-top: 50px; }
+#cash-out .content-left .center-block { padding-top: 30px; }
+
+/**** scheme *****/
+#get-chips .scheme { margin: 20px 0 15px 0; }
+#cash-out .scheme { margin: 17px 0 15px 0; }
+.scheme > div {
+    display: inline-block;
+    position: relative;
+}
+
+#get-chips .lines, #get-chips .rounds,
+#cash-out .lines, #cash-out .rounds {
+    width: 120px;
+    height: 54px;
+    background-color: #C6C6C5;
+    border-radius: 13px;
+}
+
+#get-chips .arrow-right,
+#cash-out .arrow-right {
+    width: 59px;
+    height: 54px;
+    margin-left: -3px;
+}
+
+#get-chips .rounds,
+#cash-out .rounds { margin-left: -3px; }
+
+.scheme > div img { position: absolute; }
+
+#get-chips .lines img,
+#cash-out .lines img {
+    width: 75px;
+    left: 23px;
+    top: 17px;
+}
+
+#get-chips .arrow-right img,
+#cash-out .arrow-right img {
+    width: 45px;
+    left: 8px;
+    top: 3px;
+}
+
+#get-chips .rounds img,
+#cash-out .rounds img {
+    width: 33px;
+    left: 44px;
+    top: 12px;
+}
+/**** scheme end *****/
+
+/**** button swap *****/
+#get-chips .swap, #cash-out .swap {
+    height: 75px;
+    font-size: 56px;
+    font-family: "Roboto-Black";
+    color: #fff;
+    background-color: #35A8E0;
+    border: none;
+    outline: none;
+    padding: 0px 72px;
+    border-radius: 40px;
+    margin-top: 45px;
+}
+/**** button swap end *****/
+
+#get-chips .button-title,
+#cash-out .button-title { color: #575756; }
+
+.exchange {
+    font-size: 31px;
+    font-family: "Roboto-Black";
+    color: #9c9b9b;
+    text-align: center;
+}
+/***************** PAGE 2 - GET CHIPS END *****************/
+/***************** PAGE 3 - CASH OUT END *****************/
+
+/***************** MODAL - BET WON *****************/
+#main-page-wrapper .betResultWindow {
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#main-page-wrapper .modal-dialog p { margin: 0; }
+
+#main-page-wrapper .modal-dialog {
+    width: 445px;
+    height: 395px;
+    z-index: 1050;
+}
+
+#main-page-wrapper .modal-header,
+#main-page-wrapper .modal-footer {
+    border: none;
+    text-align: center;
+}
+
+#main-page-wrapper .modal-dialog {
+    margin: 175px auto;
+}
+
+#main-page-wrapper .modal-content {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+#main-page-wrapper .modal-content {
+    position: relative;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+#main-page-wrapper .spinner { margin: 115px 0 10px 0; }
+
+#main-page-wrapper .modal-body { padding-top: 10px; }
+
+#main-page-wrapper .rolling-chips .modal-body,
+#main-page-wrapper .getting-chips .modal-body {
+    padding-bottom: 127px;
+}
+
+#main-page-wrapper .modal-body p { font-size: 16px; }
+
+#main-page-wrapper .result {
+    font-size: 32px;
+    color: #1d70b7;
+    font-family: "Roboto-Black";
+    margin: 45px 0 3px 0;
+}
+
+#main-page-wrapper .modal-footer { padding-bottom: 50px; }
+
+#main-page-wrapper .modal-footer button {
+    height: 72px;
+    font-size: 56px;
+    font-family: "Roboto-Black";
+    color: #fff;
+    background-color: #35A8E0;
+    border: none;
+    outline: none;
+    padding: 0px 82px;
+    border-radius: 40px;
+}
+
+#main-page-wrapper .won button { margin-top: 60px; }
+#main-page-wrapper .lost button { margin-top: 82px; }
+
+#main-page-wrapper .modal-header-logo {
+    position: relative;
+    top: -40px;
+    text-align: center;
+}
+
+#main-page-wrapper .corner {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    top: 20px;
+    background-color: #fff;
+}
+
+#main-page-wrapper .corner:nth-of-type(1) {
+    border-radius: 15px 0 0 0;
+    left: 0;
+}
+
+#main-page-wrapper .corner:nth-of-type(2) {
+    border-radius: 0 15px 0 0;
+    right: 0;
+}
+
+#main-page-wrapper .corner:nth-of-type(1) img { right: -20px; }
+#main-page-wrapper .corner:nth-of-type(2) img { left: -20px; }
+
+#main-page-wrapper .corner img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#main-page-wrapper .modal-logo {
+    width: 152px;
+    margin: 0 12px;
+}
+
+#main-page-wrapper .corner:nth-of-type(2) img {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+/***************** MODAL - BET WON END *****************/
+
+
+@media (max-width: 700px){
+    .content-left, .content-right {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media (max-width: 446px){
+    #main-page-wrapper .modal-dialog {
+        width: 100%;
+    }
+    #main-page-wrapper .modal-logo {
+        width: 140px;
+        margin-top: 2px;
+    }
+    #main-page-wrapper .corner {
+        width: 122px;
+    }
+}
