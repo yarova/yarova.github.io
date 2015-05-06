@@ -1,0 +1,91 @@
+
+#quote-first { background: url("../images/quote_1.jpg") center center; }
+#quote-second { background: url("../images/quote_2.jpg") center 32%; }
+
+#quote-first, #quote-second {
+    background-size: cover;
+    height: 550px;
+    padding-top: 153px;
+}
+
+.pen {
+    position: relative;
+    text-align: center;
+    width: 670px;
+    max-width: 90%;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.pen:before, .pen:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 40%;
+    background-color: #fff;
+    top: 27px;
+}
+
+.pen:before { left: 0; }
+.pen:after { right: 0; }
+
+.icon-pen:before {
+    position: absolute;
+    top: 5px;
+    left: 48%;
+    font-size: 34px;
+    color: #fff;
+}
+
+.quote {
+    width: 670px;
+    max-width: 90%;
+    background: rgba(255, 255, 255, 0.22);
+    margin: 0 auto;
+}
+
+.quote > p {
+    font: normal 24px "Raleway";
+    line-height: 1.7;
+    padding: 35px;
+}
+
+.quote p, .sign p {
+    color: #fff;
+    text-align: center;
+}
+
+.sign {
+    max-width: 90%;
+    overflow: hidden;
+    margin: 15px auto 0 auto;
+}
+
+.sign p {
+    position: relative;
+    font: normal 20px "Raleway";
+    width: 300px;
+    margin: 0 auto;
+}
+
+.sign p:before, .sign p:after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 150px;
+    background-color: #fff;
+    top: 11px;
+}
+
+.sign p:before { left: 85%; }
+.sign p:after { right: 85%; }
+
+@media (max-width: 731px) {
+    #quote-second { padding-top: 132px; }
+}
+@media (max-width: 514px) {
+    #quote-second { padding-top: 113px; }
+}
+@media (max-width: 432px) {
+    #quote-second { padding-top: 94px; }
+}

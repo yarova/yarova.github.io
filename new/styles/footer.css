@@ -1,0 +1,31 @@
+
+footer { background-color: #554F60; }
+
+footer .nav {
+    padding: 15px 0;
+    min-height: 115px;
+}
+
+.copyright-text { padding: 40px 0; }
+
+.copyright-text p {
+    font: normal 12px "Raleway";
+    color: #fff;
+    line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+    .copyright-text {
+        float: none;
+        text-align: center;
+        padding: 0 0 25px 0;
+    }
+
+    footer .nav {
+        float: none;
+        padding: 25px 0;
+    }
+
+    .copyright-text.show { display: none !important; }
+    .copyright-text.hide { display: block !important; }
+}

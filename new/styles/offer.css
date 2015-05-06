@@ -1,0 +1,35 @@
+#offer {
+    background-color: #F7F9F9;
+    color: #585f6c;
+    padding: 60px 0 70px 0;
+}
+
+.small-title {
+    font: normal 35px "Raleway";
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.offer-icons p {
+    font: normal 24px "Raleway";
+    text-align: center;
+}
+
+.offer-icons p:before {
+    display: block;
+    font: normal 100px "icomoon";
+    color: #71798A;
+    padding-bottom: 20px;
+}
+
+.offer-icons p, .offer-icons p:before {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 767px){
+    .offer-icons p { font-size: 20px; }
+    .offer-icons p:before { font-size: 80px; }
+}
