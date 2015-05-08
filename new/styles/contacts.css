@@ -3,3 +3,8 @@
     background-size: cover;
     height: 450px;
 }
+
+.media-icons li:before {
+    font-size: 188px;
+    color: #000;
+}

@@ -4,8 +4,7 @@
     padding: 60px 0 70px 0;
 }
 
-.small-title {
-    font: normal 35px "Raleway";
+#offer .small-title {
     text-align: center;
     padding-bottom: 40px;
 }

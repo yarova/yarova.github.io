@@ -59,16 +59,85 @@
 }
 
 
-
-
 .my-experience {
     background: url("../images/experience-bg.jpg") center 80%;
     background-size: cover;
-    height: 520px;
+    min-height: 520px;
 }
+
+.my-experience .container { padding: 65px 0 159px 0; }
 
 .opacity-bg {
     width: 100%;
     height: 100%;
     background-color: rgba(88, 95, 108, 0.15);
 }
+
+.my-experience .small-title { padding-bottom: 100px; }
+
+.round {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.round p { position: absolute; }
+
+.percent {
+    top: 52px;
+    left: 45px;
+    font: normal 39px "Montserrat Light";
+    color: #000;
+}
+
+.skill {
+    bottom: -40px;
+    color: #fff;
+    font: normal 25px "Montserrat Light";
+}
+
+.circle-html .skill { left: 50px; }
+.circle-css .skill { left: 63px; }
+.circle-javascript .skill { left: 28px; }
+
+@media (max-width: 767px) {
+    .my-experience .container { padding-bottom: 65px; }
+
+    .my-experience .small-title {
+        text-align: center;
+        padding-bottom: 65px;
+    }
+    .round {
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    .percent { left: 36px; }
+
+    .circle-html .skill { left: 40px; }
+    .circle-css .skill { left: 53px; }
+    .circle-javascript .skill { left: 18px; }
+
+    .skill { bottom: -30px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

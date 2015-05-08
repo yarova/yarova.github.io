@@ -27,7 +27,7 @@ $(function(){
 
     window.sr = new scrollReveal();
 
-    // parallax start
+// parallax start
     $(".parallax-layer1").parallax(
         {
             xparallax: '30px',
@@ -48,8 +48,9 @@ $(function(){
             mouseport: jQuery(".cloud-img")
         }
     );
-    // parallax end
+// parallax end
 
+// isotope start
     var $container = $('.projects');
     // init
     $container.isotope({
@@ -57,6 +58,68 @@ $(function(){
         itemSelector: '.item',
         layoutMode: 'fitRows'
     });
+// isotope end
+
+
+// circles-experience start
+    $('.circle-html').circleProgress({
+        value: 0.90,
+        size: 150,
+        startAngle: 11,
+        thickness: 15,
+        fill: { color: "#554F60" },
+        emptyFill: "rgba(255, 255, 255, .5)",
+        animation: { duration: 3800 }
+    });
+
+    $('.circle-css').circleProgress({
+        value: 0.82,
+        size: 150,
+        startAngle: 11,
+        thickness: 15,
+        fill: { color: "#554F60" },
+        emptyFill: "rgba(255, 255, 255, .5)",
+        animation: { duration: 3500 }
+    });
+
+    $('.circle-javascript').circleProgress({
+        value: 0.35,
+        size: 150,
+        startAngle: 11,
+        thickness: 15,
+        fill: { color: "#554F60" },
+        emptyFill: "rgba(255, 255, 255, .5)",
+        animation: { duration: 1500 }
+    });
+// circles-experience end
+
+
+    var percent_html_animation = $.animateNumber.numberStepFactories.append('%')
+    $('.circle-html .percent').animateNumber({
+            number: 90,
+            easing: 'easeInQuad',
+            numberStep: percent_html_animation
+        }, 3800
+    );
+
+    var percent_css_animation = $.animateNumber.numberStepFactories.append('%')
+    $('.circle-css .percent').animateNumber({
+            number: 82,
+            easing: 'easeInQuad',
+            numberStep: percent_css_animation
+        }, 3500
+    );
+
+    var percent_javascript_animation = $.animateNumber.numberStepFactories.append('%')
+    $('.circle-javascript .percent').animateNumber({
+            number: 35,
+            easing: 'easeInQuad',
+            numberStep: percent_javascript_animation
+        }, 1500
+    );
+
+
+
 
 
 });

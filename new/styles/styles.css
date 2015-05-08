@@ -4,6 +4,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 .fl { float: left; }
 .fr { float: right; }
 .rel { position: relative; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
 .text-right { text-align: right; }
 .mr20 { margin-right: 20px; }
 .mr100 { margin-right: 100px; }
@@ -44,3 +46,5 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 #contacts .title p:before { left: 7px; }
 #contacts .title p:after { right: 17px; }
+
+.small-title { font: normal 35px "Raleway"; }
