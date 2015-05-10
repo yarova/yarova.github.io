@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?gv8y29');
-	src:url('fonts/icomoon.eot?#iefixgv8y29') format('embedded-opentype'),
-		url('fonts/icomoon.woff?gv8y29') format('woff'),
-		url('fonts/icomoon.ttf?gv8y29') format('truetype'),
-		url('fonts/icomoon.svg?gv8y29#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?9xesuz');
+	src:url('fonts/icomoon.eot?#iefix9xesuz') format('embedded-opentype'),
+		url('fonts/icomoon.woff?9xesuz') format('woff'),
+		url('fonts/icomoon.ttf?9xesuz') format('truetype'),
+		url('fonts/icomoon.svg?9xesuz#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,12 +23,32 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-linkedin:before {
+.icon-email:before {
+	content: "\e609";
+}
+
+.icon-facebook:before {
 	content: "\e60a";
 }
 
+.icon-linkedin:before {
+	content: "\e60b";
+}
+
+.icon-phone:before {
+	content: "\e60c";
+}
+
+.icon-resume:before {
+	content: "\e60d";
+}
+
+.icon-skype:before {
+	content: "\e60e";
+}
+
 .icon-responsive2:before {
-	content: "\e609";
+	content: "\e60f";
 }
 
 .icon-brain:before {
@@ -59,7 +79,7 @@
 	content: "\e607";
 }
 
-.icon-science2:before {
+.icon-science:before {
 	content: "\e608";
 }
 

@@ -5,7 +5,7 @@ $(function(){
         $('header').toggleClass('dark-header', $('a', e.target).attr('href') !== '#landing-page')
     });
 
-    $('.animated-menu li').on('click', function(){
+    $('header .animated-menu li').on('click', function(){
         $('.active').removeClass('active');
         $(this).addClass('active');
     });

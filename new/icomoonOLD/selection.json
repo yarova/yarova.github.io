@@ -3,6 +3,29 @@
 	"icons": [
 		{
 			"icon": {
+				"paths": [],
+				"attrs": [],
+				"isMulticolor": false,
+				"width": 1022,
+				"grid": 0,
+				"tags": [
+					"linkedin"
+				]
+			},
+			"attrs": [],
+			"properties": {
+				"order": 15,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58890,
+				"name": "linkedin"
+			},
+			"setIdx": 0,
+			"setId": 7,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
 				"paths": [
 					"M962.56 61.44h-901.12c-33.925 0-61.44 27.515-61.44 61.44v778.24c0 33.925 27.515 61.44 61.44 61.44h901.12c33.935 0 61.44-27.525 61.44-61.44v-778.24c0-33.935-27.505-61.44-61.44-61.44zM808.96 102.4c22.579 0 40.96 18.371 40.96 40.96s-18.381 40.96-40.96 40.96-40.96-18.371-40.96-40.96 18.381-40.96 40.96-40.96zM696.32 102.4c22.579 0 40.96 18.371 40.96 40.96s-18.381 40.96-40.96 40.96-40.96-18.371-40.96-40.96 18.381-40.96 40.96-40.96zM962.56 901.12h-901.12v-675.84h901.12v675.84zM921.6 184.32c-22.579 0-40.96-18.371-40.96-40.96s18.381-40.96 40.96-40.96 40.96 18.371 40.96 40.96-18.381 40.96-40.96 40.96z",
 					"M460.134 670.853h-227.062l-67.277 3.359v46.316h443.351v-49.684h-149.012zM532.879 701.348h-140.063v-9.277h140.063v9.277z",
@@ -34,7 +57,7 @@
 				"code": 58889,
 				"name": "responsive2"
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 6,
 			"iconIdx": 0
 		},
@@ -62,7 +85,7 @@
 				"code": 58881,
 				"name": "brain"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 0
 		},
@@ -99,7 +122,7 @@
 				"code": 58882,
 				"name": "code"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 1
 		},
@@ -136,7 +159,7 @@
 				"code": 58883,
 				"name": "code2"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 2
 		},
@@ -197,7 +220,7 @@
 				"code": 58884,
 				"name": "idea"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 3
 		},
@@ -234,7 +257,7 @@
 				"code": 58885,
 				"name": "quality"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 4
 		},
@@ -262,7 +285,7 @@
 				"code": 58886,
 				"name": "pen"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 5
 		},
@@ -299,7 +322,7 @@
 				"code": 58887,
 				"name": "responsive"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 6
 		},
@@ -327,7 +350,7 @@
 				"code": 58888,
 				"name": "science2"
 			},
-			"setIdx": 1,
+			"setIdx": 2,
 			"setId": 5,
 			"iconIdx": 7
 		},
@@ -359,7 +382,7 @@
 				"code": 58880,
 				"name": "atom"
 			},
-			"setIdx": 2,
+			"setIdx": 3,
 			"setId": 4,
 			"iconIdx": 0
 		}
@@ -392,7 +415,8 @@
 			"columns": 16,
 			"margin": 16,
 			"png": false,
-			"sprites": true
+			"sprites": true,
+			"prefix": "icon-"
 		},
 		"historySize": 100,
 		"showCodes": true,

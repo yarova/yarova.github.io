@@ -4,7 +4,36 @@
     height: 450px;
 }
 
-.media-icons li:before {
-    font-size: 188px;
-    color: #000;
+.media-icons ul {
+    padding-top: 130px;
+    text-align: center;
 }
+
+.media-icons li {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    /*outline: 1px solid black;*/
+}
+.media-icons li:last-of-type { margin-right: 0; }
+
+.media-icons li:before {
+    font-size: 110px;
+    color: #585F6C;
+}
+
+.media-icons li a {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    font: normal 12px "Raleway";
+    color: #585F6C;
+    line-height: 20;
+}
+
+.media-icons .icon-phone a { left: 15px; }
+.media-icons .icon-email a { left: -20px; }
+.media-icons .icon-skype a { left: 13px; }
+.media-icons .icon-linkedin a { left: 35px; }
+.media-icons .icon-facebook a { left: 30px; }
+.media-icons .icon-resume a { left: 35px; }

@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>yarova.github.io</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="styles/bootstrap.css" type="text/css" rel="stylesheet"/>
     <link href="styles/styles.css" type="text/css" rel="stylesheet"/>
     <link href="styles/animations.css" type="text/css" rel="stylesheet"/>
@@ -18,7 +19,7 @@
     <link href="styles/contacts.css" type="text/css" rel="stylesheet"/>
     <link href="styles/footer.css" type="text/css" rel="stylesheet"/>
 </head>
-<body data-spy="scroll">
+<body data-spy="scroll" data-target="header">
 
 <header>
     <nav class="nav container">
@@ -414,12 +415,29 @@
     <div class="media-icons">
         <div class="container">
             <ul>
-                <li class="icon-phone"><a></a></li>
-                <li class="icon-email"><a></a></li>
-                <li class="icon-skype"><a></a></li>
-                <li class="icon-linkedin"><a></a></li>
-                <li class="icon-facebook"><a></a></li>
-                <li class="icon-resume"><a></a></li>
+                <li class="icon-phone" data-sr="enter bottom, ease-in hustle 20px">
+                    <a href="tel://+48570937554">+48570937554</a>
+                </li>
+
+                <li class="icon-email" data-sr="enter bottom, wait 0.2s, ease-in hustle 20px">
+                    <a href="mailto:kateryna.yarova@gmail.com">kateryna.yarova@gmail.com</a>
+                </li>
+
+                <li class="icon-skype" data-sr="enter bottom, wait 0.4s, ease-in hustle 20px">
+                    <a>kateryna.yarova</a>
+                </li>
+
+                <li class="icon-linkedin" data-sr="enter bottom, wait 0.6s, ease-in hustle 20px">
+                    <a href="http://www.linkedin.com/in/yarova">linkedin</a>
+                </li>
+
+                <li class="icon-facebook" data-sr="enter bottom, wait 0.8s, ease-in hustle 20px">
+                    <a href="https://www.facebook.com/kittymmeeoow">facebook</a>
+                </li>
+
+                <li class="icon-resume" data-sr="enter bottom, wait 1s, ease-in hustle 20px">
+                    <a href="#resume">resume</a>
+                </li>
             </ul>
         </div>
 
