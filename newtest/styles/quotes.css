@@ -1,6 +1,6 @@
 
-#quote-first { background: url("../images/quote_1.jpg") center center; }
-#quote-second { background: url("../images/quote_2.jpg") center 32%; }
+#quote-first { background: url("../images/quote_1.jpg") center center fixed; }
+#quote-second { background: url("../images/quote_2.jpg") center 32% fixed; }
 
 #quote-first, #quote-second {
     background-size: cover;
