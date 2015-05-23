@@ -1,9 +1,7 @@
 /* Animated-menu */
 
 .animated-menu { float: right; }
-.animated-menu a {
-    padding: 6px 15px;
-}
+.animated-menu a { padding: 6px 15px; }
 
 .animated-menu a::before,
 .animated-menu a::after {
@@ -413,3 +411,129 @@
     }
 }
 /* Skills parallax end */
+
+
+/* Contacts pulse animation start */
+@-webkit-keyframes pulse {
+    from {
+        opacity: 0;
+        padding: 0
+    }
+
+    1% {
+        opacity: .6;
+        padding: 0
+    }
+
+    80% {
+        opacity: .6;
+        padding: 5.6rem
+    }
+
+    100% {
+        opacity: 0;
+        padding: 7rem
+    }
+}
+
+@-moz-keyframes pulse {
+    from {
+        opacity: 0;
+        padding: 0
+    }
+
+    1% {
+        opacity: .6;
+        padding: 0
+    }
+
+    80% {
+        opacity: .6;
+        padding: 5.6rem
+    }
+
+    100% {
+        opacity: 0;
+        padding: 7rem
+    }
+}
+
+@-ms-keyframes pulse {
+    from {
+        opacity: 0;
+        padding: 0
+    }
+
+    1% {
+        opacity: .6;
+        padding: 0
+    }
+
+    80% {
+        opacity: .6;
+        padding: 5.6rem
+    }
+
+    100% {
+        opacity: 0;
+        padding: 7rem
+    }
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0;
+        padding: 0
+    }
+
+    1% {
+        opacity: .6;
+        padding: 0
+    }
+
+    80% {
+        opacity: .6;
+        padding: 5.6rem
+    }
+
+    100% {
+        opacity: 0;
+        padding: 7rem
+    }
+}
+/* Contacts pulse animation end */
+
+/* Logo atom animation start */
+@-webkit-keyframes logo-atom-animation {
+    0%, 100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+    10% {
+        -webkit-transform: translate(12px, -1px);
+    }
+    20% {
+        -webkit-transform: translate(25px, 4px);
+    }
+    30% {
+        -webkit-transform: translate(37px, 13px);
+    }
+    40% {
+        -webkit-transform: translate(45px, 24px);
+    }
+    50% {
+        -webkit-transform: translate(37px, 33px);
+    }
+    60% {
+        -webkit-transform: translate(23px, 29px);
+    }
+    70% {
+        -webkit-transform: translate(11px, 23px);
+    }
+    80% {
+        -webkit-transform: translate(1px, 13px);
+    }
+    90% {
+        -webkit-transform: translate(1px, 13px);
+    }
+}
+/* Logo atom animation end */

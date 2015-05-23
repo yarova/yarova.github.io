@@ -51,14 +51,26 @@ $(function(){
 // parallax end
 
 // isotope start
-    var $container = $('.projects');
+    //var $container = $('.projects');
     // init
-    $container.isotope({
+    /*$container.isotope({
         // options
         itemSelector: '.item',
         layoutMode: 'fitRows'
-    });
+    });*/
 // isotope end
+
+    //masonry start
+
+    var container = document.querySelector('.projects');
+    var msnry = new Masonry( container, {
+        // options...
+        itemSelector: '.item',
+        columnWidth: ".item",// 200
+        percentPosition: true
+    });
+
+    //masonry end
 
 
 // circles-experience start

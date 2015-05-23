@@ -3,7 +3,6 @@
 
 .gallery-inner {
     float: left;
-    width: 33.333%;
     overflow: hidden;
     /*height: auto;*/
     /*background: #585F6C;*/
@@ -12,6 +11,12 @@
     /*top: 0;*/
     /*margin: 0;*/
 }
+
+
+@media screen and (min-width: 720px) { .gallery-inner { width: 33.333%; }}
+@media (min-width: 720px) and (max-width: 992px) { .gallery-inner { width: 50%; }}
+@media screen and (max-width: 720px) { .gallery-inner { width: 100%; }}
+
 
 .gallery-image {
     /* min-width: 100%; */

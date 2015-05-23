@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="styles/bootstrap.css" type="text/css" rel="stylesheet"/>
     <link href="styles/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="styles/font.css" type="text/css" rel="stylesheet"/>
     <link href="styles/animations.css" type="text/css" rel="stylesheet"/>
     <link href="icomoon/style.css" type="text/css" rel="stylesheet"/>
     <link href="styles/landing-page.css" type="text/css" rel="stylesheet"/>
@@ -24,7 +25,18 @@
 <header>
     <nav class="nav container">
 
-        <a class="logo icon-atom" href="http://yarova.github.io"></a>
+        <a class="logo icon-atom" href="http://yarova.github.io">
+            <span class="core one" style="-webkit-transform: translate(0px, 0px);"></span>
+            <!--<span class="core one" style="-webkit-transform: translate(21px, 2px);"></span>
+            <span class="core one" style="-webkit-transform: translate(39px, 15px);"></span>
+            <span class="core one" style="-webkit-transform: translate(42px, 20px);"></span>
+            <span class="core one" style="-webkit-transform: translate(44px, 27px);"></span>
+            <span class="core one"></span>
+            <span class="core one"></span>
+            <span class="core one"></span>
+            <span class="core one"></span>-->
+            <!--<span class="core two"></span>-->
+        </a>
 
         <button class="navbar hidden-md hidden-lg" data-toggle="collapse" data-target="header .animated-menu">
             <span class="sr-only"></span>
@@ -147,7 +159,7 @@
         <p data-sr="enter bottom, ease-in hustle 20px">Portfolio</p>
     </div>
 
-    <ul class="projects">
+    <ul class="projects js-masonry">
         <li class="item gallery-inner">
             <div class="caption">
                 <div class="caption-wrapper">
@@ -413,32 +425,36 @@
     </div>
 
     <div class="media-icons">
-
-        <!--<div class="opacity-bg2"></div>-->
-
+        <div class="opacity-bg2"></div>
         <div class="container">
             <ul>
                 <li class="icon-phone" data-sr="enter bottom, ease-in hustle 20px">
+                    <div class="contact-animation"></div>
                     <a href="tel://+48570937554">+48570937554</a>
                 </li>
 
                 <li class="icon-email" data-sr="enter bottom, wait 0.2s, ease-in hustle 20px">
+                    <div class="contact-animation"></div>
                     <a href="mailto:kateryna.yarova@gmail.com">kateryna.yarova@gmail.com</a>
                 </li>
 
                 <li class="icon-skype" data-sr="enter bottom, wait 0.4s, ease-in hustle 20px">
+                    <div class="contact-animation"></div>
                     <a>kateryna.yarova</a>
                 </li>
 
                 <li class="icon-linkedin" data-sr="enter bottom, wait 0.6s, ease-in hustle 20px">
+                    <div class="contact-animation"></div>
                     <a href="http://www.linkedin.com/in/yarova">linkedin</a>
                 </li>
 
                 <li class="icon-facebook" data-sr="enter bottom, wait 0.8s, ease-in hustle 20px">
+                    <div class="contact-animation"></div>
                     <a href="https://www.facebook.com/kittymmeeoow">facebook</a>
                 </li>
 
                 <li class="icon-resume" data-sr="enter bottom, wait 1s, ease-in hustle 20px">
+                    <div class="contact-animation"></div>
                     <a href="#resume">resume</a>
                 </li>
             </ul>
@@ -485,6 +501,7 @@
 <script type="text/javascript" src="scripts/isotope.pkgd.js"></script>
 <script type="text/javascript" src="scripts/circle-progress.js"></script>
 <script type="text/javascript" src="scripts/jquery.animateNumber.js"></script>
+<script type="text/javascript" src="scripts/masonry.pkgd.js"></script>
 
 </body>
 </html>

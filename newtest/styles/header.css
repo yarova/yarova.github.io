@@ -11,9 +11,10 @@ header {
 }
 
 .logo {
-    float: left;
-    font-size: 76px;
+    position: relative;
     display: inline-block;
+    float: left;
+    font-size: 5.4em;/*76px;*/
     padding-top: 4px;
     color: #fff;
     -webkit-transition: all 0.2s ease-in;
@@ -22,6 +23,35 @@ header {
     -ms-transition: all 0.2s ease-in;
 }
 .logo:hover, .logo:focus { color: #fff; }
+
+.core {
+    position: absolute;
+    width: 0.09em;
+    height: 0.09em;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+
+    -webkit-animation: logo-atom-animation 20s infinite linear;
+    -moz-animation: logo-atom-animation 5s infinite linear;
+    -ms-animation: logo-atom-animation 5s infinite linear;
+    animation: logo-atom-animation 5s infinite linear;
+}
+
+.core.one {
+    top: 23px;
+    left: 2px;
+}
+
+.core.two {
+    top: 23px;
+    left: 44px;
+}
+
+
 
 .nav li {
     float: left;
@@ -86,8 +116,23 @@ header {
     header { background-color: rgba(0, 0, 0, 0.5); }
 
     .logo {
-        font-size: 50px;
+        font-size: 3.6em;/*50px;*/
         padding: 15px;
+    }
+
+    .core {
+        width: 0.07em;
+        height: 0.07em;
+    }
+
+    .core.one {
+        top: 28px;
+        left: 18px;
+    }
+
+    .core.two {
+        top: 28px;
+        left: 44px;
     }
 
     .nav li {
