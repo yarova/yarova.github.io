@@ -1,0 +1,106 @@
+/* header start*/
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 1px 5px 0 rgba(78, 77, 77, 1);
+}
+
+.main-menu { float: right; }
+.main-menu a { padding: 6px 15px; }
+
+.main-menu .active a { color: #00A99D; }
+
+.logo {
+    position: relative;
+    display: inline-block;
+    float: left;
+    font-size: 76px;
+    padding-top: 4px;
+    color: #8c989e;
+}
+.logo:hover, .logo:focus { color: #fff; }
+
+
+.nav { min-height: 84px; }
+
+.nav li {
+    float: left;
+    padding: 32px 0;
+    margin-right: 20px;
+}
+.nav li:last-of-type { margin-right: 0; }
+.nav li:first-of-type { display: none; }
+
+.nav li a {
+    position: relative;
+    color: #8c989e;
+    text-transform: uppercase;
+    font: 16px 'Gotham-Rounded-Medium';
+}
+
+/* toggle navbar menu start */
+.navbar {
+    position: relative;
+    float: right;
+    padding: 10px;
+    margin: 17px 15px 17px 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.navbar .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #00A99D;
+    border-radius: 1px;
+}
+
+.navbar .icon-bar + .icon-bar { margin-top: 4px; }
+
+.my-button, .main-menu {
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+}
+.button-animate { margin-left: 5px; }
+
+@media (min-width: 992px){ .main-menu.collapse { display: block; }}
+
+@media (max-width: 992px){
+    .logo {
+        font-size: 50px;
+        padding: 15px;
+    }
+
+    .nav li {
+        float: none;
+        width: 150px;
+        padding: 14px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav li:last-of-type { margin: 0 auto; }
+
+    .main-menu { float: none; }
+    .main-menu a { padding: 6px; }
+
+    header .main-menu { margin: 24px 0 10px 0; }
+}
+/* toggle navbar menu end */
+/* header end */

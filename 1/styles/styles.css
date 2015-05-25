@@ -1,0 +1,38 @@
+
+body, ul { margin: 0; padding: 0; }
+
+@media (min-width: 1200px){
+    .container { width: 1000px; }
+}
+
+body *::selection { background: #5EB6C4; }
+body *::-moz-selection { background: #5EB6C4; }
+
+a, a:hover, a:active, a:focus { text-decoration: none; }
+ul { list-style: none; }
+
+
+#customer-service {
+    min-height: 650px;
+    background: url("../images/hexagon-bg.png");
+}
+
+#for-whom {
+    min-height: 650px;
+    background-color: #1DBAB4;
+}
+
+#how-works {
+    min-height: 1200px;
+    background-color: #F1F1F1;
+}
+
+#prices {
+    min-height: 830px;
+    background-color: #DAE7E5;
+}
+
+#try-free {
+    min-height: 700px;
+    background-color: #6EBEC5;
+}
