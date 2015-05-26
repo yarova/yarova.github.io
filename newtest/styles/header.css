@@ -14,15 +14,38 @@ header {
     position: relative;
     display: inline-block;
     float: left;
-    font-size: 5.4em;/*76px;*/
-    padding-top: 4px;
     color: #fff;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
+    width: 1em;
+    height: 1em;
+    background-image: url('../images/science_.svg');
+    background-size: contain;
+    font-size: 55px;
+    margin-top: 14px;
 }
-.logo:hover, .logo:focus { color: #fff; }
+
+.orbit {
+    transform-origin: center;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+}
+.orbit-1 { transform: rotate(30deg); }
+.orbit-2 { transform: rotate(150deg); }
+.orbit-3 { transform: rotate(90deg); }
+
+.moveX {
+    background-color: red;
+    -webkit-animation: mX 20s ease-in-out 0s infinite;
+    animation: mX 20s ease-in-out 0s infinite;
+}
+
+.moveY {
+    width: 0.5em;
+    background: blue;
+    /*height: 1px;*/
+    -webkit-animation: mO 20s linear 0s infinite;
+    animation: mO 20s linear 0s infinite;
+}
 
 .core {
     position: absolute;
@@ -30,25 +53,20 @@ header {
     height: 0.09em;
     background-color: #fff;
     border-radius: 50%;
-    -webkit-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
 
-    -webkit-animation: logo-atom-animation 20s infinite linear;
-    -moz-animation: logo-atom-animation 5s infinite linear;
-    -ms-animation: logo-atom-animation 5s infinite linear;
-    animation: logo-atom-animation 5s infinite linear;
+    margin-top: -0.045em;
+    margin-left: -0.045em;
 }
 
-.core.one {
-    top: 23px;
-    left: 2px;
-}
 
-.core.two {
-    top: 23px;
-    left: 44px;
+@-webkit-keyframes mX {
+    0% { -webkit-transform: translateX(0px)    }
+    50% { -webkit-transform: translateX(0.5em); }
+    100% { -webkit-transform: translateX(0px)    }
+}
+@-webkit-keyframes mO {
+    0% { -webkit-transform: rotate(0deg);   }
+    100% { -webkit-transform: rotate(360deg); }
 }
 
 
