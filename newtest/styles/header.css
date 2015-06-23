@@ -5,9 +5,9 @@ header {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.3);
     -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
 }
 
 .logo {
@@ -29,13 +29,32 @@ header {
     top: 50%;
     position: absolute;
 }
-.orbit-1 { transform: rotate(30deg); }
-.orbit-2 { transform: rotate(150deg); }
-.orbit-3 { transform: rotate(90deg); }
+.orbit-1 {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.orbit-2 {
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    transform: rotate(150deg);
+}
+
+.orbit-3 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 .moveX {
     background-color: red;
     -webkit-animation: mX 20s ease-in-out 0s infinite;
+    -moz-animation: mX 20s ease-in-out 0s infinite;
+    -ms-animation: mX 20s ease-in-out 0s infinite;
     animation: mX 20s ease-in-out 0s infinite;
 }
 
@@ -44,6 +63,8 @@ header {
     background: blue;
     /*height: 1px;*/
     -webkit-animation: mO 20s linear 0s infinite;
+    -moz-animation: mO 20s linear 0s infinite;
+    -ms-animation: mO 20s linear 0s infinite;
     animation: mO 20s linear 0s infinite;
 }
 
@@ -53,11 +74,9 @@ header {
     height: 0.09em;
     background-color: #fff;
     border-radius: 50%;
-
     margin-top: -0.045em;
     margin-left: -0.045em;
 }
-
 
 @-webkit-keyframes mX {
     0% { -webkit-transform: translateX(0px)    }
@@ -67,6 +86,36 @@ header {
 @-webkit-keyframes mO {
     0% { -webkit-transform: rotate(0deg);   }
     100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes mX {
+    0% { -moz-transform: translateX(0px)    }
+    50% { -moz-transform: translateX(0.5em); }
+    100% { -moz-transform: translateX(0px)    }
+}
+@-moz-keyframes mO {
+    0% { -moz-transform: rotate(0deg);   }
+    100% { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes mX {
+    0% { -ms-transform: translateX(0px)    }
+    50% { -ms-transform: translateX(0.5em); }
+    100% { -ms-transform: translateX(0px)    }
+}
+@-ms-keyframes mO {
+    0% { -ms-transform: rotate(0deg);   }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+@keyframes mX {
+    0% { transform: translateX(0px)    }
+    50% { transform: translateX(0.5em); }
+    100% { transform: translateX(0px)    }
+}
+@keyframes mO {
+    0% { transform: rotate(0deg);   }
+    100% { transform: rotate(360deg); }
 }
 
 
@@ -141,13 +190,34 @@ header {
 
 .navbar .icon-bar + .icon-bar { margin-top: 4px; }
 
-.my-button, .animated-menu {
+.icon-bar, .animated-menu {
     -webkit-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
 }
-.button-animate { margin-left: 5px; }
+
+header .navbar .button-cross:nth-of-type(2) {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    transform: rotateZ(45deg)
+}
+
+header .navbar .button-cross:nth-of-type(3) { display: none; }
+
+header .navbar .button-cross:nth-of-type(4) {
+    -webkit-transform: rotateZ(-45deg);
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+}
+
+header .navbar .button-cross+.button-cross { margin-top: -2px; }
+
+
+
+
 
 .dark-header { background-color: rgba(0, 0, 0, 0.7); }
 

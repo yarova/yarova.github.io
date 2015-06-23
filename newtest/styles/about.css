@@ -27,7 +27,7 @@
     #about .container > .row { margin-bottom: 80px; }
     .about-img { text-align: center; }
     .about-text {
-        text-align: left;
+        text-align: justify;
         padding-top: 85px;
     }
 

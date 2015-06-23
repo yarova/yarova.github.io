@@ -4,22 +4,19 @@
 .gallery-inner {
     float: left;
     overflow: hidden;
-    /*height: auto;*/
-    /*background: #585F6C;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top: 0;*/
-    /*margin: 0;*/
 }
 
-
+/*
 @media screen and (min-width: 720px) { .gallery-inner { width: 33.333%; }}
 @media (min-width: 720px) and (max-width: 992px) { .gallery-inner { width: 50%; }}
 @media screen and (max-width: 720px) { .gallery-inner { width: 100%; }}
+*/
 
+@media (min-width: 720px) { .gallery-inner { width: 33.333%; }}
+@media (min-width: 720px) and (max-width: 992px) { .gallery-inner { width: 50%; }}
+@media (max-width: 720px) { .gallery-inner { width: 100%; }}
 
 .gallery-image {
-    /* min-width: 100%; */
     width: 100%;
     height: auto;
     z-index: 1;
