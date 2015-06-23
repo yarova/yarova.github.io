@@ -11,6 +11,17 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 .mr100 { margin-right: 100px; }
 .pb50 { padding-bottom: 50px; }
 
+body *::selection { background: #818B9E; color: #fff; }
+body *::-webkit-selection { background: #818B9E; color: #fff; }
+body *::-moz-selection { background: #818B9E; color: #fff; }
+
+header, footer, img, canvas, .counter-skills {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
 .title {
     background-color: #585F6C;
