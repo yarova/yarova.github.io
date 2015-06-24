@@ -64,9 +64,3 @@
     .parallax-layer2 div { background: url(../images/parallax_2-mobile.png) no-repeat 50% 50%; }
     .parallax-layer1 div, .parallax-layer2 div { background-size:  contain; }
 }
-
-@media (max-width: 450px) {
-    .parallax-layer1 div, .parallax-layer2 div { height: 500px; }
-    #skills, .cloud-img { height: 550px; }
-}
-
