@@ -223,7 +223,7 @@ header .navbar .button-cross+.button-cross { margin-top: -2px; }
 
 @media (min-width: 992px){ .animated-menu.collapse { display: block; }}
 
-@media (max-width: 992px){
+@media (max-width: 991px){
     header { background-color: rgba(0, 0, 0, 0.5); }
 
     .logo {

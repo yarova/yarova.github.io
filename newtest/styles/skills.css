@@ -41,12 +41,26 @@
     animation: anim2 15s infinite linear;
 }
 
-.parallax-layer1 div {
-    height: 548px;
-    background: url(../images/parallax_1.png) no-repeat 50% 0;
+.parallax-layer1 div { background: url(../images/parallax_1.png) no-repeat 50% 50%; }
+.parallax-layer2 div { background: url(../images/parallax_2.png) no-repeat 50% 50%; }
+
+.parallax-layer1 div, .parallax-layer2 div {
+    height: 550px;
+    background-size: contain;
 }
 
-.parallax-layer2 div {
-    height: 548px;
-    background: url(../images/parallax_2.png) no-repeat 50% 0;
+@media (min-width: 992px) and (max-width: 1199px) {
+    .parallax-layer1 div, .parallax-layer2 div { height: 450px; }
+    #skills, .cloud-img { height: 500px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .parallax-layer1 div, .parallax-layer2 div { height: 300px; }
+    #skills, .cloud-img { height: 350px; }
+}
+
+@media (max-width: 767px) {
+    .parallax-layer1 div { background: url(../images/parallax_1-mobile.png) no-repeat 50% 50%; }
+    .parallax-layer2 div { background: url(../images/parallax_2-mobile.png) no-repeat 50% 50%; }
+    .parallax-layer1 div, .parallax-layer2 div { background-size:  contain; }
 }

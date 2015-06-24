@@ -15,7 +15,7 @@ body *::selection { background: #818B9E; color: #fff; }
 body *::-webkit-selection { background: #818B9E; color: #fff; }
 body *::-moz-selection { background: #818B9E; color: #fff; }
 
-header, footer, img, canvas, .counter-skills {
+header, footer, img, canvas, .counter-skills, .offer-icons p:before {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;

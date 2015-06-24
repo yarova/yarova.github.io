@@ -14,7 +14,7 @@ footer .nav {
     line-height: 1.5;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .copyright-text {
         float: none;
         text-align: center;

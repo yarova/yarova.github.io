@@ -29,6 +29,15 @@
 }
 
 @media (max-width: 767px){
-    .offer-icons p { font-size: 20px; }
-    .offer-icons p:before { font-size: 80px; }
+    .offer-icons p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .offer-icons li:last-of-type p { padding-bottom: 0; }
+
+    .offer-icons p:before {
+        font-size: 85px;
+        padding-bottom: 10px;
+    }
 }

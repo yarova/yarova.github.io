@@ -23,7 +23,7 @@
 
 .respond a { color: #f9845b; }
 
-@media (max-width: 992px){
+@media (max-width: 991px){
     #about .container > .row { margin-bottom: 80px; }
     .about-img { text-align: center; }
     .about-text {
