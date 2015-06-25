@@ -1,13 +1,14 @@
 /* header start*/
 header {
     width: 100%;
+    min-height: 84px;
     position: fixed;
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.3);
-    -webkit-transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -ms-transition: all 1s ease-out;
-    transition: all 1s ease-out;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -ms-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
 }
 
 .logo {
@@ -24,11 +25,15 @@ header {
 }
 
 .orbit {
-    transform-origin: center;
-    width: 100%;
-    top: 50%;
     position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
 }
+
 .orbit-1 {
     -webkit-transform: rotate(30deg);
     -moz-transform: rotate(30deg);
@@ -61,7 +66,6 @@ header {
 .moveY {
     width: 0.5em;
     background: blue;
-    /*height: 1px;*/
     -webkit-animation: mO 20s linear 0s infinite;
     -moz-animation: mO 20s linear 0s infinite;
     -ms-animation: mO 20s linear 0s infinite;
@@ -117,27 +121,6 @@ header {
     0% { transform: rotate(0deg);   }
     100% { transform: rotate(360deg); }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -215,20 +198,19 @@ header .navbar .button-cross:nth-of-type(4) {
 
 header .navbar .button-cross+.button-cross { margin-top: -2px; }
 
-
-
-
-
 .dark-header { background-color: rgba(0, 0, 0, 0.7); }
 
 @media (min-width: 992px){ .animated-menu.collapse { display: block; }}
 
 @media (max-width: 991px){
-    header { background-color: rgba(0, 0, 0, 0.5); }
+    header {
+        min-height: 76px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 
     .logo {
-        font-size: 3.6em;/*50px;*/
-        padding: 15px;
+        font-size: 3em; /*3.6em;*/
+        margin: 17px 0 0 20px;
     }
 
     .core {
@@ -253,10 +235,13 @@ header .navbar .button-cross+.button-cross { margin-top: -2px; }
         margin: 0 auto;
         text-align: center;
     }
+
+    .navbar {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .nav li:last-of-type { margin: 0 auto; }
-
     .animated-menu { float: none; }
-
     header .animated-menu { margin: 24px 0 10px 0; }
 }
 /* toggle navbar menu end */
