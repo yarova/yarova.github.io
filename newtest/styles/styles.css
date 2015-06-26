@@ -58,3 +58,16 @@ header, footer, img, canvas, .counter-skills, .offer-icons p:before {
 #contacts .title p:after { right: 17px; }
 
 .small-title { font: normal 35px "Raleway"; }
+
+@media (max-width: 400px) {
+    .title { height: 200px; }
+    .title p {
+        width: 100%;
+        font-size: 27px;
+        padding: 84px 0;
+        letter-spacing: 8px;
+    }
+    .title p:before, .title p:after { display: none; }
+
+    .small-title { font-size: 29px; }
+}

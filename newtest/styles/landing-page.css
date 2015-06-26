@@ -94,6 +94,14 @@
 }
 
 @media (max-width: 767px) {
+    #landing-page h1 { font-size: 36px; }
+    #landing-page h2 { font-size: 27px; }
+
+    #landing-page h1, #landing-page h2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     #landing-page .lp-button {
         display: block;
     }
