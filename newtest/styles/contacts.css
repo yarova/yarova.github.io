@@ -100,7 +100,12 @@
 
 @media (max-width: 991px) {
     .opacity-bg2 { background-color: rgba(255, 255, 255, 0.5); }
-    .media-icons ul { padding-top: 45px; }
+
+    .media-icons ul {
+        overflow: hidden;
+        padding-top: 45px;
+    }
+    
     .media-icons li { margin: 0 90px 50px 0; }
     .media-icons li:nth-of-type(3) { margin-right: 0; }
     .media-icons li a { font-weight: 600; }
