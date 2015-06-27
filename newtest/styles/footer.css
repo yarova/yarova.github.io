@@ -23,9 +23,11 @@ footer .nav {
 
     footer .nav {
         float: none;
-        padding: 25px 0;
+        padding: 15px 0;
     }
 
     .copyright-text.show { display: none !important; }
     .copyright-text.hide { display: block !important; }
+
+    footer .animated-menu { float: none; }
 }
