@@ -22,7 +22,7 @@ header {
     background-image: url('../images/science-logo.svg');
     background-size: contain;
     font-size: 55px;
-    margin-top: 14px;
+    margin-top: 15px;
 }
 
 
@@ -69,6 +69,7 @@ header {
 }
 
 .moveX {
+    width: 0.5em;
     /*background-color: red;*/
     -webkit-animation: mX 20s ease-in-out 0s infinite;
     -moz-animation: mX 20s ease-in-out 0s infinite;
@@ -89,7 +90,7 @@ header {
 
 .animated-menu li {
     float: left;
-    padding: 32px 0;
+    padding: 27px 0;
     margin-right: 20px;
 }
 .animated-menu li:last-of-type { margin-right: 0; }
@@ -97,6 +98,7 @@ header {
 
 .animated-menu li a {
     position: relative;
+    display: inline-block;
     color: #fff;
     text-transform: uppercase;
     font: 15px 'Raleway';
@@ -182,7 +184,7 @@ header .navbar .button-cross+.button-cross { margin-top: -2px; }
     .animated-menu li {
         float: none;
         width: 150px;
-        padding: 12px 0;
+        padding: 7px 0;
         margin: 0 auto;
         text-align: center;
     }
@@ -195,8 +197,8 @@ header .navbar .button-cross+.button-cross { margin-top: -2px; }
     .animated-menu li a { font-size: 14px; }
 
     .logo {
-        font-size: 2.6em;
-        margin: 12px 0 0 20px;
+        font-size: 2.5em;
+        margin: 13px 0 0 20px;
     }
 
     .core {
