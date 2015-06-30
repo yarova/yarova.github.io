@@ -1,98 +1,31 @@
 
-#footer {
-    width: 100%;
-    height: 210px;
-    background-color: #7F6F58;
+footer {
+    min-height: 84px;
+    background-color: #554F60;
 }
 
-#footerContent {
-    width: 850px;
-    height: 210px;
-    margin: 0 auto;
-    background-color: #7F6F58;
-}
+.copyright-text { padding: 24px 0; }
 
-#footerContent a { color: #fff; }
-#footerContentBig { height: 135px; }
-
-.footerList {
-    float: left;
-    width: 138px;
-    height: 145px;
-}
-
-.footerList:not(:last-child) { margin-right: 99px; }
-
-.footerList ul {
-    list-style-type: none;
-    font-size: 13px;
-    line-height: 2;
-    padding-left: 0;
-}
-
-.footerList li:first-child {
-    font-weight: bold;
-    font-size: 17px;
-}
-
-#footerContentSmall {
-    height: 55px;
-    padding-top: 20px;
-}
-
-#footerText {
-    float: left;
-    font-weight: normal;
-    font-size: 11px;
+.copyright-text p {
+    font: normal 12px "Raleway";
     color: #fff;
     line-height: 1.5;
-    padding-top: 15px;
 }
 
-#footerText p { margin: 0; }
+@media (max-width: 991px) {
+    .copyright-text {
+        float: none;
+        text-align: center;
+        padding: 0 0 25px 0;
+    }
 
-.footerIcons {
-    float: right;
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
+    footer .nav {
+        float: none;
+        padding: 15px 0;
+    }
+
+    .copyright-text.show { display: none !important; }
+    .copyright-text.hide { display: block !important; }
+
+    footer .animated-menu { float: none; }
 }
-
-.footerIcons li {
-    display: inline-block;
-    width: 44px;
-    height: 44px;
-}
-
-.footerIcons li a {
-    -moz-transition: background-position .25s;
-    -webkit-transition: background-position .25s;
-    -o-transition: background-position .25s;
-    transition: background-position .25s;
-    background-image: url(../images/buttonsFooter.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    white-space: nowrap;
-    text-indent: 110%;
-    overflow: hidden;
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
-}
-
-
-.in a { background-position: -92px 0px; }
-.ml a { background-position: -138px 0px; }
-.gp a { background-position: -47px 0px; }
-.fb a { background-position: 0px 0px; }
-.vk a { background-position: -183px 0px; }
-
-
-.in a:hover { background-position: -92px -47px; }
-.ml a:hover { background-position: -138px -47px; }
-.gp a:hover { background-position: -47px -47px; }
-.fb a:hover { background-position: 0px -47px; }
-.vk a:hover { background-position: -183px -47px; }
-
-
-

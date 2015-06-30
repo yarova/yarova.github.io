@@ -1,50 +1,92 @@
-body {
-    margin: 0;
-    background-color: #fff;
-    font-family: Century Gothic;
+* { margin: 0; padding: 0; list-style: none; }
+a:hover, a:focus { text-decoration: none; outline: none; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+.fl { float: left; }
+.fr { float: right; }
+.rel { position: relative; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.mr20 { margin-right: 20px; }
+.mr100 { margin-right: 100px; }
+.pb50 { padding-bottom: 50px; }
+
+body *::selection { background: #818B9E; color: #fff; }
+body *::-webkit-selection { background: #818B9E; color: #fff; }
+body *::-moz-selection { background: #818B9E; color: #fff; }
+
+header, footer, img, canvas, .counter-skills, .offer-icons p:before {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-body a { text-decoration: none; }
-body *::selection { background: #FAEA57; }
-body *::-moz-selection { background: #FAEA57; }
-input { color: #7F6F58; }
-
-@font-face {
-    font-family: "Century Gothic";
-    src: url(../fonts/Century_Gothic.ttf);
+.title {
+    background-color: #585F6C;
+    height: 220px;
 }
 
-/******Стрелка вверх*******/
-.scrollUp {
-    width: 40px;
-    height: 40px;
-    opacity: 0.3;
+.title p {
+    position: relative;
+    width: 385px;
+    margin: 0 auto;
+    text-align: center;
+    font: normal 32px "Montserrat Hairline";
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #fff;
+    padding: 90px 0;
+}
+
+.title p:before, .title p:after {
+    position: absolute;
+    bottom: 75px;
+    content: '';
+    width: 1px;
+    height: 70px;
+    background-color: #E3E4E6;
+}
+
+#portfolio .title p:before { left: 0; }
+#portfolio .title p:after { right: 6px; }
+
+#experiments .title p:before { left: -33px; }
+#experiments .title p:after { right: -25px; }
+
+#contacts .title p:before { left: 7px; }
+#contacts .title p:after { right: 17px; }
+
+.small-title { font: normal 35px "Raleway"; }
+
+/* OLD browsers start */
+.old body { overflow: hidden; }
+.refresh-browser { display: none; }
+.old .refresh-browser {
+    display: block;
     position: fixed;
-    bottom: 50px;
-    right: 100px;
-    display: none;
-    text-indent: -9999px;
-    background: url("../images/icon_top.png") no-repeat;
-}/******Стрелка вверх конец*******/
-
-
-/******Статые браузеры начало*******/
-#old-browser-message {
-    display: none;
-}
-html.oldie #old-browser-message {
-    position: fixed;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background: gray;
-    color: white;
-    font-size: 50px;
-    display: block;
+    background-color: #585F6C;
+    color: #fff;
+    z-index: 1000;
+    font-size: 4em;
+    text-align: center;
 }
-
-html.oldie #content { display: none; }
-/******Старые браузеры конец*******/
+/* OLD browsers end */
 
 
+@media (max-width: 400px) {
+    .title { height: 200px; }
+    .title p {
+        width: 100%;
+        font-size: 27px;
+        padding: 84px 0;
+        letter-spacing: 8px;
+    }
+    .title p:before, .title p:after { display: none; }
+
+    .small-title { font-size: 29px; }
+}
