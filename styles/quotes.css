@@ -11,11 +11,16 @@
     top: -230px;
     width: 100%;
     height: 700px;
-    background-size: cover;
 }
 
-#quote-first .quote-bg  { background: url("../images/quote_1.jpg") bottom center; }
-#quote-second .quote-bg { background: url("../images/quote_2.jpg") center 35%; }
+#quote-first .quote-bg  {
+    background: url("../images/quote_1.jpg") bottom center;
+    background-size: cover;
+}
+#quote-second .quote-bg {
+    background: url("../images/quote_2.jpg") center 35%;
+    background-size: cover;
+}
 
 .quote {
     position: absolute;
