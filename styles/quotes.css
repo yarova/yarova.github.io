@@ -1,11 +1,26 @@
 
-#quote-first { background: url("../images/quote_1.jpg") center center fixed; }
-#quote-second { background: url("../images/quote_2.jpg") center 32% fixed; }
-
-#quote-first, #quote-second {
-    background-size: cover;
+.quote-wrapper {
+    position: relative;
+    width: 100%;
     height: 550px;
-    padding-top: 153px;
+    overflow: hidden;
+}
+
+.quote-bg {
+    position: absolute;
+    top: -230px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+#quote-first .quote-bg  { background: url("../images/quote_1.jpg") bottom center; }
+#quote-second .quote-bg { background: url("../images/quote_2.jpg") center 35%; }
+
+.quote {
+    position: absolute;
+    width: 100%;
+    margin-top: 153px;
 }
 
 .pen {
@@ -37,20 +52,20 @@
     color: #fff;
 }
 
-.quote {
+.quote-text {
     width: 670px;
     max-width: 90%;
     background: rgba(255, 255, 255, 0.22);
     margin: 0 auto;
 }
 
-.quote > p {
+.quote-text > p {
     font: normal 24px "Raleway";
     line-height: 1.7;
     padding: 35px;
 }
 
-.quote p, .sign p {
+.quote-text p, .sign p {
     color: #fff;
     text-align: center;
 }
@@ -81,11 +96,11 @@
 .sign p:after { right: 85%; }
 
 @media (max-width: 731px) {
-    #quote-second { padding-top: 132px; }
+    #quote-second .quote { margin-top: 132px; }
 }
 @media (max-width: 514px) {
-    #quote-second { padding-top: 113px; }
+    #quote-second .quote { margin-top: 113px; }
 }
 @media (max-width: 432px) {
-    #quote-second { padding-top: 94px; }
+    #quote-second .quote { margin-top: 94px; }
 }
