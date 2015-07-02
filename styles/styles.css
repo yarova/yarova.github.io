@@ -61,8 +61,8 @@ header, footer, img, canvas, .counter-skills, .offer-icons p:before {
 
 /* OLD browsers start */
 .old body { overflow: hidden; }
-.refresh-browser { display: none; }
-.old .refresh-browser {
+.upgrade-browser { display: none; }
+.old .upgrade-browser {
     display: block;
     position: fixed;
     left: 0;
