@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe6ef19a-6037-49d2-8f1c-4f221b39e17d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/quotes.css" afterPath="$PROJECT_DIR$/styles/quotes.css" />
     </list>
     <ignored path="yarova.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50827426">
-              <caret line="504" column="6" selection-start-line="504" selection-start-column="6" selection-end-line="504" selection-end-column="6" />
+            <state vertical-scroll-proportion="1.4066194">
+              <caret line="587" column="70" selection-start-line="587" selection-start-column="70" selection-end-line="587" selection-end-column="70" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
@@ -291,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50827426">
-          <caret line="504" column="6" selection-start-line="504" selection-start-column="6" selection-end-line="504" selection-end-column="6" />
+        <state vertical-scroll-proportion="1.4066194">
+          <caret line="587" column="70" selection-start-line="587" selection-start-column="70" selection-end-line="587" selection-end-column="70" />
           <folding>
             <element signature="n#header#0;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
