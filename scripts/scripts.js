@@ -1,5 +1,10 @@
 $(function(){
 
+    $(window).on('resize', function(){
+        $('#landing-page svg').css('height', Math.floor(window.outerWidth * 0.1));
+    });
+
+    $('#landing-page svg').css('height', Math.floor(window.outerWidth * 0.1));
 
 
     /*if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);

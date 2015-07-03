@@ -1,6 +1,7 @@
 
 /* landing-page start */
 #landing-page {
+    position: relative;
     height: 904px;
     background: url("../images/pc-bg.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -94,7 +95,7 @@
 /* landing page button end */
 
 /* Ramp separator start */
-.ramp-separator {
+/*.ramp-separator {
     position: relative;
     height: 220px;
     max-height: 400px;
@@ -107,7 +108,19 @@
     height: 135px;
     width: 100%;
 }
-.ramp-separator svg polygon { fill: #F7F9F9; }
+.ramp-separator svg polygon { fill: #F7F9F9; }*/
+
+#landing-page svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 135px;
+    fill: #F7F9F9;
+}
+
+
+
 /* Ramp separator end */
 
 @media (max-width: 767px) {
