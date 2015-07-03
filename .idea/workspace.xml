@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6ef19a-6037-49d2-8f1c-4f221b39e17d" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\PROJECTS\wamp\www\yarova.github.io\images\quote_1_old.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\PROJECTS\wamp\www\yarova.github.io\images\quote_2_blur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\PROJECTS\wamp\www\yarova.github.io\images\quote_2_old.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/experience-bg.jpg" afterPath="$PROJECT_DIR$/images/experience-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pc-bg.jpg" afterPath="$PROJECT_DIR$/images/pc-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pc-bg2.jpg" afterPath="$PROJECT_DIR$/images/pc-bg2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pc-bg3.jpg" afterPath="$PROJECT_DIR$/images/pc-bg3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/quote_1.jpg" afterPath="$PROJECT_DIR$/images/quote_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/quote_2.jpg" afterPath="$PROJECT_DIR$/images/quote_2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing-page.css" afterPath="$PROJECT_DIR$/styles/landing-page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yarova.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,9 +26,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7786982">
-              <caret line="592" column="0" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7183432">
+              <caret line="589" column="80" selection-start-line="589" selection-start-column="80" selection-end-line="589" selection-end-column="80" />
               <folding>
+                <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#body#0;n#!!top" expanded="false" />
@@ -48,7 +38,18 @@
                 <element signature="n#div#7;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#8;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#div#9;n#body#0;n#!!top" expanded="false" />
-                <element signature="n#div#10;n#body#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmoothScroll.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/SmoothScroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -247,6 +248,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#!!top" expanded="false" />
@@ -255,7 +257,6 @@
             <element signature="n#div#7;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -281,6 +282,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#!!top" expanded="false" />
@@ -289,7 +291,6 @@
             <element signature="n#div#7;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -307,6 +308,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="504" column="6" selection-start-line="504" selection-start-column="6" selection-end-line="504" selection-end-column="6" />
           <folding>
+            <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#!!top" expanded="false" />
@@ -315,7 +317,6 @@
             <element signature="n#div#7;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -333,6 +334,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="190" column="51" selection-start-line="190" selection-start-column="51" selection-end-line="190" selection-end-column="51" />
           <folding>
+            <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#!!top" expanded="false" />
@@ -341,7 +343,6 @@
             <element signature="n#div#7;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -384,24 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039035592">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/SmoothScroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/landing-page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -418,11 +401,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.019517796">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/SmoothScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7786982">
-          <caret line="592" column="0" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7183432">
+          <caret line="589" column="80" selection-start-line="589" selection-start-column="80" selection-end-line="589" selection-end-column="80" />
           <folding>
+            <element signature="n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#body#0;n#!!top" expanded="false" />
@@ -431,7 +433,6 @@
             <element signature="n#div#7;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#8;n#body#0;n#!!top" expanded="false" />
             <element signature="n#div#9;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#body#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
