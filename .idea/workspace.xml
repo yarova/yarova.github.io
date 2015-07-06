@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6ef19a-6037-49d2-8f1c-4f221b39e17d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/about.css" afterPath="$PROJECT_DIR$/styles/about.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/animations.css" afterPath="$PROJECT_DIR$/styles/animations.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/contacts.css" afterPath="$PROJECT_DIR$/styles/contacts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/experience.css" afterPath="$PROJECT_DIR$/styles/experience.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/header.css" afterPath="$PROJECT_DIR$/styles/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/landing-page.css" afterPath="$PROJECT_DIR$/styles/landing-page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/portfolio.css" afterPath="$PROJECT_DIR$/styles/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/quotes.css" afterPath="$PROJECT_DIR$/styles/quotes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/scripts.js" afterPath="$PROJECT_DIR$/scripts/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yarova.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85917157">
-              <caret line="610" column="7" selection-start-line="610" selection-start-column="7" selection-end-line="610" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.8792899">
+              <caret line="611" column="2" selection-start-line="611" selection-start-column="2" selection-end-line="611" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -477,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85917157">
-          <caret line="610" column="7" selection-start-line="610" selection-start-column="7" selection-end-line="610" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.8792899">
+          <caret line="611" column="2" selection-start-line="611" selection-start-column="2" selection-end-line="611" selection-end-column="2" />
           <folding />
         </state>
       </provider>
