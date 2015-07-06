@@ -73,6 +73,7 @@
 .quote-text p, .sign p {
     color: #fff;
     text-align: center;
+    -webkit-font-smoothing: antialiased;
 }
 
 .sign {

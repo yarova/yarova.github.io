@@ -3,8 +3,8 @@
 .animated-menu { float: right; }
 .animated-menu a { padding: 6px 15px; }
 
-.animated-menu a::before,
-.animated-menu a::after {
+.animated-menu a:before,
+.animated-menu a:after {
     position: absolute;
     width: 30px;
     height: 1px;
@@ -44,15 +44,15 @@
     transform-origin: 100% 0;
 }
 
-.animated-menu a:hover::before,
-.animated-menu a:hover::after,
-.animated-menu a:focus::before,
-.animated-menu a:focus::after {
+.animated-menu a:hover:before,
+.animated-menu a:hover:after,
+.animated-menu a:focus:before,
+.animated-menu a:focus:after {
     opacity: 1;
 }
 
-.animated-menu a:hover::before,
-.animated-menu a:focus::before {
+.animated-menu a:hover:before,
+.animated-menu a:focus:before {
     left: 50%;
     -webkit-transform: rotate(0deg) translateX(-50%);
     -moz-transform: rotate(0deg) translateX(-50%);
@@ -60,8 +60,8 @@
     transform: rotate(0deg) translateX(-50%);
 }
 
-.animated-menu a:hover::after,
-.animated-menu a:focus::after {
+.animated-menu a:hover:after,
+.animated-menu a:focus:after {
     right: 50%;
     -webkit-transform: rotate(0deg) translateX(50%);
     -moz-transform: rotate(0deg) translateX(50%);
@@ -415,90 +415,90 @@
 
 /* Contacts pulse animation start */
 @-webkit-keyframes pulse {
-    from {
+    0% {
         opacity: 0;
-        padding: 0
+        padding: 0;
     }
 
     1% {
         opacity: .6;
-        padding: 0
+        padding: 0;
     }
 
     80% {
         opacity: .6;
-        padding: 5.6rem
+        padding: 5.6rem;
     }
 
     100% {
         opacity: 0;
-        padding: 7rem
+        padding: 7rem;
     }
 }
 
 @-moz-keyframes pulse {
-    from {
+    0% {
         opacity: 0;
-        padding: 0
+        padding: 0;
     }
 
     1% {
         opacity: .6;
-        padding: 0
+        padding: 0;
     }
 
     80% {
         opacity: .6;
-        padding: 5.6rem
+        padding: 5.6rem;
     }
 
     100% {
         opacity: 0;
-        padding: 7rem
+        padding: 7rem;
     }
 }
 
 @-ms-keyframes pulse {
-    from {
+    0% {
         opacity: 0;
-        padding: 0
+        padding: 0;
     }
 
     1% {
         opacity: .6;
-        padding: 0
+        padding: 0;
     }
 
     80% {
         opacity: .6;
-        padding: 5.6rem
+        padding: 5.6rem;
     }
 
     100% {
         opacity: 0;
-        padding: 7rem
+        padding: 7rem;
     }
 }
 
 @keyframes pulse {
-    from {
+    0% {
         opacity: 0;
-        padding: 0
+        padding: 0;
     }
 
     1% {
         opacity: .6;
-        padding: 0
+        padding: 0;
     }
 
     80% {
         opacity: .6;
-        padding: 5.6rem
+        padding: 5.6rem;
     }
 
     100% {
         opacity: 0;
-        padding: 7rem
+        padding: 7rem;
     }
 }
 /* Contacts pulse animation end */

@@ -102,6 +102,7 @@ header {
     color: #fff;
     text-transform: uppercase;
     font: 15px 'Raleway';
+    -webkit-font-smoothing: antialiased;
 }
 
 .navbar {

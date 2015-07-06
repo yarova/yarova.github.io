@@ -41,13 +41,13 @@
     </script>
 
 </head>
-<body data-spy="scroll" data-target="header">
+<body data-spy="scroll" data-target="header" itemscope itemtype="http://schema.org/Person">
 <div class="upgrade-browser">Please upgrade your browser</div>
 
 <header>
     <nav class="nav container">
 
-        <a class="logo" href="http://yarova.github.io">
+        <a class="logo" href="http://yarova.github.io" itemprop="url">
             <div class="orbit orbit-1">
                 <div class="moveX">
                     <div class="moveY">
@@ -95,7 +95,7 @@
 <div id="landing-page">
     <div class="container">
         <h1>Website Development</h1>
-        <h2>Creating dynamic, interesting and</br>responsive websites with modern design</h2>
+        <h2 itemprop="description">Creating dynamic, interesting and<br>responsive websites with modern design</h2>
         <div class="wrap-lp-button">
             <a href="#portfolio" class="lp-button mr20" data-text="See portfolio">
                 <span>See portfolio</span>
@@ -116,10 +116,11 @@
 
         <div class="row" data-sr="enter left, ease-in hustle 20px">
             <div class="col-md-3 col-xs-10 col-xs-offset-1 about-img">
-                <img src="images/about_1.svg">
+                <img src="images/about_1.svg" alt="job-description">
             </div>
             <div class="col-md-7 col-md-offset-1 col-xs-10 col-xs-offset-1">
-                <p class="about-text">My name is Kateryna Yarova and I am HTML-coder. I aspire to create dynamic and interesting pages
+                <p class="about-text">My name is <span itemprop="name">Kateryna Yarova</span> and I
+                    am <span itemprop="jobTitle">HTML-coder</span>. I aspire to create dynamic and interesting pages
                     that delight people. I like plain and simple sites, but I am sad when I see a page on the Internet
                     that doesn't attract you to visit this page again.
                 </p>
@@ -128,7 +129,7 @@
 
         <div class="row" data-sr="enter right, ease-in hustle 20px">
             <div class="col-md-3 col-md-offset-1 col-xs-10 col-xs-offset-1 about-img hide">
-                <img src="images/about_2.svg">
+                <img src="images/about_2.svg" alt="scratch">
             </div>
             <div class="col-md-7 col-md-offset-1 col-xs-10 col-xs-offset-1">
                 <p class="about-text text-right">I create a web-site from scratch - from the formation of the site
@@ -138,13 +139,13 @@
                 </p>
             </div>
             <div class="col-md-3 col-md-offset-1 col-xs-10 col-xs-offset-1 about-img show">
-                <img src="images/about_2.svg">
+                <img src="images/about_2.svg" alt="scratch">
             </div>
         </div>
 
         <div class="row" data-sr="enter left, ease-in hustle 20px">
             <div class="col-md-3 col-xs-10 col-xs-offset-1 about-img">
-                <img src="images/about_3.svg">
+                <img src="images/about_3.svg" alt="responsive">
             </div>
             <div class="col-md-7 col-md-offset-1 col-xs-10 col-xs-offset-1">
                 <p class="about-text">The days are gone when the old browsers were a burden and forced to abandon spectacular animations
@@ -186,7 +187,7 @@
             <div class="icon-pen"></div>
         </div>
         <div class="quote-text">
-            <p>Creativity is contagious.</br>Pass it on.</p>
+            <p>Creativity is contagious.<br>Pass it on.</p>
         </div>
         <div class="sign">
             <p>Albert Einstein</p>
@@ -211,7 +212,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/neodice.jpg" class="gallery-image">
+            <img src="images/projects/neodice.jpg" class="gallery-image" alt="neodice">
         </li>
 
         <li class="item gallery-inner">
@@ -225,7 +226,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/sistema.me.jpg" class="gallery-image">
+            <img src="images/projects/sistema.me.jpg" class="gallery-image" alt="sistema.me">
         </li>
 
         <li class="item gallery-inner">
@@ -239,7 +240,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/iarovyi.github.io.jpg" class="gallery-image">
+            <img src="images/projects/iarovyi.github.io.jpg" class="gallery-image" alt="iarovyi.github.io">
         </li>
 
         <li class="item gallery-inner">
@@ -253,7 +254,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/restaragency.jpg" class="gallery-image">
+            <img src="images/projects/restaragency.jpg" class="gallery-image" alt="restaragency">
         </li>
 
         <li class="item gallery-inner">
@@ -267,7 +268,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/pwrg.jpg" class="gallery-image">
+            <img src="images/projects/pwrg.jpg" class="gallery-image" alt="pwrg">
         </li>
 
         <li class="item gallery-inner">
@@ -281,7 +282,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/gotya.jpg" class="gallery-image">
+            <img src="images/projects/gotya.jpg" class="gallery-image" alt="gotya">
         </li>
 
         <li class="item gallery-inner">
@@ -295,7 +296,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/wowphoto.jpg" class="gallery-image">
+            <img src="images/projects/wowphoto.jpg" class="gallery-image" alt="wowphoto">
         </li>
 
         <li class="item gallery-inner">
@@ -309,7 +310,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/technology.jpg" class="gallery-image">
+            <img src="images/projects/technology.jpg" class="gallery-image" alt="technology">
         </li>
 
         <li class="item gallery-inner">
@@ -323,7 +324,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/rocketcall.jpg" class="gallery-image">
+            <img src="images/projects/rocketcall.jpg" class="gallery-image" alt="rocketcall">
         </li>
 
         <li class="item gallery-inner">
@@ -337,7 +338,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/workplus.jpg" class="gallery-image">
+            <img src="images/projects/workplus.jpg" class="gallery-image" alt="workplus">
         </li>
 
         <li class="item gallery-inner">
@@ -351,7 +352,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/restaurant.jpg" class="gallery-image">
+            <img src="images/projects/restaurant.jpg" class="gallery-image" alt="restaurant">
         </li>
 
         <li class="item gallery-inner">
@@ -365,7 +366,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/html-coder.jpg" class="gallery-image">
+            <img src="images/projects/html-coder.jpg" class="gallery-image" alt="html-coder">
         </li>
     </ul>
 </div>
@@ -432,7 +433,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/tictactoe.jpg" class="gallery-image">
+            <img src="images/projects/tictactoe.jpg" class="gallery-image" alt="tictactoe">
         </li>
 
         <li class="item gallery-inner">
@@ -446,7 +447,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/hyphoflower.jpg" class="gallery-image">
+            <img src="images/projects/hyphoflower.jpg" class="gallery-image" alt="hyphoflower">
         </li>
 
         <li class="item gallery-inner">
@@ -460,7 +461,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/thimbles.jpg" class="gallery-image">
+            <img src="images/projects/thimbles.jpg" class="gallery-image" alt="thimbles">
         </li>
 
         <li class="item gallery-inner hidden-md hidden-lg">
@@ -474,7 +475,7 @@
                     </a>
                 </div>
             </div>
-            <img src="images/projects/sea-battle-is-coming.jpg" class="gallery-image">
+            <img src="images/projects/sea-battle-is-coming.jpg" class="gallery-image" alt="sea-battle-is-coming">
         </li>
     </ul>
 </div>
@@ -485,15 +486,15 @@
 
         <ul class="row offer-icons">
             <li class="col-md-2 col-md-offset-2 col-sm-4 col-xs-12" data-sr="enter bottom, wait 0.3s, ease-in hustle 20px">
-                <p class="icon-code2">Clean</br>code</p>
+                <p class="icon-code2">Clean<br>code</p>
             </li>
 
             <li class="col-md-2 col-md-offset-1 col-sm-4 col-xs-12" data-sr="enter bottom, wait 0.6s, ease-in hustle 20px">
-                <p class="icon-responsive2">Responsive</br>web-design</p>
+                <p class="icon-responsive2">Responsive<br>web-design</p>
             </li>
 
             <li class="col-md-2 col-md-offset-1 col-sm-4 col-xs-12" data-sr="enter bottom, wait 0.9s, ease-in hustle 20px">
-                <p class="icon-quality">Focus on</br>quality</p>
+                <p class="icon-quality">Focus on<br>quality</p>
             </li>
         </ul>
     </div>
@@ -525,12 +526,12 @@
             <ul>
                 <li class="icon-phone" data-sr="enter bottom, ease-in hustle 20px">
                     <div class="contact-animation"></div>
-                    <a href="tel://+48570937554">+48570937554</a>
+                    <a href="tel://+48570937554" itemprop="telephone">+48570937554</a>
                 </li>
 
                 <li class="icon-email" data-sr="enter bottom, wait 0.2s, ease-in hustle 20px">
                     <div class="contact-animation"></div>
-                    <a href="mailto:kateryna.yarova@gmail.com">kateryna.yarova@gmail.com</a>
+                    <a href="mailto:kateryna.yarova@gmail.com" itemprop="email">kateryna.yarova@gmail.com</a>
                 </li>
 
                 <li class="icon-skype" data-sr="enter bottom, wait 0.4s, ease-in hustle 20px">

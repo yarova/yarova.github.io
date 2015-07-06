@@ -284,66 +284,86 @@ $(function(){
 //masonry end
 
 // circles-experience start
-    $('.circle-html').circleProgress({
-        value: 0.90,
-        size: 150,
-        startAngle: 11,
-        thickness: 15,
-        fill: { color: "#554F60" },
-        emptyFill: "rgba(255, 255, 255, .5)",
-        animation: { duration: 3800 }
-    });
+    function animateCircles(){
+        $('.circle-html').circleProgress({
+            value: 0.90,
+            size: 150,
+            startAngle: 11,
+            thickness: 15,
+            fill: { color: "#554F60" },
+            emptyFill: "rgba(255, 255, 255, .5)",
+            animation: { duration: 3800 }
+        });
 
-    $('.circle-css').circleProgress({
-        value: 0.82,
-        size: 150,
-        startAngle: 11,
-        thickness: 15,
-        fill: { color: "#554F60" },
-        emptyFill: "rgba(255, 255, 255, .5)",
-        animation: { duration: 3500 }
-    });
+        $('.circle-css').circleProgress({
+            value: 0.82,
+            size: 150,
+            startAngle: 11,
+            thickness: 15,
+            fill: { color: "#554F60" },
+            emptyFill: "rgba(255, 255, 255, .5)",
+            animation: { duration: 3500 }
+        });
 
-    $('.circle-javascript').circleProgress({
-        value: 0.35,
-        size: 150,
-        startAngle: 11,
-        thickness: 15,
-        fill: { color: "#554F60" },
-        emptyFill: "rgba(255, 255, 255, .5)",
-        animation: { duration: 1500 }
-    });
+        $('.circle-javascript').circleProgress({
+            value: 0.35,
+            size: 150,
+            startAngle: 11,
+            thickness: 15,
+            fill: { color: "#554F60" },
+            emptyFill: "rgba(255, 255, 255, .5)",
+            animation: { duration: 1500 }
+        });
+    };
+
 // circles-experience end
 
 
-    var percent_html_animation = $.animateNumber.numberStepFactories.append('%')
-    $('.circle-html .percent').animateNumber({
-            number: 90,
-            easing: 'easeInQuad',
-            numberStep: percent_html_animation
-        }, 3800
-    );
+    /*$(window).scroll(function() {
+        var experienceTitleOffset = ............. scrol + distance from top of the widnow to experience title
 
-    var percent_css_animation = $.animateNumber.numberStepFactories.append('%')
-    $('.circle-css .percent').animateNumber({
-            number: 82,
-            easing: 'easeInQuad',
-            numberStep: percent_css_animation
-        }, 3500
-    );
 
-    var percent_javascript_animation = $.animateNumber.numberStepFactories.append('%')
-    $('.circle-javascript .percent').animateNumber({
-            number: 35,
-            easing: 'easeInQuad',
-            numberStep: percent_javascript_animation
-        }, 1500
-    );
+        if ($('.my-experience').is(':visible')) {
+            animateCircles();
+            animateNumbers();
+        }
+    });*/
+
+    animateCircles();
+    animateNumbers();
+
+    function animateNumbers(){
+        var percent_html_animation = $.animateNumber.numberStepFactories.append('%')
+        $('.circle-html .percent').animateNumber({
+                number: 90,
+                easing: 'easeInQuad',
+                numberStep: percent_html_animation
+            }, 3800
+        );
+
+        var percent_css_animation = $.animateNumber.numberStepFactories.append('%')
+        $('.circle-css .percent').animateNumber({
+                number: 82,
+                easing: 'easeInQuad',
+                numberStep: percent_css_animation
+            }, 3500
+        );
+
+        var percent_javascript_animation = $.animateNumber.numberStepFactories.append('%')
+        $('.circle-javascript .percent').animateNumber({
+                number: 35,
+                easing: 'easeInQuad',
+                numberStep: percent_javascript_animation
+            }, 1500
+        );
+    };
+
+
 
     function codeForIE() {
         if(detectBrowser() == 'IE') {
             $('.moveY, .moveX').css({ 'animation': 'none' });
-            $('.contact-animation').hide();
+            //$('.contact-animation').hide();
         }
     };
     codeForIE();

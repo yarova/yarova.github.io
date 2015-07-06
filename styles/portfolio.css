@@ -83,6 +83,7 @@
     -moz-transition: all .5s ease .25s;
     -ms-transition: all .5s ease .25s;
     transition: all .5s ease .25s;
+    -webkit-font-smoothing: antialiased;
 }
 
 .more-button:before, .more-button:after {

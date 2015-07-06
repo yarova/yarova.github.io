@@ -80,6 +80,7 @@
     bottom: 104px;
     font: normal 39px "Montserrat Light";
     color: #000;
+    -webkit-font-smoothing: antialiased;
 }
 
 .skill {
