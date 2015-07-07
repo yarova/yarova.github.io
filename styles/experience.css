@@ -5,7 +5,7 @@
 
 .counter-skills ul {
     text-align: center;
-    padding: 56px 0;
+    padding-top: 47px;
     color: #fff;
 }
 
@@ -38,7 +38,8 @@
 }
 
 @media (max-width: 991px) {
-    .counter-skills ul, .counter-skills li { padding: 33px 0; }
+    .counter-skills { min-height: 190px; }
+    .counter-skills ul { padding-top: 45px; }
     .counter-skills li p:nth-of-type(1) { font-size: 55px; }
     .counter-skills li p:nth-of-type(2) { font-size: 17px; }
     .counter-skills p:before { font-size: 30px; }
