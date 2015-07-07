@@ -363,10 +363,14 @@ $(function(){
     function codeForIE() {
         if(detectBrowser() == 'IE') {
             $('.moveY, .moveX').css({ 'animation': 'none' });
-            //$('.contact-animation').hide();
         }
     };
     codeForIE();
+
+    //console message start
+    var char = unescape('%u' + '2603'); /*2723*/ /*2740*/ /*2603*/
+    console.log('%c' + char + ' Welcome! ' + char, 'color: #585F6C; font-size: 4em; font-family: Raleway');
+    //console message end
 
     function detectBrowser(){
         var ua = navigator.userAgent;
