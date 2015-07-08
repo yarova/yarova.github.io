@@ -112,24 +112,8 @@ $(function(){
         });
     };
 
-// circles-experience end
-
-
-    /*$(window).scroll(function() {
-        var experienceTitleOffset = ............. scrol + distance from top of the widnow to experience title
-
-
-        if ($('.my-experience').is(':visible')) {
-            animateCircles();
-            animateNumbers();
-        }
-    });*/
-
-    animateCircles();
-    animateNumbers();
-
     function animateNumbers(){
-        var percent_html_animation = $.animateNumber.numberStepFactories.append('%')
+        var percent_html_animation = $.animateNumber.numberStepFactories.append('%');
         $('.circle-html .percent').animateNumber({
                 number: 90,
                 easing: 'easeInQuad',
@@ -137,7 +121,7 @@ $(function(){
             }, 3800
         );
 
-        var percent_css_animation = $.animateNumber.numberStepFactories.append('%')
+        var percent_css_animation = $.animateNumber.numberStepFactories.append('%');
         $('.circle-css .percent').animateNumber({
                 number: 82,
                 easing: 'easeInQuad',
@@ -145,7 +129,7 @@ $(function(){
             }, 3500
         );
 
-        var percent_javascript_animation = $.animateNumber.numberStepFactories.append('%')
+        var percent_javascript_animation = $.animateNumber.numberStepFactories.append('%');
         $('.circle-javascript .percent').animateNumber({
                 number: 35,
                 easing: 'easeInQuad',
@@ -153,6 +137,19 @@ $(function(){
             }, 1500
         );
     };
+
+    var isFunctionInvoked = true;
+    $(window).scroll(function(){
+        if  ($(window).scrollTop() > $('.my-experience .small-title').offset().top - $(window).height() && isFunctionInvoked){
+            //console.log('Animations started');
+            animateCircles();
+            animateNumbers();
+            isFunctionInvoked = false;
+        }
+    });
+
+// circles-experience end
+
 
 
     function codeForIE() {
@@ -179,22 +176,10 @@ $(function(){
 
 
 
-    // DEVICE.JS AND SMOOTH SCROLLING start
-    /*$(function () {
-        var platform = navigator.platform.toLowerCase();
-        if (platform.indexOf('win') == 0 || platform.indexOf('linux') == 0) {
-            if ($.browser.webkit) {
-                $.srSmoothscroll();
-            }
-        }
-    });*/
-
-
-    $(function () {
-        if ($('html').hasClass('desktop')) {
-            $.srSmoothscroll();
-        }
-    });
-    // DEVICE.JS AND SMOOTH SCROLLING end
+    //SMOOTH SCROLLING start
+    if ($('html').hasClass('desktop')) {
+        $.srSmoothscroll();
+    }
+    //SMOOTH SCROLLING end
 
 });

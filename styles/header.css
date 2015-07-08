@@ -205,7 +205,7 @@ header .navbar .button-cross+.button-cross { margin-top: -2px; }
 
     .core {
         width: 0.07em;
-        height: 0.07em;
+        /*height: 0.07em;*/
     }
 
     .core.one {
