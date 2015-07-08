@@ -80,7 +80,7 @@ $(function(){
 //masonry end
 
 // circles-experience start
-    function animateCircles(){
+    function initializeCircles(){
         $('.circle-html').circleProgress({
             value: 0.90,
             size: 150,
@@ -112,7 +112,7 @@ $(function(){
         });
     };
 
-    function animateNumbers(){
+    function startNumberAnimation(){
         var percent_html_animation = $.animateNumber.numberStepFactories.append('%');
         $('.circle-html .percent').animateNumber({
                 number: 90,
@@ -138,15 +138,16 @@ $(function(){
         );
     };
 
-    var isFunctionInvoked = true;
-    $(window).scroll(function(){
-        if  ($(window).scrollTop() > $('.my-experience .small-title').offset().top - $(window).height() && isFunctionInvoked){
-            //console.log('Animations started');
-            animateCircles();
-            animateNumbers();
-            isFunctionInvoked = false;
+    $(window).on('scroll', onScroll);
+    var experienceScrollTop = $('.my-experience .small-title').offset().top - $(window).height();
+
+    function onScroll(){
+        if  ($(window).scrollTop() > experienceScrollTop){
+            initializeCircles();
+            startNumberAnimation();
+            $(window).off('scroll', onScroll);
         }
-    });
+    }
 
 // circles-experience end
 
