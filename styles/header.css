@@ -161,6 +161,7 @@ header .navbar .button-cross:nth-of-type(4) {
 }
 
 header .navbar .button-cross+.button-cross { margin-top: -2px; }
+/* toggle navbar menu end */
 
 @media (min-width: 992px){ .animated-menu.collapse { display: block; }}
 
@@ -217,5 +218,4 @@ header .navbar .button-cross+.button-cross { margin-top: -2px; }
         left: 44px;
     }
 }
-/* toggle navbar menu end */
 /* header end */
