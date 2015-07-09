@@ -36,17 +36,12 @@ $(function(){
         $($(this).attr('href')).scrollTo(800, 'swing');
     });*/
 
-    $('header').singlePageNav({
+    $('.navigation').singlePageNav({
         offset: $('header').outerHeight(),
         filter: ':not(.external)',
-        updateHash: true,
-        beforeStart: function() {
-            console.log('begin scrolling');
-        },
-        onComplete: function() {
-            console.log('done scrolling');
-        }
+        updateHash: true
     });
+
 
     window.sr = new scrollReveal();
 
