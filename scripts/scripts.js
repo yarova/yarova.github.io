@@ -31,9 +31,21 @@ $(function(){
         })
     };
 
-    $(document).on('click', 'a[href^=#]:not([role="button"])', function(e){
+    /*$(document).on('click', 'a[href^=#]:not([role="button"])', function(e){
         e.preventDefault();
-        $($(this).attr('href')).scrollTo(600, 'swing');
+        $($(this).attr('href')).scrollTo(800, 'swing');
+    });*/
+
+    $('header').singlePageNav({
+        offset: $('header').outerHeight(),
+        filter: ':not(.external)',
+        updateHash: true,
+        beforeStart: function() {
+            console.log('begin scrolling');
+        },
+        onComplete: function() {
+            console.log('done scrolling');
+        }
     });
 
     window.sr = new scrollReveal();
