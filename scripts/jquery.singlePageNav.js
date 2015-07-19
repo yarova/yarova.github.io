@@ -1,6 +1,6 @@
 /**
  * Single Page Nav Plugin
- * Copyright (c) 2014 Chris Wojcik <hello@chriswojcik.net>
+ * Copyright (c) 2014 Chris Wojcik
  * Dual licensed under MIT and GPL.
  * @author Chris Wojcik
  * @version 1.2.0
@@ -173,7 +173,7 @@ if (typeof Object.create !== 'function') {
         offset: 0,
         threshold: 120,
         speed: 1000,/*400*/
-        currentClass: 'current',
+        //currentClass: 'current',
         easing: 'easeOutCubic',/*swing easeOutCubic easeInSine*/
         updateHash: false,
         filter: '',
