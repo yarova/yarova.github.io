@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe6ef19a-6037-49d2-8f1c-4f221b39e17d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yarova.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3617021">
-              <caret line="381" column="118" selection-start-line="381" selection-start-column="118" selection-end-line="381" selection-end-column="144" />
+            <state vertical-scroll-proportion="0.5224586">
+              <caret line="389" column="128" selection-start-line="389" selection-start-column="128" selection-end-line="389" selection-end-column="128" />
               <folding>
                 <element signature="n#script#0;n#head#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
@@ -752,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3617021">
-          <caret line="381" column="118" selection-start-line="381" selection-start-column="118" selection-end-line="381" selection-end-column="144" />
+        <state vertical-scroll-proportion="0.5224586">
+          <caret line="389" column="128" selection-start-line="389" selection-start-column="128" selection-end-line="389" selection-end-column="128" />
           <folding>
             <element signature="n#script#0;n#head#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#!!top" expanded="false" />
