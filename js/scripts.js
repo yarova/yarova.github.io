@@ -511,7 +511,7 @@ $(function () {
         })
     };
 
-    $(document).on('click', '.navbar-nav > li > a, #contactBtn, #cvBtn, #contactLink, #arrow-down, #arrow-up', function(e) {
+    $(document).on('click', '.navbar-nav > li > a, #contactBtn, #contactLink, #arrow-down, #arrow-up', function(e) {
         e.preventDefault();
         $($(this).attr('href')).scrollTo(600, 'swing')
     });
