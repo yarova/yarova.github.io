@@ -1732,9 +1732,8 @@ hr {
     font-size: 13px;
 }
 
-.contact-item p a, .contact-item p a:hover {
+.contact-item a p {
     color: #0A0A14;
-    border-bottom: none;
 }
 
 .contact-item i {
