@@ -1268,6 +1268,7 @@ hr {
 
 .nav>li>a:hover, .nav>li>a:focus {
     background: none;
+    outline: none;
 }
 
 .navbar-nav {
